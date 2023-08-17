@@ -1,0 +1,16 @@
+H:\My Documents\Visual Studio 2010\Projects\server\server\bin\x64\Debug\server.exe
+H:\My Documents\Visual Studio 2010\Projects\server\server\bin\x64\Debug\server.pdb
+H:\My Documents\Visual Studio 2010\Projects\server\server\obj\x64\Debug\server.Properties.Resources.resources
+H:\My Documents\Visual Studio 2010\Projects\server\server\obj\x64\Debug\server.csproj.GenerateResource.Cache
+H:\My Documents\Visual Studio 2010\Projects\server\server\obj\x64\Debug\server.exe
+H:\My Documents\Visual Studio 2010\Projects\server\server\obj\x64\Debug\server.pdb
+H:\My Documents\Visual Studio 2010\Projects\server\server\obj\x64\Debug\server.csprojResolveAssemblyReference.cache
+H:\My Documents\Visual Studio 2010\Projects\server\server\obj\x64\Debug\server.server.resources
+E:\LONG\CODE\Source code C#\Lap trinh socket\Source\server\server\obj\x64\Debug\server.csproj.AssemblyReference.cache
+E:\LONG\CODE\Source code C#\Lap trinh socket\Source\server\server\obj\x64\Debug\server.csproj.SuggestedBindingRedirects.cache
+E:\LONG\CODE\Source code C#\Lap trinh socket\Source\server\server\obj\x64\Debug\server.server.resources
+E:\LONG\CODE\Source code C#\Lap trinh socket\Source\server\server\obj\x64\Debug\server.Properties.Resources.resources
+E:\LONG\CODE\Source code C#\Lap trinh socket\Source\server\server\obj\x64\Debug\server.csproj.GenerateResource.cache
+E:\LONG\CODE\Source code C#\Lap trinh socket\Source\server\server\obj\x64\Debug\server.csproj.CoreCompileInputs.cache
+E:\LONG\CODE\Source code C#\Lap trinh socket\Source\server\server\obj\x64\Debug\server.exe
+E:\LONG\CODE\Source code C#\Lap trinh socket\Source\server\server\obj\x64\Debug\server.pdb

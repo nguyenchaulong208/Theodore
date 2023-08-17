@@ -1,0 +1,33 @@
+H:\My Documents\Visual Studio 2010\Projects\client\client\bin\Debug\client.exe
+H:\My Documents\Visual Studio 2010\Projects\client\client\bin\Debug\client.pdb
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.client.resources
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.Properties.Resources.resources
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.csproj.GenerateResource.Cache
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.exe
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.pdb
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.csprojResolveAssemblyReference.cache
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.registry.resources
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.pic.resources
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.keylog.resources
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.Kill.resources
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.listApp.resources
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.process.resources
+H:\My Documents\Visual Studio 2010\Projects\client\client\obj\x86\Debug\client.Start.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\bin\Debug\client.exe.config
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\bin\Debug\client.exe
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\bin\Debug\client.pdb
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.csproj.AssemblyReference.cache
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.csproj.SuggestedBindingRedirects.cache
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.client.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.keylog.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.Kill.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.listApp.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.pic.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.process.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.Properties.Resources.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.registry.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.Start.resources
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.csproj.GenerateResource.cache
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.csproj.CoreCompileInputs.cache
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.exe
+D:\OneDrive\LONG\DH KH TN\MANG MAY TINH\DEMO LAP TRINH SOCKET\Lap trinh socket\Source\client\client\obj\x86\Debug\client.pdb
