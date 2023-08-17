@@ -1,0 +1,40 @@
+﻿@page
+@using ONTAP.BLL
+@using ONTAP.Entities
+@model ONTAP.Pages.Cau2_2020_2021Model
+@{
+	string thongbao = string.Empty;
+	int giasp;
+	string masp, tensp, hansudung, nhanhang;
+	if(Request.Method == "POST")
+	{
+		masp = Request.Form["txt.ma"];
+		tensp = Request.Form["txt.ten"];
+		giasp = int.Parse(Request.Form["txt.gia"]);
+		hansudung = Request.Form["txt.hsd"];
+		nhanhang = Request.Form["txt.nhanhang"];
+		thongbao = Xuly.ThemSanpham(masp, tensp, giasp, hansudung, nhanhang);
+	}
+}
+<!DOCTYPE html>
+<html>
+	<head>
+
+	</head>
+	<body>
+		<form method="POST">
+			<label for="ma">Mã sản phẩm</label><br />
+			<input type="text" name="txt.ma" value="" /><br />
+			<label for="ten">Tên sản phẩm</label><br />
+			<input type="text" name="txt.ten" value="" /><br />
+			<label for="gia">Giá sản phẩm</label><br />
+			<input type="text" name="txt.gia" value="" /><br />
+			<label for="hsd">Hạn sử dụng</label><br />
+			<input type="text" name="txt.hsd" value="" /><br />
+			<label for="nhanhang">Nhãn hàng</label><br />
+			<input type="text" name="txt.nhanhang" value="" /><br /><br />
+			<input type="submit" value="Lưu" />
+		</form>
+	@thongbao
+	</body>
+</html>

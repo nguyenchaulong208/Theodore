@@ -1,0 +1,129 @@
+﻿@page
+@model DO_AN_CUOI_HK.Pages.SuaDulieuModel
+@using DO_AN_CUOI_HK.BussinessLayer
+@using DO_AN_CUOI_HK.Entities;
+
+ 
+@{
+    Layout = "_Layout";
+
+    //string maHang;
+    string chuoi = string.Empty;
+    string ngayhd = string.Empty, ngaysx = string.Empty, mahh, tenhh = string.Empty, loaihang = string.Empty, nhasx = string.Empty, hsd = string.Empty;
+    int soluong = 0, gia = 0, thanhtien = 0, sohd = 0;
+    mahh = Request.Query["mahh"];
+    QL_CuaHang? s = null;
+
+    if (string.IsNullOrEmpty(mahh))
+    {
+        chuoi = "Mã hàng không hợp lệ";
+
+    }
+    else
+    {
+        s = XuLy.DocDulieu(mahh);
+        if (s == null)
+        {
+            chuoi = "khong tim thay";
+        }
+        else
+        {
+            if(Request.Method == "GET")
+            {
+                sohd = s.Value.sohoadon;
+                ngayhd = s.Value.ngayhoadon;
+                ngaysx = s.Value.ngaysanxuat;
+                //mahh = s.Value.mahang;
+                tenhh = s.Value.tenhang;
+                soluong = s.Value.soluong;
+                gia = s.Value.dongia;
+                thanhtien = s.Value.thanhtien;
+                loaihang = s.Value.loaihang;
+                nhasx = s.Value.nhasanxuat;
+                hsd = s.Value.hansudung;
+            }
+            else if (Request.Method == "POST")
+            {
+                
+                sohd = int.Parse(Request.Form["txt.invoice"]);
+                ngayhd = Request.Form["txt.date"];
+                ngaysx = Request.Form["txt.ldate"];
+                //mahh = Request.Form["txt.code"];
+                tenhh = Request.Form["txt.fname"];
+                soluong = int.Parse(Request.Form["txt.quantity"]);
+                gia = int.Parse(Request.Form["txt.unitPrice"]);
+                thanhtien = int.Parse(Request.Form["txt.amount"]);
+                loaihang = Request.Form["txt.category"];
+                nhasx = Request.Form["txt.fco"];
+                hsd = Request.Form["txt.fdate"];
+
+
+                QL_CuaHang dulieumoi = new QL_CuaHang();
+                dulieumoi.sohoadon = Convert.ToInt32(sohd);
+                dulieumoi.ngayhoadon = ngayhd;
+                //dulieumoi.mahang = mahh;
+                dulieumoi.tenhang = tenhh;
+                dulieumoi.soluong = soluong;
+                dulieumoi.dongia = gia;
+                dulieumoi.thanhtien = thanhtien;
+                dulieumoi.loaihang = loaihang;
+                dulieumoi.nhasanxuat = nhasx;
+                dulieumoi.hansudung = hsd;
+                chuoi = XuLy.SuaDulieu(dulieumoi);
+                Response.Redirect("/DanhSach");
+            }
+        }
+
+
+
+    }
+
+    
+
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<body style="font-family:Cambria">
+    <form method="POST">
+        <label for="invoice">Số hóa đơn:</label><br />
+        <input type="text" name="txt.invoice" value="@sohd" /><br />
+        <label for="date">Ngày hóa đơn:</label><br />
+        <input type="text" name="txt.date" value="@ngayhd" /><br />
+        <label for="ldate">Ngày sản xuất:</label><br />
+        <input type="text" name="txt.ldate" value="@ngaysx" /><br />
+        <label for="code">Mã hàng hóa:</label><br />
+        <input type="text" name="txt.code" value="@mahh" /><br />
+        <label for="code">Tên hàng hóa:</label><br />
+        <input type="text" name="txt.fname" value="@tenhh" /><br />
+        <label for="quantity">Số lượng:</label><br />
+        <input type="text" name="txt.quantity" value="@soluong" /><br />
+        <label for="unitPrice">Đơn giá:</label><br />
+        <input type="text" name="txt.unitPrice" value="@gia" /><br />
+        <label for="amount">Thành tiền</label><br />
+        <input type="text" name="txt.amount" value="@thanhtien" /><br />
+        <label for="category">Loại hàng</label><br />
+        <input type="text" name="txt.category" value="@loaihang" /><br />
+        <label for="category">Nhà sản xuất</label><br />
+        <input type="text" name="txt.fco" value="@nhasx" /><br />
+        <label for="fdate">Hạn sử dụng</label><br />
+        <input type="text" name="txt.fdate" value="@hsd" /><br />
+
+        <br /><br />
+     </form>
+     
+    @chuoi
+    @if (s != null)
+    {
+        <form method="POST">
+            <input type="submit" value="Cập nhật">
+            <a href="DanhSach"><input type="button" value="Hủy"></a>
+        </form>
+    }
+
+</body>
+
+</html>

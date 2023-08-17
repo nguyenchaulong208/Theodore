@@ -1,0 +1,82 @@
+﻿@page
+@model KTLT_SANPHAM.Pages.MH_DanhSachSanPhamModel
+@using KTLT_SANPHAM.BusinessLayers;
+@using KTLT_SANPHAM.Entities;
+@using KTLT_SANPHAM.DAL;
+@{
+	string Keyword = string.Empty;
+	if(Request.Method == "POST")
+	{
+		Keyword = Request.Form["keyword"];
+	}
+	SanPham[] danhsachsp = XL_SanPham.TimKiem(Keyword);
+
+}
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			table{
+				font-family: Cambria;
+				border-collapse: collapse;
+				width: 100px;
+			}
+			td,th{
+				border: 1px solid #dddddd;
+				text-align: left;
+				padding: 8px;
+
+			}
+
+			tn:nth-child(even){
+				background-color:whitesmoke;
+
+			}
+
+
+
+		</style>
+	</head>
+	<body>
+		<form method="POST">
+			<label for="fname">Nhập từ khóa</label><br />
+			<input type="text" name="keyword" value="" /><br />
+			<input type="submit" value="Tìm" /><br />
+		</form>
+		<table>
+			<tr>
+				<th>Ma San Pham</th>
+				<th>Ten San Pham</th>
+				<th>Gia</th>
+			</tr>
+		
+
+		
+			@if(danhsachsp != null)
+			{ 
+				for(int i = 0; i < danhsachsp.Length;i++)
+				{
+					<tr>
+						<td>@danhsachsp[i].masp</td>
+					<td>@danhsachsp[i].tensp</td>
+					<td>@danhsachsp[i].gia</td>
+					</tr>
+				
+				}
+		
+			}
+		</table>
+	@if (danhsachsp == null)
+	{
+		<div>Không tìm thấy sản phẩm</div>
+	}
+
+	</body>
+
+
+
+
+
+</html>

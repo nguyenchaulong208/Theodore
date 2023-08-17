@@ -1,0 +1,75 @@
+﻿@page
+@model KTLT_Buoi_3.Pages.MH_DanhSach_SanPhamModel
+@using KTLT_Buoi_3.Entities
+@using KTLT_Buoi_3.BusinessLayer
+@{
+    Layout = null;
+    string keyword = string.Empty;
+    if (Request.Method == "POST")
+    {
+        //parse du lieu tu man hinh nhap
+        keyword = Request.Form["tu khoa"];
+    }
+
+    SanPham[] ds = XuLySanPham.TimKiem(keyword);
+}
+<!DOCTYPE html>
+<html>
+<body>
+    <form method= "POST">
+        <lable for="fname">Nhap tu khoa</lable><br>
+        <input type="text" name="tukhoa" value=""><br>
+        <input type="submit" value="Tim" >
+    </form>
+
+    <style>
+        table 
+        {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th0
+        {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even)
+        {
+            background-color: #dddddd;
+        }
+    </style>
+
+    ​<table>
+        <tr>
+            <th>Ma san pham</th>
+            <th>Ten san pham</th>
+            <th>Gia</th>
+
+            
+        </tr>
+        @if (ds != null)
+        {
+            @for ( int i=0; i < ds .Length; i++)
+            {
+                <tr>
+
+                    <td>@ds[i].MaSp</td>
+                    <td>@ds[i].TenSp</td>
+                    <td>@ds[i].Gia</td>
+            
+                </tr>
+
+            }
+        }
+    </table>
+    @if (ds == null)
+    {
+        <div>Khong tim thay san pham</div>
+    }
+
+</body>
+</html>

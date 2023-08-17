@@ -1,0 +1,135 @@
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.Development.json
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.json
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.staticwebassets.runtime.json
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.exe
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.deps.json
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.runtimeconfig.json
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.dll
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.pdb
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.AssemblyReference.cache
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.GeneratedMSBuildEditorConfig.editorconfig
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfoInputs.cache
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfo.cs
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.CoreCompileInputs.cache
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.MvcApplicationPartsAssemblyInfo.cache
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cache
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cs
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.build.json
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.development.json
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\bundle\ExampleCode.styles.css
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\projectbundle\ExampleCode.bundle.scp.css
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.dll
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\refint\ExampleCode.dll
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.pdb
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.genruntimeconfig.cache
+E:\LONG\CONG NGHE THONG TIN\MY PROJECTS\ExampleCode\ExampleCode\obj\Debug\net6.0\ref\ExampleCode.dll
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.Development.json
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.json
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.staticwebassets.runtime.json
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.exe
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.deps.json
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.runtimeconfig.json
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.dll
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.pdb
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.AssemblyReference.cache
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfoInputs.cache
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfo.cs
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.CoreCompileInputs.cache
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.MvcApplicationPartsAssemblyInfo.cache
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cache
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cs
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.build.json
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.development.json
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\bundle\ExampleCode.styles.css
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\projectbundle\ExampleCode.bundle.scp.css
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.dll
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\refint\ExampleCode.dll
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.pdb
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.genruntimeconfig.cache
+E:\OneDrive\HOC CODE\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ref\ExampleCode.dll
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.Development.json
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.json
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.staticwebassets.runtime.json
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.exe
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.deps.json
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.runtimeconfig.json
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.dll
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.pdb
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.AssemblyReference.cache
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfoInputs.cache
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfo.cs
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.CoreCompileInputs.cache
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.MvcApplicationPartsAssemblyInfo.cache
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cache
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cs
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.build.json
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.development.json
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\bundle\ExampleCode.styles.css
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\projectbundle\ExampleCode.bundle.scp.css
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.dll
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\refint\ExampleCode.dll
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.pdb
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.genruntimeconfig.cache
+E:\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ref\ExampleCode.dll
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.json
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.staticwebassets.runtime.json
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.exe
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.deps.json
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.runtimeconfig.json
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.dll
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.pdb
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.AssemblyReference.cache
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfoInputs.cache
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfo.cs
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.CoreCompileInputs.cache
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cache
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cs
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets\msbuild.ExampleCode.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets\msbuild.build.ExampleCode.props
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ExampleCode.props
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ExampleCode.props
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\bundle\ExampleCode.styles.css
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\projectbundle\ExampleCode.bundle.scp.css
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.dll
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\refint\ExampleCode.dll
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.pdb
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.genruntimeconfig.cache
+C:\Users\nguye\OneDrive\LEARNING\My Code\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ref\ExampleCode.dll
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.Development.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\appsettings.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.staticwebassets.runtime.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.exe
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.deps.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.runtimeconfig.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.dll
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\bin\Debug\net6.0\ExampleCode.pdb
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.AssemblyReference.cache
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfoInputs.cache
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.AssemblyInfo.cs
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.csproj.CoreCompileInputs.cache
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.MvcApplicationPartsAssemblyInfo.cache
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cache
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.RazorAssemblyInfo.cs
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.build.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\staticwebassets.development.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\bundle\ExampleCode.styles.css
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\scopedcss\projectbundle\ExampleCode.bundle.scp.css
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.dll
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\refint\ExampleCode.dll
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.pdb
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ExampleCode.genruntimeconfig.cache
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Debug\net6.0\ref\ExampleCode.dll

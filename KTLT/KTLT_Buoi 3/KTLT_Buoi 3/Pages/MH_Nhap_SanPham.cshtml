@@ -1,0 +1,46 @@
+﻿@page
+@using System.IO
+@using KTLT_Buoi_3.BusinessLayer;
+@model KTLT_Buoi_3.Pages.MH_Nhap_SanPhamModel
+@{
+
+    Layout = null;
+
+    string masp, tensp;
+    int gia;
+    string chuoi = string.Empty;
+
+    if (Request.Method == "POST")
+    {
+        //parse du lieu tu nman hinh nhap
+        masp= Request.Form["masp"];
+        tensp = Request.Form["tensp"];
+        gia = int.Parse(Request.Form["gia"]);
+
+        chuoi = XuLySanPham.ThemSanPham(masp, tensp, gia);
+    }
+    
+
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+   
+    <form method="POST">
+
+        <label for="fname">Ma san pham:</label><br>
+        <input type="text" id="fname" name="masp" value=""><br>
+        <label for="lname">Ten san pham:</label><br>
+        <input type="text" id="lname" name="tensp" value=""><br><br>
+        <label for="lname">Gia:</label><br>
+        <input type="text" id="lname" name="gia" value=""><br><br>
+        
+        <input type="submit" value="Luu">
+
+   </form>
+    
+    @chuoi
+
+</body>
+</html>

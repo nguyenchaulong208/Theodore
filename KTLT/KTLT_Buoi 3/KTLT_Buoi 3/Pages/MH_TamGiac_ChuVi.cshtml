@@ -1,0 +1,57 @@
+﻿@page
+@model KTLT_Buoi_3.Pages.MH_TamGiac_ChuViModel
+@{
+
+    Layout = null;
+
+    TamGiac tg;
+    tg.A.X = 0;
+    tg.A.Y = 0;
+    tg.B.X = 1;
+    tg.B.Y = 0;
+    tg.C.X = 0;
+    tg.C.Y = 1;
+
+    if (Request.Method == "POST")
+    {
+        tg.A.X = int.Parse(Request.Form["x1"]); 
+        tg.A.Y = int.Parse(Request.Form["y1"]);
+        tg.B.X = int.Parse(Request.Form["x2"]);
+        tg.B.Y = int.Parse(Request.Form["y2"]);
+        tg.C.X = int.Parse(Request.Form["x3"]);
+        tg.C.Y = int.Parse(Request.Form["y3"]);
+    }
+    double kq = XuLyTamGiac.TinhChuVi(tg);
+    XuLyTamGiac.LuuTamGiac(tg);
+    string chuoi = $"Ket qua la {kq}";
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <form method="POST">
+
+        <label for="fname">x1:</label><br>
+        <input type="text" id="fname" name="x1" value="@tg.A.X"><br>
+        <label for="lname">y1:</label><br>
+        <input type="text" id="lname" name="y1" value="@tg.A.Y"><br><br>
+
+        <label for="fname">x2:</label><br>
+        <input type="text" id="fname" name="x2" value="@tg.B.X"><br>
+        <label for="lname">y2:</label><br>
+        <input type="text" id="lname" name="y2" value="@tg.B.Y"><br><br>
+
+        <label for="fname">x3:</label><br>
+        <input type="text" id="fname" name="x3" value="@tg.C.X"><br>
+        <label for="lname">y3:</label><br>
+        <input type="text" id="lname" name="y3" value="@tg.C.Y"><br><br>
+
+        <input type="submit" value="Tinh">
+
+   </form>
+
+    @chuoi
+
+</body>
+</html>

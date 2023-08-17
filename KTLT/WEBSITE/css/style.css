@@ -1,0 +1,97 @@
+﻿body { /* setup body*/
+    font-family: Cambria; /*font chữ*/
+    font-size: 13px; /*cỡ chữ*/
+    line-height: 1; /*khoảng cách dòng*/
+    margin: 0px; /*biên của web*/
+    padding: 0px; /*khoảng trống nằm giữa nội dung và viền*/
+}
+.container{ /*thành phần container*/
+    width: 85%;
+    margin: auto;
+    overflow:hidden; /*thanh cuộn khi content tràn box*/
+}
+header{ /*format phần header*/
+    background-color:coral;
+    color:mediumblue;
+    padding-top: 20px;
+    min-height: 80px;
+    border-bottom: #03fe08 4px solid; /*kẻ đường viền*/
+
+}
+    header a {/*format thẻ a của header*/
+        color: mediumblue;
+        text-decoration: none; /*đường gạch chân text*/
+        font-size: 16px;
+    }
+header ul{/*format thẻ ul trong header*/
+    padding: 0;
+    margin: 0;
+}
+header li{/*format thẻ li trong header*/
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{ /*format thẻ id: branding trong header*/
+    float: left;
+
+}
+header #branding h1{ /*format thẻ h1 của thuộc tính branding trong header*/
+    margin: 0;
+
+
+}
+    header nav { /*format navbar*/
+        float: right; /*để chuyển một phần tử sang góc bên phải của không gian bao quanh nó*/
+        margin-top: 10px; /*Biên top*/
+    }
+
+/*Showcase*/
+#showcase {/*background của id showcase*/
+    background: url('../css/images/showcase01.png') no-repeat 0 -10px;
+    min-height: 300px;
+   background-size: cover;
+   text-align: center;
+   color: black;
+}
+
+#showcase{
+    font-size: 15px;
+
+}
+
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+/*Newsletter*/
+#newsletter {
+    padding: 15px;
+    background-color: hotpink;
+}
+#newsletter h1 {
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 50px;
+}
+
+/*Boxes*/
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+
+}
+

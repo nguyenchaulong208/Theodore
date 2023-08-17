@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\KTLT_Buoi 3.props" />
+</Project>

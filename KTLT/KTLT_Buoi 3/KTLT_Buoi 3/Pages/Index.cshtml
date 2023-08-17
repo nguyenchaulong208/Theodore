@@ -1,0 +1,68 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = null;
+    int a = 1;
+    int b = 2; 
+    int max = 0;
+
+     if (Request.Method == "POST")
+    {
+        a = int.Parse(Request.Form["a"]);
+        b = int.Parse(Request.Form["b"]);
+    }
+    int s = a + b;
+    string chuoi = "Ket qua la " + s;
+
+    if (a > b)
+    {
+        a = max;
+    }
+    else
+        max = b;
+   
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+    <!-- Single statement block -->
+    @{ var myMessage = "Hello World"; }
+
+    <!-- Inline expression or variable -->
+    <p>The value of myMessage is: @myMessage</p>
+
+    <!-- Multi-statement block -->
+    @{
+        var greeting = "Welcome to our site!";
+        var weekDay = DateTime.Now.DayOfWeek;
+        var greetingMessage = greeting + " Here in Huston it is: " + weekDay; 
+    }
+    <p>The greeting is: @greetingMessage</p>
+ 
+    @for ( int i=1; i<=max; i++)
+    {
+        <p> i is: @i </p>
+    }
+    @if( a>b)
+    {
+        <span>a lon hon b</span>
+    }
+    else
+    {
+        <span> a nho hon hoac bang b</span>
+    }
+    
+    <form method="POST">
+    
+        <label for="fname">A:</label><br>
+        <input type="text" id="fname" name="a" value="@a"><br>
+        <label for="lname">B:</label><br>
+        <input type="text" id="lname" name="b" value="@b"><br><br>
+        <input type="submit" value="Tinh">
+    </form>
+    @chuoi 
+</body>
+</html>
+

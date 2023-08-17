@@ -1,0 +1,72 @@
+﻿@page
+@model DO_AN_CUOI_HK.Pages.XoaDuLieuModel
+@using DO_AN_CUOI_HK.BussinessLayer
+@using DO_AN_CUOI_HK.Entities;
+
+
+@{
+    Layout = "_Layout";
+
+    string maHang;
+    string thongbao = string.Empty;
+
+    maHang = Request.Query["maHang"];
+    QL_CuaHang? s = null;
+    if(string.IsNullOrEmpty(maHang))
+    {
+        thongbao = "Mã hàng không hợp lệ";
+
+    }
+    else
+    {
+        s = XuLy.DocDulieu(maHang);
+        if(s == null)
+        {
+            thongbao = "Mã hàng không tồn tại";
+        }
+        else
+        {
+            thongbao = $"Xác nhận xóa {s.Value.mahang}";
+           
+        }
+
+
+    }
+    if (Request.Method == "POST")
+    {
+        XuLy.XoaDulieu(maHang);
+        Response.Redirect("/DanhSach");
+    }
+
+    
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+</head>
+<body style="font-family:Cambria">
+    @thongbao
+    @if(s !=null)
+    {
+        <form method="POST">
+            <input type="submit" value="Xóa">
+            <a href="DanhSach"><input type="button" value="Hủy"></a>
+        </form>
+    }
+    
+    
+    
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,7 @@
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Release\net6.0\PubTmp\Out\ExampleCode.exe
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Release\net6.0\PubTmp\Out\appsettings.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Release\net6.0\PubTmp\Out\ExampleCode.dll
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Release\net6.0\PubTmp\Out\ExampleCode.deps.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Release\net6.0\PubTmp\Out\ExampleCode.runtimeconfig.json
+E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\obj\Release\net6.0\PubTmp\Out\ExampleCode.pdb

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DO_AN_CUOI_HK.props" />
+</Project>

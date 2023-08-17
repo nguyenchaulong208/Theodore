@@ -1,0 +1,117 @@
+﻿@page
+@using DO_AN_CUOI_HK.BussinessLayer
+@using DO_AN_CUOI_HK.Entities
+@model DO_AN_CUOI_HK.Pages.IndexModel
+@{
+    Layout = "_Layout";
+    string keyword = string.Empty;
+    string chuoi = string.Empty;
+    QL_CuaHang[] ds;
+    QL_CuaHang a = new QL_CuaHang();
+    XuLy.LuuDuLieuHTK(a);
+    // ds = XuLy.DanhsachHTK();
+    //QL_CuaHang[] danhsach1 = XuLy.DanhsachXuathang();
+
+    if (Request.Method == "POST")
+    {
+        keyword = Request.Form["tukhoa"];
+    }
+
+    ds = XuLy.TimKiem(keyword);
+
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td, th0 {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+
+    </style>
+
+</head>
+<body style="font-family:Cambria">
+    <br />
+    <br />
+    <h1 style="text-align: center"> TỔNG HỢP </h1>
+    <!--Phân quyền-->
+    <!--Hiển thị dữ liệu-->
+    <form method="POST">
+
+        <input type="text" name="tukhoa" value="">
+        <input type="submit" value="Tìm kiếm">
+        <br /><br />
+    </form>
+
+    <a href="NhapVaLuuTru"><input type="button" value="Nhập hàng"></a>
+    <a href="XuatHanghoa"><input type="button" value="Xuất hàng"></a>
+    <br />
+    <br />
+    <a href="DanhSach"><input type="button" value="Bảng kê nhập hàng"></a>
+    <a href="DanhSachBanra"><input type="button" value="Bảng kê xuất hàng"></a>
+    <br />
+    <br />
+
+
+
+    <table style="width:100%; text-align:center">
+        <tr>
+
+
+            <td>MÃ HÀNG</td>
+            <td>TÊN HÀNG HÓA</td>
+            <td>SỐ LƯỢNG NHẬP</td>
+            <td>SỐ LƯỢNG BÁN</td>
+            <td>TỒN KHO CUỐI KỲ</td>
+            <td>LOẠI HÀNG</td>
+            <td>NHÀ SẢN XUẤT</td>
+
+
+
+        </tr>
+        @if (ds != null)
+        {
+            @for (int i = 0; i < ds.Length; i++)
+            {
+                <tr>
+
+
+                    <td>@ds[i].mahang</td>
+                    <td>@ds[i].tenhang</td>
+                    <td>@ds[i].soluong</td>
+                    <td>@ds[i].soluongXuat</td>
+                    <td>@ds[i].soluongTon</td>
+                    <td>@ds[i].loaihang</td>
+                    <td>@ds[i].nhasanxuat</td>
+
+
+
+                </tr>
+
+            }
+        }
+        else
+        {
+            <div> Khong tim thay san pham</div>
+        }
+
+
+    </table>
+
+
+
+    @chuoi
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+﻿@page
+@model KTLT_Buoi_3.Pages.MH_TinhDaGiacModel
+@{
+    Layout = null;
+
+    string Chuoi = string.Empty;
+
+    //ko hien thi table 
+        /*if(Request.Method == "POST")
+        {
+        string chuoiDaGiac = Request.Form["chuoiDaGiac"];
+        DaGiac dg = XuLyDaGiac.KhoiTaoDaGiac(chuoiDaGiac);
+        //double kq=0;
+        double kq = XuLyDaGiac.TinhChuVi(dg);
+
+        Chuoi = $"Ket qua la {kq}";
+    }*/
+
+    //Hien thi table cac diem
+    DaGiac dg;
+    string chuoiDaGiac = "(3,2)|(6,8)|(2,9)|(5,6)";
+    if(Request.Method == "POST")
+    {
+        chuoiDaGiac = Request.Form["chuoiDaGiac"];
+        
+    }
+        dg = XuLyDaGiac.KhoiTaoDaGiac(chuoiDaGiac);
+        double kq = XuLyDaGiac.TinhChuVi(dg);
+        Chuoi = $"Ket qua la {kq}";
+}
+<!DOCTYPE html>
+<html>
+<body>
+
+    <form method="POST">
+
+        <label for="fname">Nhap Da Giac:</label><br>
+        <input type="text" name="chuoiDaGiac" value="(3,2)|(6,8)|(2,9)|(5,6)"><br>
+        
+
+        <input type="submit" value="Tinh">
+
+    </form>
+
+    <style>
+        table 
+        {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th0
+        {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even)
+        {
+            background-color: #dddddd;
+        }
+    </style>
+
+    ​<table>
+        <tr>
+            <th>X</th>
+            <th>Y</th>
+            
+        </tr>
+
+        @for ( int i=0; i < dg.DanhSachDinh.Length; i++)
+        {
+            <tr>
+
+                <td>@dg.DanhSachDinh[i].X</td>
+                <td>@dg.DanhSachDinh[i].Y</td>
+            
+            </tr>
+
+        }
+
+      
+        
+  
+    </table>
+
+
+    @Chuoi
+
+</body>
+</html>

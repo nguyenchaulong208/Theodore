@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+
+    </head>
+    <body style="font-family:Cambria">
+        
+        <!--Phân quyền-->
+        <form method="POST">
+            <label for="fuser">Tài khoản</label><br />
+            <input type="text" name="user" value="" /><br />
+            <label for="fpassword">Mật khẩu</label><br />
+            <input type="text" name="password" value="" /><br /><br />
+            <input type="submit" value="Đăng nhập" />
+            <input type="submit" value="Đăng ký" />
+            <a href="DanhSach"><input type="button" value="Khách" /></a><br /><br />
+        </form>
+    
+       
+    
+    </body>
+
+ 
+
+
+
+
+
+
+
+</html>

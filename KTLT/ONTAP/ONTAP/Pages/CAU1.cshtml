@@ -1,0 +1,51 @@
+﻿@page
+@using ONTAP.BLL
+@model ONTAP.Pages.CAU1Model
+@{
+
+	TamGiac tg = new TamGiac();
+
+	if(Request.Method == "POST")
+
+	{
+		
+		tg.A.X = int.Parse(Request.Form["x1"]);
+		tg.A.Y = int.Parse(Request.Form["y1"]);
+		tg.B.X = int.Parse(Request.Form["x2"]);
+		tg.B.Y = int.Parse(Request.Form["y2"]);
+		tg.C.X = int.Parse(Request.Form["x3"]);
+		tg.C.Y = int.Parse(Request.Form["y3"]);
+	}
+	int kq = XuLyTamGiac.TinhChuVi(tg);
+	//XuLyTamGiac.LuuTamGiac(tg);
+	string chuoi = $"Ket qua la {kq}";
+}
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+	</head>
+	<body>
+		<form method="POST">
+			<label for="AX">X1</label> <br />
+		<input type="text" name="x1" value="" /><br />
+			<label for="AY">Y1</label><br />
+		<input type="text" name="y1" value="" /><br />
+			<label for="BX">X2</label><br />
+			<input type="text" name="x2" value="" /><br />
+			<label for="BY">Y2</label><br />
+			<input type="text" name="Y2" value="" /><br />
+			<label for="CX">X3</label><br />
+		<input type="text" name="X3" value="" /><br />
+		<label for="CX">X3</label><br />
+		<input type="text" name="Y3" value="" /><br />
+		<input type="submit" value="Tinh" />
+
+		</form>
+		@chuoi
+	</body>
+
+
+</html>

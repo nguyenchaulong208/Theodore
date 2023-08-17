@@ -1,0 +1,47 @@
+﻿@page
+@model KTLT_Buoi_3.Pages.MH_TinhKhoangCachModel
+@{
+
+    Layout = null;
+
+    Diem a, b;
+    a.X = 1;
+    a.Y = 2;
+    b.X = 1;
+    b.Y = 3;
+
+    if (Request.Method == "POST")
+    {
+        a.X = int.Parse(Request.Form["x1"]);
+        a.Y = int.Parse(Request.Form["y1"]);
+        b.X = int.Parse(Request.Form["x2"]);
+        b.Y = int.Parse(Request.Form["y2"]);
+    }
+    double kq = XuLyDiem.TinhKhoangCach(a, b);
+    string chuoi = $"Ket qua la {kq}";
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <form method="POST">
+
+        <label for="fname">x1:</label><br>
+        <input type="text" id="fname" name="x1" value="@a.X"><br>
+        <label for="lname">y1:</label><br>
+        <input type="text" id="lname" name="y1" value="@a.Y"><br><br>
+
+        <label for="fname">x2:</label><br>
+        <input type="text" id="fname" name="x2" value="@b.X"><br>
+        <label for="lname">y2:</label><br>
+        <input type="text" id="lname" name="y2" value="@b.Y"><br><br>
+
+        <input type="submit" value="Tinh">
+
+   </form>
+
+    @chuoi
+
+</body>
+</html>

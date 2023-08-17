@@ -1,0 +1,8 @@
+E:\OneDrive\LEARNING\My Code\KTLT\DE AN CUOI KY\DO_AN_QUAN_LY_CUA_HANG\WebApplication1\obj\Debug\net6.0\DO_AN_QUAN_LY_CUA_HANG.csproj.AssemblyReference.cache
+E:\OneDrive\LEARNING\My Code\KTLT\DE AN CUOI KY\DO_AN_QUAN_LY_CUA_HANG\WebApplication1\obj\Debug\net6.0\DO_AN_QUAN_LY_CUA_HANG.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\LEARNING\My Code\KTLT\DE AN CUOI KY\DO_AN_QUAN_LY_CUA_HANG\WebApplication1\obj\Debug\net6.0\DO_AN_QUAN_LY_CUA_HANG.AssemblyInfoInputs.cache
+E:\OneDrive\LEARNING\My Code\KTLT\DE AN CUOI KY\DO_AN_QUAN_LY_CUA_HANG\WebApplication1\obj\Debug\net6.0\DO_AN_QUAN_LY_CUA_HANG.AssemblyInfo.cs
+E:\OneDrive\LEARNING\My Code\KTLT\DE AN CUOI KY\DO_AN_QUAN_LY_CUA_HANG\WebApplication1\obj\Debug\net6.0\DO_AN_QUAN_LY_CUA_HANG.csproj.CoreCompileInputs.cache
+E:\OneDrive\LEARNING\My Code\KTLT\DE AN CUOI KY\DO_AN_QUAN_LY_CUA_HANG\WebApplication1\obj\Debug\net6.0\DO_AN_QUAN_LY_CUA_HANG.MvcApplicationPartsAssemblyInfo.cache
+E:\OneDrive\LEARNING\My Code\KTLT\DE AN CUOI KY\DO_AN_QUAN_LY_CUA_HANG\WebApplication1\obj\Debug\net6.0\DO_AN_QUAN_LY_CUA_HANG.RazorAssemblyInfo.cache
+E:\OneDrive\LEARNING\My Code\KTLT\DE AN CUOI KY\DO_AN_QUAN_LY_CUA_HANG\WebApplication1\obj\Debug\net6.0\DO_AN_QUAN_LY_CUA_HANG.RazorAssemblyInfo.cs

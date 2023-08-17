@@ -1,0 +1,63 @@
+﻿@page
+@model KTLT_Buoi_3.Pages.ManHinhTinhTongPhanSoTapTinModel
+@{
+
+    Layout = null;
+
+    PhanSo a, b;
+    a.TuSo = 1;
+    a.MauSo = 2;
+    b.TuSo = 1;
+    b.MauSo = 3;
+
+
+    if (Request.Method == "POST")
+    {
+        //a = XuLyPhanSo.DocPhanSo("C:\\Users\\lephu\\source\\repos\\KTLT_Buoi 3\\phanso1.txt");
+        //b = XuLyPhanSo.DocPhanSo("C:\\Users\\lephu\\source\\repos\\KTLT_Buoi 3\\phanso2.txt");
+        
+        
+        /*a.TuSo = int.Parse(Request.Form["tu1"]);
+        a.MauSo = int.Parse(Request.Form["mau1"]);
+        b.TuSo = int.Parse(Request.Form["tu2"]);
+        b.MauSo = int.Parse(Request.Form["mau2"]);
+        */
+
+        a = XuLyPhanSo.DocPhanSo_JSON("C:\\Users\\lephu\\source\\repos\\KTLT_Buoi 3\\phanso1.json");
+        b = XuLyPhanSo.DocPhanSo_JSON("C:\\Users\\lephu\\source\\repos\\KTLT_Buoi 3\\phanso2.json");
+       
+    
+    }
+
+    PhanSo kq = XuLyPhanSo.Cong2PS(a, b);
+
+    string chuoi = $"Ket qua la {kq.TuSo}/{kq.MauSo}";
+
+    //XuLyPhanSo.LuuPhanSo(kq, "C:\\Users\\lephu\\source\\repos\\KTLT_Buoi 3\\phanso3.txt");
+    XuLyPhanSo.LuuPhanSo_JSON(kq);
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+   
+    <form method="POST">
+
+        <label for="fname">Tu so 1:</label><br>
+        <input type="text" id="fname" name="tu1" value="@a.TuSo"><br>
+        <label for="lname">Mau so 1:</label><br>
+        <input type="text" id="lname" name="mau1" value="@a.MauSo"><br><br>
+        
+        <label for="fname">Tu so 2:</label><br>
+        <input type="text" id="fname" name="tu2" value="@b.TuSo"><br>
+        <label for="lname">Mau so 2:</label><br>
+        <input type="text" id="lname" name="mau2" value="@b.MauSo"><br><br>
+        
+        <input type="submit" value="Tinh">
+
+   </form>
+    
+    @chuoi
+
+</body>
+</html>

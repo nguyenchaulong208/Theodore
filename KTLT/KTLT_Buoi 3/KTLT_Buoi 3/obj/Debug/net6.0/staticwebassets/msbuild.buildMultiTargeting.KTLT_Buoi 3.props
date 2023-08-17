@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\KTLT_Buoi 3.props" />
+</Project>

@@ -1,0 +1,42 @@
+﻿@page
+@model KTLT_SANPHAM.Pages.MH_NhapSanPhamModel
+@using System.IO
+@using KTLT_SANPHAM.BusinessLayers;
+@using KTLT_SANPHAM.Entities;
+@using KTLT_SANPHAM.DAL;
+@{
+	string Message = string.Empty;
+	string masp, tensp;
+	int gia;
+
+	if(Request.Method=="POST"){
+		masp = Request.Form["masp"];
+		tensp = Request.Form["tensp"];
+		gia = int.Parse(Request.Form["gia"]);
+		Message = XL_SanPham.ThemSanPham(masp, tensp, gia);
+	}
+}
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+	
+
+
+<form method="POST">
+	<label for="fname">Mã Sản Phẩm</label><br />
+	<input type="text" name="masp" value="" /><br />
+	<label for="lname">Tên Sản Phẩm</label><br />
+	<input type="text" name="tensp" value="" /><br />
+	<label for="kname">Giá</label><br />
+	<input type="text" name="gia" value="" /><br /><br />
+	<input type="submit" value="Lưu" /><br />
+
+</form>
+@Message
+
+	
+</body>
+</html>

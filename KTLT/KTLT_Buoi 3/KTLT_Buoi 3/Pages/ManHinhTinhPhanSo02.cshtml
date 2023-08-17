@@ -1,0 +1,45 @@
+﻿@page
+@model KTLT_Buoi_3.Pages.ManHinhTinhPhanSo02Model
+@{
+	Layout = null;
+	int tu1 = 1;
+	int mau1 = 2;
+	int tu2 = 1;
+	int mau2 = 3;
+
+	if (Request.Method == "POST")
+	{
+		tu1 = int.Parse(Request.Form["tu1"]);
+		mau1 = int.Parse(Request.Form["mau1"]);
+		tu2 = int.Parse(Request.Form["tu2"]);
+		mau2 = int.Parse(Request.Form["mau2"]);
+	}
+	int tu = tu1 * mau2 + tu2 * mau1;
+	int mau = mau1 * mau2;
+	string chuoi = $"Ket qua la {tu}/{mau}";
+}
+<!DOCTYPE html>
+<html>
+<body>
+
+	<form method="POST">
+
+		<label for="fname">Tu so 1:</label><br>
+		<input type="text" id="fname" name="tu1" value="@tu1"><br>
+		<label for="lname">Mau so 1:</label><br>
+		<input type="text" id="lname" name="mau1" value="@mau1"><br><br>
+
+		<label for="fname">Tu so 2:</label><br>
+		<input type="text" id="fname" name="tu2" value="@tu2"><br>
+		<label for="lname">Mau so 2:</label><br>
+		<input type="text" id="lname" name="mau2" value="@mau2"><br><br>
+
+		<input type="submit" value="Tinh">
+
+	</form>
+
+	@chuoi
+
+</body>
+</html>
+

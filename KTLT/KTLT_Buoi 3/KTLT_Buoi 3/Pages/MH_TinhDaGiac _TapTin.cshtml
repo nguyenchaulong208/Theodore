@@ -1,0 +1,82 @@
+﻿@page
+@model KTLT_Buoi_3.Pages.MH_TinhDaGiac_TapTin
+@{
+    Layout = null;
+
+    string Chuoi = string.Empty;
+
+    DaGiac dg;
+    string chuoiDaGiac = "(3,2)|(6,8)|(2,9)|(5,6)";
+
+    if(Request.Method == "POST")
+    {
+        dg = XuLyDaGiac.DocDaGiac("C:\\Users\\lephu\\source\\repos\\KTLT_Buoi 3\\dagiac.txt");
+    }
+    else
+    {
+        dg = XuLyDaGiac.KhoiTaoDaGiac(chuoiDaGiac); 
+    }
+
+    double kq = XuLyDaGiac.TinhChuVi(dg);
+    XuLyDaGiac.LuuDaGiac_JSON(dg);
+    Chuoi = $"Ket qua la {kq}";
+
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <form method="POST">
+        
+        <input type="submit" value="Tinh">
+
+    </form>
+         <style>
+        table 
+        {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th0
+        {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even)
+        {
+            background-color: #dddddd;
+        }
+    </style>
+    ​<table>
+        <tr>
+            <th>X</th>
+            <th>Y</th>
+            
+        </tr>
+
+        @for ( int i=0; i < dg.DanhSachDinh.Length; i++)
+        {
+            <tr>
+
+                <td>@dg.DanhSachDinh[i].X</td>
+                <td>@dg.DanhSachDinh[i].Y</td>
+            
+            </tr>
+
+        }
+
+      
+        
+  
+    </table>
+
+
+    @Chuoi
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿@page
+@using ONTAP.BLL
+@using ONTAP.Entities
+@model ONTAP.Pages.Cau1_2021_2022Model
+@{
+
+	string thongbao = string.Empty;
+	
+	int songuyen;
+	if(Request.Method == "POST")
+	{
+		songuyen = int.Parse(Request.Form["txt.ma"]);
+		
+		thongbao = Xuly.XuLySonguyen(songuyen);
+	}
+}
+<!DOCTYPE html>
+<html>
+	<head>
+
+	</head>
+	<body>
+		<form method="POST">
+			<label for="ma">Số nguyên dương N</label><br />
+			<input type="text" name="txt.ma" value="" /><br />
+
+			<input type="submit" value="Lưu" />
+		</form>
+	@thongbao
+	</body>
+</html>

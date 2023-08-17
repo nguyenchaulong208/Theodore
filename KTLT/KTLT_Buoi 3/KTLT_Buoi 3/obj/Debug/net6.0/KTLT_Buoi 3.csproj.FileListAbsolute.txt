@@ -1,0 +1,61 @@
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\appsettings.json
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.staticwebassets.runtime.json
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.exe
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.deps.json
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.runtimeconfig.json
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.dll
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.pdb
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.csproj.AssemblyReference.cache
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.AssemblyInfoInputs.cache
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.AssemblyInfo.cs
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.csproj.CoreCompileInputs.cache
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.RazorAssemblyInfo.cache
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.RazorAssemblyInfo.cs
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets\msbuild.KTLT_Buoi 3.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets\msbuild.build.KTLT_Buoi 3.props
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.KTLT_Buoi 3.props
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.KTLT_Buoi 3.props
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\scopedcss\bundle\KTLT_Buoi 3.styles.css
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\scopedcss\projectbundle\KTLT_Buoi 3.bundle.scp.css
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.dll
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\refint\KTLT_Buoi 3.dll
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.pdb
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.genruntimeconfig.cache
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\ref\KTLT_Buoi 3.dll
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\lephu\source\repos\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.csproj.CopyComplete
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\appsettings.Development.json
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\appsettings.json
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.staticwebassets.runtime.json
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.exe
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.deps.json
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.runtimeconfig.json
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.dll
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\KTLT_Buoi 3.pdb
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.csproj.AssemblyReference.cache
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.GeneratedMSBuildEditorConfig.editorconfig
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.AssemblyInfoInputs.cache
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.AssemblyInfo.cs
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.csproj.CoreCompileInputs.cache
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.MvcApplicationPartsAssemblyInfo.cache
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.RazorAssemblyInfo.cache
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.RazorAssemblyInfo.cs
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets.build.json
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\staticwebassets.development.json
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\scopedcss\bundle\KTLT_Buoi 3.styles.css
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\scopedcss\projectbundle\KTLT_Buoi 3.bundle.scp.css
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.csproj.CopyComplete
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.dll
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\refint\KTLT_Buoi 3.dll
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.pdb
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\KTLT_Buoi 3.genruntimeconfig.cache
+E:\OneDrive\LEARNING\My Code\KTLT\KTLT_Buoi 3\KTLT_Buoi 3\obj\Debug\net6.0\ref\KTLT_Buoi 3.dll

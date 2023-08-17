@@ -1,0 +1,6 @@
+5
+0,,,HH00656,abcjgfha,1,0,0,10000,AAA,AADA,,1
+0,,,HH0065,eqweddas,1,0,0,5000,Đồ uống,asdas,,1
+0,,,HH001,Nước ngọt Coca Cola,6,0,0,19000,Đồ uống,cocar,,6
+0,,,HH0014,Nước ngọt Coca Cola,0,168,0,1680000,Đồ uống,Coca Cola,,-168
+0,,,HH007777,Nước ngọt Coca Cola,0,1,0,50000,Đồ uống,pepsico,,-1

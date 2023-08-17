@@ -1,0 +1,19 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = "_Layout";
+    int a = 10;
+    int b = 20;
+    int c = 30;
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2> An Unordered HTML List</h2>
+    Current Time @DateTime.Now
+    <span></span>
+    a = @a b = @b c = @c
+</div>

@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ExampleCode
+build_property.RootNamespace = ExampleCode
+build_property.ProjectDir = E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\OneDrive\LEARNING\MY CODES\KTLT\ExampleCode\ExampleCode
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/DanhSach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaFNhY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/DanhSachBanra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFuaFNhY2hCYW5yYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/KTLT TH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS1RMVCBUSC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/NhapVaLuuTru.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmhhcFZhTHV1VHJ1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/SuaDulieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VhRHVsaWV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/SuaHangXuat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VhSGFuZ1h1YXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/XoaDuLieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWG9hRHVMaWV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/XoaHangxuat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWG9hSGFuZ3h1YXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/XuatHanghoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWHVhdEhhbmdob2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/OneDrive/LEARNING/MY CODES/KTLT/ExampleCode/ExampleCode/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0wuug3y16k

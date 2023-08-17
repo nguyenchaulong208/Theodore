@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DO_AN_CUOI_HK/1.0.0": {
+        "runtime": {
+          "DO_AN_CUOI_HK.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DO_AN_CUOI_HK/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

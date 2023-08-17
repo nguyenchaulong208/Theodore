@@ -1,0 +1,90 @@
+﻿@page
+@model DO_AN_CUOI_HK.Pages.NhapVaLuuTruModel
+@using DO_AN_CUOI_HK.BussinessLayer;
+@using DO_AN_CUOI_HK.DAL;
+@using DO_AN_CUOI_HK.Entities;
+@{
+    Layout = "_Layout";
+    string Message = string.Empty;
+    string ngayhd, ngaysx, mahh, tenhh, loaihang, nhasx, hsd;
+    int soluong, gia, thanhtien, sohd;
+    if (Request.Method == "POST")
+    {
+        sohd = int.Parse(Request.Form["txt.invoice"]);
+        ngayhd = Request.Form["txt.date"];
+        ngaysx = Request.Form["txt.ldate"];
+        mahh = Request.Form["txt.code"];
+        tenhh = Request.Form["txt.fname"];
+        soluong = int.Parse(Request.Form["txt.quantity"]);
+        gia = int.Parse(Request.Form["txt.unitPrice"]);
+        thanhtien = int.Parse(Request.Form["txt.amount"]);
+        loaihang = Request.Form["txt.category"];
+        nhasx = Request.Form["txt.fco"];
+        hsd = Request.Form["txt.fdate"];
+        Message = XuLy.ThemHangHoa(sohd, ngayhd, ngaysx, mahh, tenhh, soluong, gia, thanhtien, loaihang, nhasx, hsd);
+        Response.Redirect("/DanhSach");
+    }
+
+
+
+
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+<body style="font-family:Cambria">
+
+    <!--Phân quyền-->
+    <form method="POST">
+        <label for="invoice">Số hóa đơn:</label><br />
+        <input type="text" name="txt.invoice" value="" /><br />
+        <label for="date">Ngày hóa đơn:</label><br />
+        <input type="text" name="txt.date" value="" /><br />
+        <label for="ldate">Ngày sản xuất:</label><br />
+        <input type="text" name="txt.ldate" value="" /><br />
+        <label for="code">Mã hàng hóa:</label><br />
+        <input type="text" name="txt.code" value="" /><br />
+        <label for="code">Tên hàng hóa:</label><br />
+        <input type="text" name="txt.fname" value="" /><br />
+        <label for="quantity">Số lượng:</label><br />
+        <input type="text" name="txt.quantity" value="" /><br />
+        <label for="unitPrice">Đơn giá:</label><br />
+        <input type="text" name="txt.unitPrice" value="" /><br />
+        <label for="amount">Thành tiền</label><br />
+        <input type="text" name="txt.amount" value="" /><br />
+        <label for="category">Loại hàng</label><br />
+        <input type="text" name="txt.category" value="" /><br />
+        <label for="category">Nhà sản xuất</label><br />
+        <input type="text" name="txt.fco" value="" /><br />
+        <label for="fdate">Hạn sử dụng</label><br />
+        <input type="text" name="txt.fdate" value="" /><br />
+
+        <br /><br />
+
+        <input type="submit" value="Lưu" />
+
+
+
+    </form>
+    @Message
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
