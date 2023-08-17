@@ -1,0 +1,8 @@
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\obj\Debug\BT2.csproj.AssemblyReference.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\obj\Debug\BT2.csproj.SuggestedBindingRedirects.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\obj\Debug\BT2.csproj.CoreCompileInputs.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\bin\Debug\BT2.exe.config
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\bin\Debug\BT2.exe
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\bin\Debug\BT2.pdb
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\obj\Debug\BT2.exe
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\obj\Debug\BT2.pdb

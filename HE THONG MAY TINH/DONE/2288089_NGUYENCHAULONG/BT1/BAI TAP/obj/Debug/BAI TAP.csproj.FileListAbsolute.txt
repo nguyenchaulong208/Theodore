@@ -1,0 +1,16 @@
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BAI TAP\BAI TAP\obj\Debug\BAI TAP.csproj.AssemblyReference.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BAI TAP\BAI TAP\obj\Debug\BAI TAP.csproj.SuggestedBindingRedirects.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BAI TAP\BAI TAP\obj\Debug\BAI TAP.csproj.CoreCompileInputs.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BAI TAP\BAI TAP\bin\Debug\BAI TAP.exe.config
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BAI TAP\BAI TAP\bin\Debug\BAI TAP.exe
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BAI TAP\BAI TAP\bin\Debug\BAI TAP.pdb
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BAI TAP\BAI TAP\obj\Debug\BAI TAP.exe
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BAI TAP\BAI TAP\obj\Debug\BAI TAP.pdb
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT1\BAI TAP\bin\Debug\BAI TAP.exe.config
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT1\BAI TAP\bin\Debug\BAI TAP.exe
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT1\BAI TAP\bin\Debug\BAI TAP.pdb
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT1\BAI TAP\obj\Debug\BAI TAP.csproj.AssemblyReference.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT1\BAI TAP\obj\Debug\BAI TAP.csproj.SuggestedBindingRedirects.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT1\BAI TAP\obj\Debug\BAI TAP.csproj.CoreCompileInputs.cache
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT1\BAI TAP\obj\Debug\BAI TAP.exe
+E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT1\BAI TAP\obj\Debug\BAI TAP.pdb
