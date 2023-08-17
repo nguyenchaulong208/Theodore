@@ -1,0 +1,4 @@
+﻿  CTDL_GT_BT1.cpp
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\BAI TAP\CTDL_GT_BT1\CTDL_GT_BT1\CTDL_GT_BT1.cpp(59,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\BAI TAP\CTDL_GT_BT1\CTDL_GT_BT1\CTDL_GT_BT1.cpp(73,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  CTDL_GT_BT1.vcxproj -> E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\BAI TAP\CTDL_GT_BT1\x64\Debug\CTDL_GT_BT1.exe

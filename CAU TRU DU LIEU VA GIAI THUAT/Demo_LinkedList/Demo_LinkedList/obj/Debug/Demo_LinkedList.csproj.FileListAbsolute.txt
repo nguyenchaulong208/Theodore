@@ -1,0 +1,16 @@
+E:\OneDrive\LEARNING\My Code\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\bin\Debug\Demo_LinkedList.exe.config
+E:\OneDrive\LEARNING\My Code\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\bin\Debug\Demo_LinkedList.exe
+E:\OneDrive\LEARNING\My Code\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\bin\Debug\Demo_LinkedList.pdb
+E:\OneDrive\LEARNING\My Code\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.csproj.AssemblyReference.cache
+E:\OneDrive\LEARNING\My Code\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.csproj.SuggestedBindingRedirects.cache
+E:\OneDrive\LEARNING\My Code\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.csproj.CoreCompileInputs.cache
+E:\OneDrive\LEARNING\My Code\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.exe
+E:\OneDrive\LEARNING\My Code\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.pdb
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\bin\Debug\Demo_LinkedList.exe.config
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\bin\Debug\Demo_LinkedList.exe
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\bin\Debug\Demo_LinkedList.pdb
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.csproj.AssemblyReference.cache
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.csproj.SuggestedBindingRedirects.cache
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.csproj.CoreCompileInputs.cache
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.exe
+E:\OneDrive\LEARNING\MY CODES\CAU TRU DU LIEU VA GIAI THUAT\Demo_LinkedList\Demo_LinkedList\obj\Debug\Demo_LinkedList.pdb
