@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMLT BAI 11", "NMLT BAI 11\NMLT BAI 11.csproj", "{31D7F5EE-49AE-4B3B-AFB5-8BE168577DDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31D7F5EE-49AE-4B3B-AFB5-8BE168577DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D7F5EE-49AE-4B3B-AFB5-8BE168577DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D7F5EE-49AE-4B3B-AFB5-8BE168577DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D7F5EE-49AE-4B3B-AFB5-8BE168577DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53E7C406-FECC-4B9B-861E-ADB6E9352FF2}
+	EndGlobalSection
+EndGlobal

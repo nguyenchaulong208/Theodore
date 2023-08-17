@@ -1,0 +1,8 @@
+C:\Users\LONG\Desktop\DOAN GIANG DANG\bin\Debug\Product_Manage_Tool_WF.exe.config
+C:\Users\LONG\Desktop\DOAN GIANG DANG\bin\Debug\Product_Manage_Tool_WF.exe
+C:\Users\LONG\Desktop\DOAN GIANG DANG\bin\Debug\Product_Manage_Tool_WF.pdb
+C:\Users\LONG\Desktop\DOAN GIANG DANG\obj\x86\Debug\DoAn.csproj.AssemblyReference.cache
+C:\Users\LONG\Desktop\DOAN GIANG DANG\obj\x86\Debug\DoAn.csproj.SuggestedBindingRedirects.cache
+C:\Users\LONG\Desktop\DOAN GIANG DANG\obj\x86\Debug\DoAn.csproj.CoreCompileInputs.cache
+C:\Users\LONG\Desktop\DOAN GIANG DANG\obj\x86\Debug\Product_Manage_Tool_WF.exe
+C:\Users\LONG\Desktop\DOAN GIANG DANG\obj\x86\Debug\Product_Manage_Tool_WF.pdb

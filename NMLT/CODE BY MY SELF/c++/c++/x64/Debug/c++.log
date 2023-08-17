@@ -1,0 +1,4 @@
+﻿  c++.cpp
+E:\OneDrive\HOC CODE\DH KH TN\NHAP MON LAP TRINH\PRACTICE\CODE TU LAM\c++\c++\c++.cpp(12,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\OneDrive\HOC CODE\DH KH TN\NHAP MON LAP TRINH\PRACTICE\CODE TU LAM\c++\c++\c++.cpp(21,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\OneDrive\HOC CODE\DH KH TN\NHAP MON LAP TRINH\PRACTICE\CODE TU LAM\c++\c++\c++.cpp(77,5): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
