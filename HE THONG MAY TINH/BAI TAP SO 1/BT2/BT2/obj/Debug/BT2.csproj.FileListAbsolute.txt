@@ -6,3 +6,11 @@ E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\bin\Debug\BT2.exe
 E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\bin\Debug\BT2.pdb
 E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\obj\Debug\BT2.exe
 E:\OneDrive\HOC CODE\My Code\HE THONG MAY TINH\BT2\BT2\obj\Debug\BT2.pdb
+G:\GITHUB UPLOAD\my-codes\HE THONG MAY TINH\BAI TAP SO 1\BT2\BT2\bin\Debug\BT2.exe.config
+G:\GITHUB UPLOAD\my-codes\HE THONG MAY TINH\BAI TAP SO 1\BT2\BT2\bin\Debug\BT2.exe
+G:\GITHUB UPLOAD\my-codes\HE THONG MAY TINH\BAI TAP SO 1\BT2\BT2\bin\Debug\BT2.pdb
+G:\GITHUB UPLOAD\my-codes\HE THONG MAY TINH\BAI TAP SO 1\BT2\BT2\obj\Debug\BT2.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\HE THONG MAY TINH\BAI TAP SO 1\BT2\BT2\obj\Debug\BT2.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\HE THONG MAY TINH\BAI TAP SO 1\BT2\BT2\obj\Debug\BT2.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\HE THONG MAY TINH\BAI TAP SO 1\BT2\BT2\obj\Debug\BT2.exe
+G:\GITHUB UPLOAD\my-codes\HE THONG MAY TINH\BAI TAP SO 1\BT2\BT2\obj\Debug\BT2.pdb
