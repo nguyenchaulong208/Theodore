@@ -1,0 +1,8 @@
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\113_Hashtables\113_Hashtables\bin\Debug\113_Hashtables.exe.config
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\113_Hashtables\113_Hashtables\bin\Debug\113_Hashtables.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\113_Hashtables\113_Hashtables\bin\Debug\113_Hashtables.pdb
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\113_Hashtables\113_Hashtables\obj\Debug\113_Hashtables.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\113_Hashtables\113_Hashtables\obj\Debug\113_Hashtables.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\113_Hashtables\113_Hashtables\obj\Debug\113_Hashtables.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\113_Hashtables\113_Hashtables\obj\Debug\113_Hashtables.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\113_Hashtables\113_Hashtables\obj\Debug\113_Hashtables.pdb
