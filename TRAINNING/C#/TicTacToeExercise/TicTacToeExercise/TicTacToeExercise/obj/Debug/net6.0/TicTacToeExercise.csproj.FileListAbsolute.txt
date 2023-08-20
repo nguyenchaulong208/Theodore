@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\bin\Debug\net6.0\TicTacToeExercise.exe
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\bin\Debug\net6.0\TicTacToeExercise.deps.json
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\bin\Debug\net6.0\TicTacToeExercise.runtimeconfig.json
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\bin\Debug\net6.0\TicTacToeExercise.dll
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\bin\Debug\net6.0\TicTacToeExercise.pdb
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\TicTacToeExercise.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\TicTacToeExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\TicTacToeExercise.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\TicTacToeExercise.AssemblyInfo.cs
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\TicTacToeExercise.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\TicTacToeExercise.dll
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\refint\TicTacToeExercise.dll
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\TicTacToeExercise.pdb
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\TicTacToeExercise.genruntimeconfig.cache
+C:\Users\Admin\source\repos\TicTacToeExercise\TicTacToeExercise\obj\Debug\net6.0\ref\TicTacToeExercise.dll

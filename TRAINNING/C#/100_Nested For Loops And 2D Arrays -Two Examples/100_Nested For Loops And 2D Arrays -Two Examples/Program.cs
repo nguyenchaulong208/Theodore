@@ -14,8 +14,8 @@ namespace _100_Nested_For_Loops_And_2D_Arrays__Two_Examples
             {
                 {1, 2, 3},
                 {4, 5, 6},
-                {6, 7, 8},
-                {10, 11, 12},
+                {6, 7, 8}
+               
 
             };
             Console.WriteLine($"Day la ma tran gom [{array.GetLength(0)}] dong va [{array.GetLength(1)}] cot:");
@@ -24,7 +24,7 @@ namespace _100_Nested_For_Loops_And_2D_Arrays__Two_Examples
                 for (int j = 0; j < array.GetLength(1); j++)
                 {
                     //if(i==j)
-                    
+
                     Console.WriteLine($"Gia tri tai i[{i}] va j[{j}] la: {array[i, j]}");
                 }
 
