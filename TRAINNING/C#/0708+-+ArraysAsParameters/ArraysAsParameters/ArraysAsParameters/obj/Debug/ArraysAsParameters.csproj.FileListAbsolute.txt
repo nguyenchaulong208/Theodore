@@ -1,0 +1,7 @@
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.exe.config
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.exe
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.pdb
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.csprojResolveAssemblyReference.cache
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.csproj.CoreCompileInputs.cache
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.exe
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.pdb

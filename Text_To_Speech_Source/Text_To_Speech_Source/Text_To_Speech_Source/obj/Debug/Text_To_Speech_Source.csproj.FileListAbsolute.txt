@@ -1,0 +1,11 @@
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\bin\Debug\Text_To_Speech_Source.exe.config
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\bin\Debug\Text_To_Speech_Source.exe
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\bin\Debug\Text_To_Speech_Source.pdb
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\obj\Debug\Text_To_Speech_Source.csproj.AssemblyReference.cache
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\obj\Debug\Text_To_Speech_Source.csproj.SuggestedBindingRedirects.cache
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\obj\Debug\Text_To_Speech_Source.Form1.resources
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\obj\Debug\Text_To_Speech_Source.Properties.Resources.resources
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\obj\Debug\Text_To_Speech_Source.csproj.GenerateResource.cache
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\obj\Debug\Text_To_Speech_Source.csproj.CoreCompileInputs.cache
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\obj\Debug\Text_To_Speech_Source.exe
+E:\OneDrive\HOC CODE\My Code\Text_To_Speech_Source\Text_To_Speech_Source\obj\Debug\Text_To_Speech_Source.pdb
