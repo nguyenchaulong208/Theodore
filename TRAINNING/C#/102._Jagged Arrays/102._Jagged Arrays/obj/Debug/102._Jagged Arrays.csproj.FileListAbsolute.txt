@@ -1,0 +1,8 @@
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\102._Jagged Arrays\102._Jagged Arrays\bin\Debug\102._Jagged Arrays.exe.config
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\102._Jagged Arrays\102._Jagged Arrays\bin\Debug\102._Jagged Arrays.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\102._Jagged Arrays\102._Jagged Arrays\bin\Debug\102._Jagged Arrays.pdb
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\102._Jagged Arrays\102._Jagged Arrays\obj\Debug\102._Jagged Arrays.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\102._Jagged Arrays\102._Jagged Arrays\obj\Debug\102._Jagged Arrays.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\102._Jagged Arrays\102._Jagged Arrays\obj\Debug\102._Jagged Arrays.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\102._Jagged Arrays\102._Jagged Arrays\obj\Debug\102._Jagged Arrays.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\102._Jagged Arrays\102._Jagged Arrays\obj\Debug\102._Jagged Arrays.pdb

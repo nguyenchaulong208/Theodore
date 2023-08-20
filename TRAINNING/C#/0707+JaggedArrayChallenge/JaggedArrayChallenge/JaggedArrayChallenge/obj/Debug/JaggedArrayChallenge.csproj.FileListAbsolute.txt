@@ -1,0 +1,7 @@
+c:\users\denis panjuta\source\repos\JaggedArrayChallenge\JaggedArrayChallenge\bin\Debug\JaggedArrayChallenge.exe.config
+c:\users\denis panjuta\source\repos\JaggedArrayChallenge\JaggedArrayChallenge\bin\Debug\JaggedArrayChallenge.exe
+c:\users\denis panjuta\source\repos\JaggedArrayChallenge\JaggedArrayChallenge\bin\Debug\JaggedArrayChallenge.pdb
+c:\users\denis panjuta\source\repos\JaggedArrayChallenge\JaggedArrayChallenge\obj\Debug\JaggedArrayChallenge.csprojResolveAssemblyReference.cache
+c:\users\denis panjuta\source\repos\JaggedArrayChallenge\JaggedArrayChallenge\obj\Debug\JaggedArrayChallenge.csproj.CoreCompileInputs.cache
+c:\users\denis panjuta\source\repos\JaggedArrayChallenge\JaggedArrayChallenge\obj\Debug\JaggedArrayChallenge.exe
+c:\users\denis panjuta\source\repos\JaggedArrayChallenge\JaggedArrayChallenge\obj\Debug\JaggedArrayChallenge.pdb
