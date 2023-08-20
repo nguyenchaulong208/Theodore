@@ -1,0 +1,8 @@
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\100_Nested For Loops And 2D Arrays -Two Examples\100_Nested For Loops And 2D Arrays -Two Examples\bin\Debug\100_Nested For Loops And 2D Arrays -Two Examples.exe.config
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\100_Nested For Loops And 2D Arrays -Two Examples\100_Nested For Loops And 2D Arrays -Two Examples\bin\Debug\100_Nested For Loops And 2D Arrays -Two Examples.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\100_Nested For Loops And 2D Arrays -Two Examples\100_Nested For Loops And 2D Arrays -Two Examples\bin\Debug\100_Nested For Loops And 2D Arrays -Two Examples.pdb
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\100_Nested For Loops And 2D Arrays -Two Examples\100_Nested For Loops And 2D Arrays -Two Examples\obj\Debug\100_Nested For Loops And 2D Arrays -Two Examples.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\100_Nested For Loops And 2D Arrays -Two Examples\100_Nested For Loops And 2D Arrays -Two Examples\obj\Debug\100_Nested For Loops And 2D Arrays -Two Examples.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\100_Nested For Loops And 2D Arrays -Two Examples\100_Nested For Loops And 2D Arrays -Two Examples\obj\Debug\100_Nested For Loops And 2D Arrays -Two Examples.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\100_Nested For Loops And 2D Arrays -Two Examples\100_Nested For Loops And 2D Arrays -Two Examples\obj\Debug\100_Nested For Loops And 2D Arrays -Two Examples.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\100_Nested For Loops And 2D Arrays -Two Examples\100_Nested For Loops And 2D Arrays -Two Examples\obj\Debug\100_Nested For Loops And 2D Arrays -Two Examples.pdb
