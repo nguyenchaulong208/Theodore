@@ -1,0 +1,8 @@
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\108_Why would we use Params\108_Why would we use Params\bin\Debug\108_Why would we use Params.exe.config
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\108_Why would we use Params\108_Why would we use Params\bin\Debug\108_Why would we use Params.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\108_Why would we use Params\108_Why would we use Params\bin\Debug\108_Why would we use Params.pdb
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\108_Why would we use Params\108_Why would we use Params\obj\Debug\108_Why would we use Params.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\108_Why would we use Params\108_Why would we use Params\obj\Debug\108_Why would we use Params.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\108_Why would we use Params\108_Why would we use Params\obj\Debug\108_Why would we use Params.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\108_Why would we use Params\108_Why would we use Params\obj\Debug\108_Why would we use Params.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\108_Why would we use Params\108_Why would we use Params\obj\Debug\108_Why would we use Params.pdb

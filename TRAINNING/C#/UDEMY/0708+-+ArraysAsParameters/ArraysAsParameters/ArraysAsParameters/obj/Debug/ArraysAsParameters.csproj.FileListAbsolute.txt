@@ -1,0 +1,15 @@
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.exe.config
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.exe
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.pdb
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.csprojResolveAssemblyReference.cache
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.csproj.CoreCompileInputs.cache
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.exe
+c:\users\denis panjuta\source\repos\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.pdb
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\0708+-+ArraysAsParameters\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.exe.config
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\0708+-+ArraysAsParameters\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\0708+-+ArraysAsParameters\ArraysAsParameters\ArraysAsParameters\bin\Debug\ArraysAsParameters.pdb
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\0708+-+ArraysAsParameters\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\0708+-+ArraysAsParameters\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\0708+-+ArraysAsParameters\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\0708+-+ArraysAsParameters\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.exe
+G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\0708+-+ArraysAsParameters\ArraysAsParameters\ArraysAsParameters\obj\Debug\ArraysAsParameters.pdb
