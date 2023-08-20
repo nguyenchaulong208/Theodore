@@ -1,0 +1,8 @@
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\116_Editing And Removing Entries in a Dictionairy\116_Editing And Removing Entries in a Dictionairy\bin\Debug\116_Editing And Removing Entries in a Dictionairy.exe.config
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\116_Editing And Removing Entries in a Dictionairy\116_Editing And Removing Entries in a Dictionairy\bin\Debug\116_Editing And Removing Entries in a Dictionairy.exe
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\116_Editing And Removing Entries in a Dictionairy\116_Editing And Removing Entries in a Dictionairy\bin\Debug\116_Editing And Removing Entries in a Dictionairy.pdb
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\116_Editing And Removing Entries in a Dictionairy\116_Editing And Removing Entries in a Dictionairy\obj\Debug\116_Editing And Removing Entries in a Dictionairy.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\116_Editing And Removing Entries in a Dictionairy\116_Editing And Removing Entries in a Dictionairy\obj\Debug\116_Editing And Removing Entries in a Dictionairy.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\116_Editing And Removing Entries in a Dictionairy\116_Editing And Removing Entries in a Dictionairy\obj\Debug\116_Editing And Removing Entries in a Dictionairy.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\116_Editing And Removing Entries in a Dictionairy\116_Editing And Removing Entries in a Dictionairy\obj\Debug\116_Editing And Removing Entries in a Dictionairy.exe
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\116_Editing And Removing Entries in a Dictionairy\116_Editing And Removing Entries in a Dictionairy\obj\Debug\116_Editing And Removing Entries in a Dictionairy.pdb
