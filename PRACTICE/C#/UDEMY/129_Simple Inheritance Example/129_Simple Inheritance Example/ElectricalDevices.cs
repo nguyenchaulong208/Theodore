@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace _129_Simple_Inheritance_Example
 {
+    //Parent - Base
     public class ElectricalDevices
     {
         //boolean to determin the state of the Electrical Devices
