@@ -1,0 +1,8 @@
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\137_IEnumerator and IEnumerable\137_IEnumerator and IEnumerable\bin\Debug\137_IEnumerator and IEnumerable.exe.config
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\137_IEnumerator and IEnumerable\137_IEnumerator and IEnumerable\bin\Debug\137_IEnumerator and IEnumerable.exe
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\137_IEnumerator and IEnumerable\137_IEnumerator and IEnumerable\bin\Debug\137_IEnumerator and IEnumerable.pdb
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\137_IEnumerator and IEnumerable\137_IEnumerator and IEnumerable\obj\Debug\137_IEnumerator and IEnumerable.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\137_IEnumerator and IEnumerable\137_IEnumerator and IEnumerable\obj\Debug\137_IEnumerator and IEnumerable.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\137_IEnumerator and IEnumerable\137_IEnumerator and IEnumerable\obj\Debug\137_IEnumerator and IEnumerable.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\137_IEnumerator and IEnumerable\137_IEnumerator and IEnumerable\obj\Debug\137_IEnumerator and IEnumerable.exe
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\137_IEnumerator and IEnumerable\137_IEnumerator and IEnumerable\obj\Debug\137_IEnumerator and IEnumerable.pdb
