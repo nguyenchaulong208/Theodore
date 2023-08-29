@@ -1,0 +1,8 @@
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\ORTHERS\test\test\bin\Debug\test.exe.config
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\ORTHERS\test\test\bin\Debug\test.exe
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\ORTHERS\test\test\bin\Debug\test.pdb
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\ORTHERS\test\test\obj\Debug\test.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\ORTHERS\test\test\obj\Debug\test.csproj.SuggestedBindingRedirects.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\ORTHERS\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\ORTHERS\test\test\obj\Debug\test.exe
+G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\ORTHERS\test\test\obj\Debug\test.pdb
