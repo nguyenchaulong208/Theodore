@@ -42,7 +42,7 @@ namespace PolymorphismC
             Console.WriteLine("HP: " + HP + " color:" + Color);
         }
 
-        public  virtual void Repair()
+        public virtual void Repair()
         {
             Console.WriteLine("Car was repaired");
         }
