@@ -83,28 +83,29 @@ void LRN(NODE* pRoot)
 
 /* Yêu cầu 6. Viết hàm tìm kiếm số nguyên k trong cây nhị phân tìm kiếm.
 Nếu có trả về true. Ngược lại trả về false. */
-bool searchData(NODE* pRoot, int k) 
+static bool searchData(NODE* pRoot, int k) 
 {
     bool result = false;
 
     /*Sinh viên tự hoàn thành đoạn code này*/
     if (pRoot == NULL) 
     {
-        return NULL;
+        return false;
     }
     if (pRoot->key == k)
     {
-        return pRoot;
+        return true;
     }
     else if (k < pRoot->key)
     {
         return searchData(pRoot->pLeft,k);
+         
 
     }
     else if (k > pRoot->key)
     {
         return searchData(pRoot->pRight, k);
-
+        
     }   
 
         return result;
@@ -148,6 +149,8 @@ int main()
         /*Nhập vào số nguyên k và kiểm tra k có trong cây hay không - Sinh viên tự hoàn thành đoạn code này*/
         cout << "\n \nNhap vao gia tri can tim kiem trong Node: ";
         cin >> keySearch;
+       
+        
         if (searchData(pRoot, keySearch))
         {
             cout << "\nKet qua tim kiem: True\n";

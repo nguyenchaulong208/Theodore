@@ -94,7 +94,7 @@ bool searchData(NODE* pRoot, int k)
     }
     if (pRoot->key == k)
     {
-        return pRoot;
+        return true;
     }
     else if (k < pRoot->key)
     {
