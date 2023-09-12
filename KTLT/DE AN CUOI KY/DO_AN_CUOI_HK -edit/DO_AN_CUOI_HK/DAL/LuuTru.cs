@@ -5,7 +5,13 @@ namespace DO_AN_CUOI_HK.DAL
 {
     public class LuuTru
     {
-       
+        public static string getlink()
+        {
+            var path = "DuLieu/default.txt";
+            var fullpath = Path.GetFullPath(path);
+            return fullpath;
+        }
+
         #region //Nhap hang
         //khởi tạo 1 file với mảng rỗng
         //Đọc file
@@ -48,9 +54,10 @@ namespace DO_AN_CUOI_HK.DAL
         //luu danh sach hang hoa
         public static void LuuTruDanhSach(QL_CuaHang[] DanhSach)
         {
-            var path1 = "DuLieu/default.txt";
-            var path = Path.GetFullPath(path1);
-            StreamWriter writeFile = new StreamWriter(path);
+            //var path1 = "DuLieu/default.txt";
+            //var path = Path.GetFullPath(path1);
+            var fullpath = getlink();
+            StreamWriter writeFile = new StreamWriter(fullpath);
             writeFile.WriteLine(DanhSach.Length);
             for (int i = 0; i < DanhSach.Length; i++)
             {

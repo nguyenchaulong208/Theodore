@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\OneDrive\\LEARNING\\MY CODES\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj",
+      "projectUniqueName": "G:\\GITHUB UPLOAD\\my-codes\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj",
       "projectName": "DO_AN_CUOI_HK",
-      "projectPath": "E:\\OneDrive\\LEARNING\\MY CODES\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj",
+      "projectPath": "G:\\GITHUB UPLOAD\\my-codes\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj",
       "packagesPath": "C:\\Users\\LONG\\.nuget\\packages\\",
-      "outputPath": "E:\\OneDrive\\LEARNING\\MY CODES\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\obj\\",
+      "outputPath": "G:\\GITHUB UPLOAD\\my-codes\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }
