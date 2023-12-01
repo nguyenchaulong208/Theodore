@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website của Theodore</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <div>
+            <h3>1. CSS là gì?</h3>
+            <p>CSS là viết tắt của cụm từ Cascading Style Sheets, là một ngôn ngữ định dạng được sử dụng để mô tả cách hiển thị của một tài liệu được viết bằng ngôn ngữ đánh dấu như HTML. CSS được thiết kế để cách điệu cho cả tài liệu HTML và XHTML.</p>
+            <p>CSS được phát triển bởi W3C (World Wide Web Consortium) và được công bố lần đầu tiên vào năm 1996.</p>
+            <p>CSS được sử dụng để xác định cách hiển thị của các phần tử HTML, bao gồm: màu sắc, kích thước, kiểu chữ, khoảng cách giữa các dòng, khoảng cách giữa các từ, khoảng cách giữa các đoạn văn bản, đường viền, độ trong suốt, độ trong suốt, vị trí, độ lớn, độ nhỏ, độ cao</p>
+            <p>CSS có thể được sử dụng để xác định các hiệu ứng khác nhau cho các phần tử HTML, bao gồm: hiệu ứng hover, hiệu ứng active, hiệu ứng focus, hiệu ứng visited</p>
+        </div>
+        <div>
+            <h3>2. Cú pháp</h3>
+            <p>CSS được viết trong một tập tin văn bản đơn, thường có phần mở rộng là .css. Một tập tin CSS có thể chứa nhiều khai báo CSS, mỗi khai báo CSS bao gồm một bộ chọn và một khối khai báo.</p>
+            <p>Cú pháp của một khai báo CSS như sau:</p>
+            <p>selector {property: value}</p>
+            <p>Trong đó:</p>
+            <li>selector là một bộ chọn, xác định phần tử HTML nào sẽ được áp dụng các thuộc tính CSS.</li>
+            <li>property là thuộc tính CSS, xác định thuộc tính nào của phần tử HTML sẽ được thay đổi.</li>
+            <li>value là giá trị của thuộc tính CSS, xác định giá trị nào của thuộc tính CSS sẽ được áp dụng.</li>
+            <p>Ví dụ:</p>
+            <p>body {color: red}</p>
+            <p>Trong đó:</p>
+            <li>body là bộ chọn, xác định tất cả các phần tử body trong tài liệu HTML.</li>
+            <li>color là thuộc tính CSS, xác định màu chữ của các phần tử body.</li>
+            <li>red là giá trị của thuộc tính color, xác định màu chữ của các phần tử body là màu đỏ.</li>
+        </div>
+        <div>
+            <h3>3. Các bộ chọn</h3>
+            <p>CSS cung cấp nhiều bộ chọn để xác định phần tử HTML nào sẽ được áp dụng các thuộc tính CSS. Các bộ chọn được chia thành 5 nhóm:</p>
+            <li>Bộ chọn phần tử</li>
+            <li>Bộ chọn ID</li>
+            <li>Bộ chọn Class</li>
+            <li>Bộ chọn thuộc tính</li>
+            <li>Bộ chọn phức hợp</li>
+                <h3>3.1. Bộ chọn phần tử</h3>
+                <p>Bộ chọn phần tử là bộ chọn đơn giản nhất, xác định phần tử HTML nào sẽ được áp dụng các thuộc tính CSS. Bộ chọn phần tử có cú pháp như sau:</p>
+                <p>element {property: value}</p>
+                <p>Trong đó:</p>
+                <li>element là tên của phần tử HTML, xác định phần tử HTML nào sẽ được áp dụng các thuộc tính CSS.</li>
+                <p>Ví dụ:</p>
+                <p>body {color: red}</p>
+                <p>Trong đó:</p>
+                <li>body là tên của phần tử body, xác định phần tử body sẽ được áp dụng thuộc tính color.</li>
+                <li>color là thuộc tính CSS, xác định màu chữ của các phần tử body.</li>
+                <li>red là giá trị của thuộc tính color, xác định màu chữ của các phần tử body là màu đỏ.</li>
+                <h3>3.2. Bộ chọn ID</h3>
+                <p>Bộ chọn ID xác định phần tử HTML nào sẽ được áp dụng các thuộc tính CSS. Bộ chọn ID có cú pháp như sau:</p>
+                <p>#id {property: value}</p>
+                <p>Trong đó:</p>
+                <li>#id là tên của phần tử HTML, xác định phần tử HTML nào sẽ được áp dụng các thuộc tính CSS.</li>
+                <p>Ví dụ:</p>
+                <p>#header {color: red}</p>
+                <p>Trong đó:</p>
+                <li>#header là tên của phần tử header, xác định phần tử header sẽ được áp dụng thuộc tính color.</li>
+                <li>color là thuộc tính CSS, xác định màu chữ của các phần tử header.</li>
+                <li>red là giá trị của thuộc tính color, xác định màu chữ của các phần tử header là màu đỏ.</li>
+                <h3>3.3.Phân loại CSS</h3>
+                <p>CSS được chia thành 3 loại:</p>
+                <li>Inline CSS</li>
+                <li>Internal CSS</li>
+                <li>External CSS/Linking Style Sheet</li>
+                <h3>3.3.1. Inline CSS</h3>
+                <p>Inline CSS là CSS được viết trực tiếp trong thẻ HTML, được đặt trong thuộc tính style của thẻ HTML. Inline CSS có độ ưu tiên cao nhất trong 3 loại CSS.</p>
+                <p>Ví dụ:</p>
+                <p>&lt;p style="color: red"&gt;Đây là một đoạn văn bản&lt;/p&gt;</p>
+                <p>Trong đó:</p>
+                <li>p là tên của phần tử p, xác định phần tử p sẽ được áp dụng thuộc tính color.</li>
+                <li>color là thuộc tính CSS, xác định màu chữ của các phần tử p.</li>
+                <li>red là giá trị của thuộc tính color, xác định màu chữ của các phần tử p là màu đỏ.</li>
+                <h3>3.3.2. Internal CSS</h3>
+                <p>Internal CSS là CSS được viết trong thẻ HTML, được đặt trong thẻ style của thẻ HTML. Internal CSS có độ ưu tiên cao hơn External CSS nhưng thấp hơn Inline CSS.</p>
+                <p>Ví dụ:</p>
+                <p>&lt;style&gt;p {color: red}&lt;/style&gt;</p>
+                <p>Trong đó:</p>
+                <li>p là tên của phần tử p, xác định phần tử p sẽ được áp dụng thuộc tính color.</li>
+                <li>color là thuộc tính CSS, xác định màu chữ của các phần tử p.</li>
+                <li>red là giá trị của thuộc tính color, xác định màu chữ của các phần tử p là màu đỏ.</li>
+                <h3>3.3.3. External CSS/Linking Style Sheet</h3>
+                <p>External CSS là CSS được viết trong một tập tin văn bản đơn, thường có phần mở rộng là .css. External CSS có độ ưu tiên thấp nhất trong 3 loại CSS.</p>
+                <p>Ví dụ:</p>
+                <p>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</p>
+                <p>Trong đó:</p>
+                <li>rel="stylesheet" xác định tập tin văn bản được liên kết là một tập tin CSS.</li>
+                <li>type="text/css" xác định kiểu của tập tin văn bản được liên kết là text/css.</li>
+                <li>href="style.css" xác định đường dẫn của tập tin văn bản được liên kết là style.css.</li>
+        </div>
+        
+        <div>
+            <h3>Độ ưu tiên trong CSS</h3>
+            <p>Trong CSS, nếu một phần tử HTML được áp dụng nhiều thuộc tính CSS, thì thuộc tính CSS nào sẽ được áp dụng cho phần tử HTML đó?</p>
+            <p>Độ ưu tiên của các thuộc tính CSS được xác định theo thứ tự sau:</p>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+            <li>Browser default</li>
+            <p>Ví dụ:</p>
+            <p>&lt;style&gt;</p>
+            <p>body {color: red}</p>
+            <p>body {color: blue}</p>
+            <p>&lt;/style&gt;</p>
+            <p>Trong đó:</p>
+            <li>body là tên của phần tử body, xác định phần tử body sẽ được áp dụng thuộc tính color.</li>
+            <li>color là thuộc tính CSS, xác định màu chữ của các phần tử body.</li>
+            <li>red là giá trị của thuộc tính color, xác định màu chữ của các phần tử body là màu đỏ.</li>
+            <li>blue là giá trị của thuộc tính color, xác định màu chữ của các phần tử body là màu xanh dương.</li>
+            <p>Trong ví dụ trên, màu chữ của các phần tử body sẽ là màu xanh dương, vì Internal CSS có độ ưu tiên cao hơn External CSS.</p>
+        </div>
+        <div>
+            <h3>!important</h3>
+            <p>!important là một từ khóa trong CSS, được sử dụng để xác định thuộc tính CSS nào sẽ có độ ưu tiên cao nhất.</p>
+            <p>Ví dụ:</p>
+            <p>&lt;style&gt;</p>
+            <p>body {color: red !important}</p>
+            <p>body {color: blue}</p>
+            <p>&lt;/style&gt;</p>
+            <p>Trong đó:</p>
+            <li>body là tên của phần tử body, xác định phần tử body sẽ được áp dụng thuộc tính color.</li>
+            <li>color là thuộc tính CSS, xác định màu chữ của các phần tử body.</li>
+            <li>red là giá trị của thuộc tính color, xác định màu chữ của các phần tử body là màu đỏ.</li>
+            <li>blue là giá trị của thuộc tính color, xác định màu chữ của các phần tử body là màu xanh dương.</li>
+            <p>Trong ví dụ trên, màu chữ của các phần tử body sẽ là màu đỏ, vì thuộc tính color có từ khóa !important.</p>
+        </div>
+
+        <div>
+            <h3>CSS Box Model</h3>
+            <p>CSS Box Model là một khái niệm trong CSS, mô tả cách mà các phần tử HTML được hiển thị trên trang web.</p>
+            <p>CSS Box Model bao gồm 4 thành phần:</p>
+            <li>Content</li>
+            <li>Padding</li>
+            <li>Border</li>
+            <li>Margin</li>
+            <p>Ví dụ:</p>
+            <p>&lt;style&gt;</p>
+            <p>div {</p>
+            <p>width: 300px;</p>
+            <p>height: 100px;</p>
+            <p>padding: 10px;</p>
+            <p>border: 5px solid red;</p>
+            <p>margin: 10px;</p>
+            <p>}</p>
+            <p>&lt;/style&gt;</p>
+            <p>&lt;div&gt;Đây là một đoạn văn bản&lt;/div&gt;</p>
+            <p>Trong đó:</p>
+            <li>div là tên của phần tử div, xác định phần tử div sẽ được áp dụng thuộc tính width, height, padding, border, margin.</li>
+            <li>width là thuộc tính CSS, xác định chiều rộng của các phần tử div.</li>
+            <li>height là thuộc tính CSS, xác định chiều cao của các phần tử div.</li>
+            <li>padding là thuộc tính CSS, xác định khoảng cách giữa nội dung và đường viền của các phần tử div.</li>
+            <li>border là thuộc tính CSS, xác định đường viền của các phần tử div.</li>
+            <li>margin là thuộc tính CSS, xác định khoảng cách giữa các phần tử div.</li>
+            <li>10px là giá trị của thuộc tính width, xác định chiều rộng của các phần tử div là 10px.</li>
+            <li>100px là giá trị của thuộc tính height, xác định chiều cao của các phần tử div là 100px.</li>
+            <li>10px là giá trị của thuộc tính padding, xác định khoảng cách giữa nội dung và đường viền của các phần tử div là 10px.</li>
+            <li>5px là giá trị của thuộc tính border, xác định đường viền của các phần tử div là 5px.</li>
+            <li>red là giá trị của thuộc tính border, xác định màu đường viền của các phần tử div là màu đỏ.</li>
+            <li>10px là giá trị của thuộc tính margin, xác định khoảng cách giữa các phần tử div là 10px.</li>
+            <p>Trong ví dụ trên, các phần tử div sẽ có chiều rộng là 300px, chiều cao là 100px, khoảng cách giữa nội dung và đường viền là 10px, đường viền là 5px, màu đường viền là màu đỏ, khoảng cách giữa các phần tử div là 10px.</p>
+            
+        </div>
+        
+    </body>
+</html>

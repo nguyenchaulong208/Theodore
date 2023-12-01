@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tag FORM</title>
+        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Website của Theodore</title>
+                        <link href="css/style.css" rel="stylesheet">
+                        <link href="Layout.html" rel="Layout">
+    </head>
+    <body>
+        <div>
+            <h1>Các ví dụ</h1>
+            <form action="examples.html" method="post">
+                <input type="submit" name="btnExample" value="Examples">
+
+            </form>
+        </div>
+
+        <h1>FORM trong HTML</h1>
+        <p>Là container chứa các thành phần nhập liệu khác</p>
+        
+        <div>
+            <h2>Các thành phần của Form</h2>
+            <p>Gồm các loại Form Field sau:</p>
+            <li> Text field:  là một phần tử cho phép người dùng nhập văn bản</li>
+            <li>Password field: cho phép người dùng nhập mật khẩu mà nó ẩn đi để bảo mật thông tin</li>
+            <li>Hidden text field: là một trường mà người dùng không thể nhìn thấy hoặc tương tác trực tiếp, nhưng nó vẫn có thể chứa dữ liệu được gửi đi khi biểu mẫu được gửi</li>
+            <li>Checkbox: là một phần tử input mà người dùng có thể chọn hoặc bỏ chọn</li>
+            <li>Radio button:  là một phần tử input mà người dùng có thể chọn một lựa chọn duy nhất từ một nhóm các lựa chọn có sẵn. Mỗi nút radio liên quan đến một giá trị và chỉ một nút radio trong nhóm có thể được chọn vào một thời điểm</li>
+            <li>File Form Control: Để cho phép người dùng chọn và gửi file từ máy tính của họ thông qua biểu mẫu HTML, bạn cần sử dụng phần tử input với thuộc tính type là "file". Điều này tạo ra một điều khiển chọn file</li>
+            <li>Submit button, Reset Button, Generalized Button: Trong HTML, có ba loại nút phổ biến được sử dụng trong biểu mẫu: nút gửi (Submit button), nút đặt lại (Reset button), và nút thông thường (Generalized button)</li>
+            <li>Multiple-line text field: Để tạo một trường văn bản nhiều dòng (multiple-line text field) trong HTML, bạn sử dụng phần tử textarea. Phần tử này cho phép người dùng nhập nhiều dòng văn bản và có thể xác định số hàng và cột theo ý muốn</li>
+            <li>Label:Trong HTML, phần tử label được sử dụng để tạo nhãn cho các phần tử đầu vào như các trường văn bản, nút radio, nút checkbox, và nhiều loại phần tử khác. Việc sử dụng label giúp cải thiện khả năng tương tác của người dùng và cũng làm cho các trang web và ứng dụng web trở nên thân thiện với thiết bị hơn</li>
+            <li>Pull-down menu: Trong HTML, bạn có thể tạo một menu thả xuống (pull-down menu) bằng cách sử dụng phần tử select cùng với các phần tử option</li>
+            <li>Scrolled list: Nếu bạn muốn có một danh sách cuộn (scrolled list) để hiển thị nhiều lựa chọn mà không muốn chúng hiển thị trực tiếp trên trang, bạn có thể sử dụng thuộc tính size với phần tử select. Khi bạn đặt size thành một số lớn hơn 1, nó sẽ tạo ra một hộp chọn có thể cuộn.</li>
+            <li>Fieldset: Phần tử fieldset trong HTML được sử dụng để nhóm các phần tử biểu mẫu liên quan lại với nhau và tạo ra một đường biên xung quanh chúng. Thường kèm theo legend để cung cấp một tiêu đề cho nhóm các trường</li>
+        </div>
+
+        <div>
+            <h3>Phương thức GET/POST</h3>
+            <p>Phương thức GET: Dữ liệu được gửi đi trong URL, dữ liệu có thể nhìn thấy được trên URL, dữ liệu có thể được bookmark, dữ liệu có thể được lưu trong bộ nhớ cache của trình duyệt, dữ liệu có thể được lưu trong lịch sử của trình duyệt, dữ liệu có thể được gửi đi lại nhiều lần, dữ liệu có thể được gửi đi với một đường dẫn tĩnh</p><br>
+            <p>Phương thức POST: Dữ liệu được gửi đi trong HTTP header, dữ liệu không thể nhìn thấy được trên URL, dữ liệu không thể được bookmark, dữ liệu không thể được lưu trong bộ nhớ cache của trình duyệt, dữ liệu không thể được lưu trong lịch sử của trình duyệt, dữ liệu không thể được gửi đi lại nhiều lần, dữ liệu có thể được gửi đi với một đường dẫn động</p>
+        </div>
+        <div>
+            <h3>Một số thuộc tính tiện ích - Input</h3>
+            <p> Accesskey=char:</p>
+                <li>Tạo phím nóng cho form fields.</li>
+                <li>áp dụng cho tất cả form fields.</li>
+                <li>Cách nhấn Alt + char</li>
+                <li>Tránh các phím tắt của browser.</li>
+                <p>Cú pháp của Accesskey</p>
+                <li>&lt;form accesskey="char"&gt;</li>
+            <p>Title = string</p>
+                <li>Hiển thị thông tin khi rê chuột vào form fields, tạo tooltip cho form fields.</li>
+                <li>áp dụng cho tất cả form fields.</li>
+                <p>Cú pháp của Title</p>
+                <li>&lt;form title="string"&gt;</li>
+            <p>Autocomplete</p>
+                <li>Cho phép trình duyệt tự động điền thông tin vào form fields.</li>
+                <li>áp dụng cho tất cả form fields.</li>
+                <p>Cú pháp của Autocomplete</p>
+                <li>&lt;form autocomplete="on|off"&gt;</li>
+            <p>Autofocus</p>
+                <li>Cho phép trình duyệt tự động focus vào form fields.</li>
+                <li>áp dụng cho tất cả form fields.</li>
+                <p>Cú pháp của Autofocus</p>
+                <li>&lt;form autofocus="autofocus"&gt;</li>
+        </div>
+        <div>
+            <h3>Thẻ MARQuee</h3>
+            <p>Thẻ MARQuee dùng để tạo chữ chạy</p>
+            <p>Thuộc tính:</p>
+            <li>behavior: xác định hướng chạy của chữ</li>
+            <li>direction: xác định hướng chạy của chữ</li>
+            <li>loop: xác định số lần chạy của chữ</li>
+            <li>scrollamount: xác định tốc độ chạy của chữ</li>
+            <li>scrolldelay: xác định thời gian chờ giữa các lần chạy của chữ</li>
+            <li>width: xác định chiều rộng của chữ</li>
+            <li>height: xác định chiều cao của chữ</li>
+            <p>cú pháp của MARQuee</p>
+            <li>&lt;marquee behavior="behavior" direction="direction" loop="loop" scrollamount="scrollamount" scrolldelay="scrolldelay" width="width" height="height"&gt;</li>
+        </div>
+        <div>
+            <h3>Tự động chuyển hướng trang web</h3>
+            <p>Thẻ META dùng để tạo chữ chạy</p>
+            <p>Thuộc tính:</p>
+            <li>http-equiv: xác định tên thuộc tính</li>
+            <li>content: xác định nội dung của thuộc tính</li>
+            <li>url: xác định đường dẫn của trang web</li>
+            <li>time: xác định thời gian chuyển hướng</li>
+            <p>cú pháp của META</p>
+            <li>&lt;meta http-equiv="refresh" content="time; url=url"&gt;</li>
+
+        </div>
+            
+        
+        <form name="testf" action="Web.html" method="post"></form>
+    </body>
+</html> 
