@@ -1,0 +1,66 @@
+/*
+background-image: url(../images/Background.jpg); => không có dấu nháy
+*/
+
+body {
+  background-image: url(../images/Background.jpg);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  
+  margin: 10px;
+  padding: 10;
+
+  
+}
+
+
+.headerH1{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color:black;
+  text-transform: uppercase;
+}
+
+/*navbar
+.navbar a sẽ được active khi được đặt trong thẻ <a> trong thẻ <div class="navbar">. nếu thẻ <a> không được đặt trong thẻ <div class="navbar"> thì sẽ không được active
+*/
+.navbar{
+  
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-block: 10px;
+  
+  
+}
+.navbar a{
+  float: center;
+  color: black;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: center;
+  }
+  .navbar navT{
+    float: left;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content:left;
+    }
+    
+  .navbar navT1{
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    font-size: 17;
+    justify-content: right;
+    }
+  
