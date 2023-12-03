@@ -115,14 +115,18 @@ Thuộc tính transition: 0.5s; được sử dụng để áp dụng hiệu ứ
 /* Content */
 .content{
     width: 100%;
+    top: 50%;
     text-align: center;
     position: absolute;
+    transform: translateY(-50%);
 }
 .content h1{
     font-size: 50px;
     margin-top: 10%;
     margin-left: 10%;
     color: bisque;
+  
+    
     
     
 }
