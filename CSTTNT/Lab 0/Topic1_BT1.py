@@ -5,7 +5,7 @@ Given two integer numbers, return their product only if the product is equal to 
 '''
 a = int(input("Nhap so a: "))
 b = int(input("Nhap so b: "))
-kq = a * b1
+kq = a * b
 if kq <= 1000:
     print(" a * b <= 1000 -> Ket qua cua phep nhan a * b la ", a * b)
 else:
