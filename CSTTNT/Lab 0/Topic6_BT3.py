@@ -11,15 +11,15 @@ for i in range(n):
     sLuong = dict()
 print("List da nhap: ", listInput)
  
-# sLuong = dict()
-# for item in listInput:
-#     if item in sLuong:
-#         sLuong[item] += 1
-#     else:
-#         sLuong[item] = 1
-# print("So lan xuat hien cua ",i," la: ",sLuong)
+#Dem so lan xuat hien cua tung phan tu trong list
+for item in listInput:
+    if item in sLuong:
+        sLuong[item] += 1
+    else:
+        sLuong[item] = 1
+print("So lan xuat hien cua ",i," la: ",sLuong)
 
-#Dem tung phan tu trong list
-for i in listInput:
-    sLuong = listInput.count(i)
-    print("So lan xuat hien cua ",i," la: ",sLuong)
+# #Dem tung phan tu trong list
+# for i in listInput:
+#     sLuong = listInput.count(i)
+#     print("So lan xuat hien cua ",i," la: ",sLuong)
