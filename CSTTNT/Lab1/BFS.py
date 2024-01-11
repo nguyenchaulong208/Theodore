@@ -32,6 +32,7 @@ graph2 = {
     "r":["t"],
     "t":["g"],
     "g":[],
+}
 graph3 = {
     "A":["B","C"],
     "B":["A","D","C"],
@@ -88,7 +89,7 @@ while True:
     
     if select == "1":
         print ("BFS: ",bfs(graph1, "s", "g"))
-    elif select ==2
+    elif select ==2:
         print ("BFS: ",bfs(graph1, "s", "g"))
     elif select == "3":
         print ("BFS: ",bfs(graph3, "A", "G"))
