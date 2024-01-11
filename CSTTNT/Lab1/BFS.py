@@ -1,4 +1,4 @@
-#Do thi 1
+
 
 #BFS
 graph1 = {
@@ -42,12 +42,15 @@ graph3 = {
     "F":["D","G"],
     "G":["D","E","F"],
 }
+
+
+
     #Test
 # graph2 = {
 #     "S":["A","D"],
 #     "A":["B","G"],
 #     "B":["C","E"],
-#     "C":["G"],
+#     "C":["G"],1
 #     "D":["B","E"],
 #     "E":["G"],
 # }
@@ -82,6 +85,7 @@ print("1. Do thi 1")
 print("2. Do thi 2")
 print("3. Do thi 3")
 print("Nhap Q de thoat")
+print("=====================================")
 
 #Menu chon do thi
 while True:
@@ -89,7 +93,7 @@ while True:
     
     if select == "1":
         print ("BFS: ",bfs(graph1, "s", "g"))
-    elif select ==2:
+    elif select =="2":
         print ("BFS: ",bfs(graph1, "s", "g"))
     elif select == "3":
         print ("BFS: ",bfs(graph3, "A", "G"))
