@@ -98,6 +98,7 @@ while True:
     elif select == "3":
         print ("BFS: ",bfs(graph3, "A", "G"))
     elif select == "q" or select == "Q":
+        print("Chuong trinh ket thuc")
         break
     else:
         print("Nhap sai, vui long nhap lai")

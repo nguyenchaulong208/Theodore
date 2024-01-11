@@ -81,6 +81,7 @@ while True:
     elif select == "3":
         print ("DFS: ",dfs(graph3, "A", "G"))
     elif select == "Q" or select == "q":
+        print("Chuong trinh ket thuc")
         break
     else:
         print("Lua chon khong hop le")
