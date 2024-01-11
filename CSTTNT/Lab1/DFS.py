@@ -55,11 +55,11 @@ def dfs(graph,start,end):
     stack.append([start])
     while stack:
         path = stack.pop()#Lấy giá trị trên đỉnh stack
-        node = path[-1]
-        if node == end:
+        vertex = path[-1]
+        if vertex == end:
             return path
-        visited.append(node)
-        for neighbour in graph.get(node,[]):
+        visited.append(vertex)
+        for neighbour in graph.get(vertex,[]):
             if neighbour not in visited:
                 new_path = list(path)
                 new_path.append(neighbour)
@@ -75,11 +75,11 @@ print("Nhap Q de thoat")
 while True:
     select = input("Nhap lua chon: ")
     if select == "1":
-        print (dfs(graph1, "s", "g"))
+        print ("DFS: ",dfs(graph1, "s", "g"))
     elif select == "2":
-        print (dfs(graph2, "s", "g"))
+        print ("DFS: ",dfs(graph2, "s", "g"))
     elif select == "3":
-        print (dfs(graph3, "A", "G"))
+        print ("DFS: ",dfs(graph3, "A", "G"))
     elif select == "Q" or select == "q":
         break
     else:
