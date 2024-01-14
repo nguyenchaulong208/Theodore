@@ -1,7 +1,0 @@
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb

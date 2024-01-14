@@ -1,8 +1,0 @@
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\129_Simple Inheritance Example\129_Simple Inheritance Example\bin\Debug\129_Simple Inheritance Example.exe.config
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\129_Simple Inheritance Example\129_Simple Inheritance Example\bin\Debug\129_Simple Inheritance Example.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\129_Simple Inheritance Example\129_Simple Inheritance Example\bin\Debug\129_Simple Inheritance Example.pdb
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\129_Simple Inheritance Example\129_Simple Inheritance Example\obj\Debug\129_Simple Inheritance Example.csproj.AssemblyReference.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\129_Simple Inheritance Example\129_Simple Inheritance Example\obj\Debug\129_Simple Inheritance Example.csproj.SuggestedBindingRedirects.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\129_Simple Inheritance Example\129_Simple Inheritance Example\obj\Debug\129_Simple Inheritance Example.csproj.CoreCompileInputs.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\129_Simple Inheritance Example\129_Simple Inheritance Example\obj\Debug\129_Simple Inheritance Example.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\129_Simple Inheritance Example\129_Simple Inheritance Example\obj\Debug\129_Simple Inheritance Example.pdb

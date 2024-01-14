@@ -1,8 +1,0 @@
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\EXERCISE\Ex1\Ex1\bin\Debug\Ex1.exe.config
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\EXERCISE\Ex1\Ex1\bin\Debug\Ex1.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\EXERCISE\Ex1\Ex1\bin\Debug\Ex1.pdb
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\EXERCISE\Ex1\Ex1\obj\Debug\Ex1.csproj.AssemblyReference.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\EXERCISE\Ex1\Ex1\obj\Debug\Ex1.csproj.SuggestedBindingRedirects.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\EXERCISE\Ex1\Ex1\obj\Debug\Ex1.csproj.CoreCompileInputs.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\EXERCISE\Ex1\Ex1\obj\Debug\Ex1.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\EXERCISE\Ex1\Ex1\obj\Debug\Ex1.pdb

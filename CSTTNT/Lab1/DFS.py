@@ -64,7 +64,7 @@ def dfs(graph,start,end):
                 new_path = list(path)
                 new_path.append(neighbour)
                 stack.append(new_path)
-                stack.reverse()
+                # stack.reverse()
     return "Khong tim thay duong di"
 #Menu
 print("Chon do thi can tim duong di:")

@@ -1,8 +1,0 @@
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\130_Virtual and Override Keywords\130_Virtual and Override Keywords\bin\Debug\130_Virtual and Override Keywords.exe.config
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\130_Virtual and Override Keywords\130_Virtual and Override Keywords\bin\Debug\130_Virtual and Override Keywords.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\130_Virtual and Override Keywords\130_Virtual and Override Keywords\bin\Debug\130_Virtual and Override Keywords.pdb
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\130_Virtual and Override Keywords\130_Virtual and Override Keywords\obj\Debug\130_Virtual and Override Keywords.csproj.AssemblyReference.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\130_Virtual and Override Keywords\130_Virtual and Override Keywords\obj\Debug\130_Virtual and Override Keywords.csproj.SuggestedBindingRedirects.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\130_Virtual and Override Keywords\130_Virtual and Override Keywords\obj\Debug\130_Virtual and Override Keywords.csproj.CoreCompileInputs.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\130_Virtual and Override Keywords\130_Virtual and Override Keywords\obj\Debug\130_Virtual and Override Keywords.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\C#\UDEMY\130_Virtual and Override Keywords\130_Virtual and Override Keywords\obj\Debug\130_Virtual and Override Keywords.pdb

@@ -1,7 +1,0 @@
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\2.DataTypes\2.DataTypes\bin\Debug\2.DataTypes.exe.config
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\2.DataTypes\2.DataTypes\bin\Debug\2.DataTypes.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\2.DataTypes\2.DataTypes\bin\Debug\2.DataTypes.pdb
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\2.DataTypes\2.DataTypes\obj\Debug\2.DataTypes.csproj.AssemblyReference.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\2.DataTypes\2.DataTypes\obj\Debug\2.DataTypes.csproj.CoreCompileInputs.cache
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\2.DataTypes\2.DataTypes\obj\Debug\2.DataTypes.exe
-G:\GITHUB UPLOAD\my-codes\PRACTICE\HACKERRANK\2.DataTypes\2.DataTypes\obj\Debug\2.DataTypes.pdb

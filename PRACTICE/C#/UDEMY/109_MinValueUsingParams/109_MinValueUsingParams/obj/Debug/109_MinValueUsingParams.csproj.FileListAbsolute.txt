@@ -1,8 +1,0 @@
-G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\109_MinValueUsingParams\109_MinValueUsingParams\bin\Debug\109_MinValueUsingParams.exe.config
-G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\109_MinValueUsingParams\109_MinValueUsingParams\bin\Debug\109_MinValueUsingParams.exe
-G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\109_MinValueUsingParams\109_MinValueUsingParams\bin\Debug\109_MinValueUsingParams.pdb
-G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\109_MinValueUsingParams\109_MinValueUsingParams\obj\Debug\109_MinValueUsingParams.csproj.AssemblyReference.cache
-G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\109_MinValueUsingParams\109_MinValueUsingParams\obj\Debug\109_MinValueUsingParams.csproj.SuggestedBindingRedirects.cache
-G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\109_MinValueUsingParams\109_MinValueUsingParams\obj\Debug\109_MinValueUsingParams.csproj.CoreCompileInputs.cache
-G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\109_MinValueUsingParams\109_MinValueUsingParams\obj\Debug\109_MinValueUsingParams.exe
-G:\GITHUB UPLOAD\my-codes\TRAINNING\C#\109_MinValueUsingParams\109_MinValueUsingParams\obj\Debug\109_MinValueUsingParams.pdb

@@ -1,8 +1,0 @@
-E:\OneDrive\LEARNING\MY CODES\TRAINNING\C#\LambdaExpression\LambdaExpression\obj\Debug\LambdaExpression.csproj.AssemblyReference.cache
-E:\OneDrive\LEARNING\MY CODES\TRAINNING\C#\LambdaExpression\LambdaExpression\obj\Debug\LambdaExpression.csproj.SuggestedBindingRedirects.cache
-E:\OneDrive\LEARNING\MY CODES\TRAINNING\C#\LambdaExpression\LambdaExpression\obj\Debug\LambdaExpression.csproj.CoreCompileInputs.cache
-E:\OneDrive\LEARNING\MY CODES\TRAINNING\C#\LambdaExpression\LambdaExpression\bin\Debug\LambdaExpression.exe.config
-E:\OneDrive\LEARNING\MY CODES\TRAINNING\C#\LambdaExpression\LambdaExpression\bin\Debug\LambdaExpression.exe
-E:\OneDrive\LEARNING\MY CODES\TRAINNING\C#\LambdaExpression\LambdaExpression\bin\Debug\LambdaExpression.pdb
-E:\OneDrive\LEARNING\MY CODES\TRAINNING\C#\LambdaExpression\LambdaExpression\obj\Debug\LambdaExpression.exe
-E:\OneDrive\LEARNING\MY CODES\TRAINNING\C#\LambdaExpression\LambdaExpression\obj\Debug\LambdaExpression.pdb
