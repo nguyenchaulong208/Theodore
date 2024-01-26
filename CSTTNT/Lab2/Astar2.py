@@ -1,4 +1,5 @@
 from collections import deque
+
 #2.1
 class Graph:
     # example of adjacency list (or rather map)
@@ -42,8 +43,8 @@ class Graph:
             # find a node with the lowest value of f() - evaluation function
             for v in open_list:
                 if n == None or g[v] + self.h[v] < g[n] + self.h[n]:
-                    n = v;
-
+                    n = v
+                
             if n == None:
                 print('Path does not exist!')
                 return None
@@ -131,6 +132,29 @@ h1={
 # graph1 = Graph(adjacency_list,heuristic1)
 # graph1.a_star_algorithm('A', 'D')
 #-----------------------------------------------
+#Do thi 2:
+doThi02 = {
+    'S': [('A', 2), ('B', 1), ('F', 3)],
+    'A': [('C', 2), ('D', 3)],
+    'B': [('D', 2), ('E', 4)],
+    'C': [('G', 4)],
+    'D': [('G', 4)],
+    'E': [],
+    'F': [('G', 6)],
+    'G': []
+}
+h02 = {
+    'S': 6,
+    'A': 4,
+    'B': 5,
+    'C': 2,
+    'D': 2,
+    'E': 8,
+    'F': 4,
+    'G': 0
+}
+
+# #-----------------------------------------------
 #Do thi 3:
 
 doThi3 ={
@@ -214,6 +238,12 @@ print("Thuật toán A*")
 print("Do thi 1 với h1:")
 graph1 = Graph(doThi1,h1)
 graph1.a_star_algorithm('S', 'G')
+# #chay thuat toan voi do thi 2:
+print("Do thi 02 với h2:")
+graph2 = Graph(doThi02,h02)
+graph2.a_star_algorithm('S', 'G')
+
+
 
 #chay thuat toan voi do thi 3:
 print("Do thi 3 với h1:")
@@ -284,6 +314,10 @@ graph1 = UCS(doThi1)
 print("UCS:")
 print(graph1.ucs('S', 'G'))
 #-----------------------------------------------
+print("do thi 2:")
+graph2 = UCS(doThi02)
+print("UCS:")
+print(graph2.ucs('S', 'G'))
 
 #-----------------------------------------------
 print("do thi 3:")
@@ -350,6 +384,12 @@ graph1 = Greedy(doThi1,h1)
 print("Greedy:")
 print(graph1.greedy('S', 'G'))
 #-----------------------------------------------
+#Chay thuat toan Greedy voi do thi 2:
+print("do thi 2:")
+graph2 = Greedy(doThi02,h02)
+print("Greedy:")
+print(graph2.greedy('S', 'G'))
+#-----------------------------------------------
 #Chay thuat toan Greedy voi do thi 3:
 print("do thi 3:")
 graph2 = Greedy(doThi3,h2)
@@ -380,3 +420,6 @@ print(graph3.greedy('Arad', 'Bucharest'))
 # graph2 = UCS(test)
 # print(graph2.ucs('S', 'G'))
 #-----------------------------------------------
+#Dùng  pandas tao bang chua ket qua cuar cac thuat toan:
+
+
