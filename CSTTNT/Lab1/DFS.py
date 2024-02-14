@@ -67,21 +67,34 @@ def dfs(graph,start,end):
                 # stack.reverse()
     return "Khong tim thay duong di"
 #Menu
-print("Chon do thi can tim duong di:")
-print("1. Do thi 1")
-print("2. Do thi 2")
-print("3. Do thi 3")
-print("Nhap Q de thoat")
-while True:
-    select = input("Nhap lua chon: ")
-    if select == "1":
-        print ("DFS: ",dfs(graph1, "s", "g"))
-    elif select == "2":
-        print ("DFS: ",dfs(graph2, "s", "g"))
-    elif select == "3":
-        print ("DFS: ",dfs(graph3, "A", "G"))
-    elif select == "Q" or select == "q":
-        print("Chuong trinh ket thuc")
-        break
-    else:
-        print("Lua chon khong hop le")
+# print("Chon do thi can tim duong di:")
+# print("1. Do thi 1")
+# print("2. Do thi 2")
+# print("3. Do thi 3")
+# print("Nhap Q de thoat")
+# while True:
+#     select = input("Nhap lua chon: ")
+#     if select == "1":
+#         print ("DFS: ",dfs(graph1, "s", "g"))
+#     elif select == "2":
+#         print ("DFS: ",dfs(graph2, "s", "g"))
+#     elif select == "3":
+#         print ("DFS: ",dfs(graph3, "A", "G"))
+#     elif select == "Q" or select == "q":
+#         print("Chuong trinh ket thuc")
+#         break
+#     else:
+#         print("Lua chon khong hop le")
+
+graphtest = {
+    "0":["1","2"],
+    "1":["0","2","3","4","7"],
+    "2":["0","1"],
+    "3":["1","4","6","7"],
+    "4":["1","3","5"],
+    "5":["4"],
+    "6":["3"],
+    "7":["1","3"],
+
+}
+print ("DFS: ",dfs(graphtest, "0", "5"))

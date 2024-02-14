@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Form - Excercise 6</title>
+    </head>
+    <body>
+        <h1>My feedback form</h1><br>
+        <ul>
+            
+                <form method="get">
+                    <li>
+                        <label>Name:</label>
+                        <input type="text" name="txtName" value=""><br>
+                    </li>
+                    <li>
+                        <label>Email:</label>
+                        <input type="email" name="txtMail" value="">
+                    </li>
+                    <li>
+                        <label>Password:</label>
+                        <input type="password" name="txtPassword" value="">
+                    </li>
+                    <br>
+                    
+
+                
+                
+        </ul>
+        <ul>
+            <li>Please check all the emotions that apply to you:</li>
+                <ul>
+                    
+                        <li>
+                            Angry
+                            <input type="checkbox"/>
+                        </li>
+                        <li>
+                            Sad
+                            <input type="checkbox"/>
+                        </li>
+                        <li>
+                            Happy
+                            <input type="checkbox"/>
+                        </li>
+                        <li>
+                            Ambivalent
+                            <input type="checkbox"/>
+                        </li>
+                   
+                </ul>
+                
+            </li>
+            <li>
+                How satisfied were you with our service
+                <ul>
+                    
+                        <li>
+                            Very satisfied
+                            <input name="rd1" type="radio"/>
+                        </li>
+                        <li>
+                            Satisfied
+                            <input name="rd1" type="radio">
+                        </li>
+                        <li>
+                            Didn't care
+                            <input name="rd1" type="radio"/>
+                        </li>
+                        <li>
+                            Dissatified
+                            <input name="rd1" type="radio"/>
+                        </li>
+                        <li>
+                            Very Dissatified
+                            <input name="rd1" type="radio"/>
+                        </li>
+                            <!-- Lưu ý:
+                                -    radio button phải cùng 1 name thì mới chọn được 1 cái, nếu radio button khác name thì chọn được nhiều cái
+                                -   Nên thêm thuộc tính value để trên server biết được người dùng chọn option nào
+                                -   Thuộc tính required là thuộc tính ràng buộc người dùng bắt buộc phải thao tác với control đó thì mới submit được
+                            -->
+                                                           
+                                
+                            
+                    
+                </ul>
+            </li>
+            <li> 
+                Further comments:
+                <textarea name="txtArea" cols="30" rows="5"></textarea>
+            </li>
+            <li>
+                Bio Photo:
+                <!-- <input type="url" name="txtUrl" value=""/> -->
+                <!-- <input type="button" name="btnChose" value="Choose..."> -->
+                <!--2 doạn code trên sẽ được thay thế bằng đoạn code sau-->
+                <input type="file" name="chooseFile" value="Choose"/>
+            </li>
+            <li>
+                Local visited
+                <select>
+                    <option value="0">Select Options</option>
+                    <option value="1">VIỆT NAM</option>
+                    <option value="2"> HÀN QUỐC</option>
+                </select>
+                <li>
+                   
+                        <input type="submit" name="btnSubmit" value="Submit">
+                    
+                </li>
+                
+            </li>
+        </form>
+            
+        </ul>
+    </body>
+</html>

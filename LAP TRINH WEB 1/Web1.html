@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <!-- 
+                        LEARNING WEB APPLICATION DEVELOPMENT
+    -   HTML: quy định cấu trúc nội dung.
+    -   CSS: Quy định hình thức hiển thị của website.
+    -   JavaScript: Hỗ trợ xử lý tương tác của người dùng trên trình duyệt.
+    -   
+ -->
+ <!-- 
+                                                    HTM5
+    
+    Các từ khóa phổ biến trong 1 trang weeb: 
+    -   <!DOCTYPE HTML>: từ khóa này khai báo version html mà trang web đang sử dụng với trình duyệt
+    -   <html>: thẻ gốc của trang web. bên trong thẻ html có 2 thẻ là <head> và <body>
+    -   <body>: Thẻ thể hiện nội dung của trang web.
+    -   <head>: Mô tả các thiết đặt cho trang web.
+    -   <title>: Tiêu đề của trang web. Tiêu đề này được hiển thị trên tab của trình duyệt
+    -   icon hiển thị trên tab trình duyệt của trang web được tạo thành bởi thẻ <link>.
+        +   <link rel="shortcut icon" href="đường dẫn của hình ảnh" type = "image/x-icon"
+    
+    -   <meta charset = "utf-8"> quy định bảng mã hiển thị nội dung của website. ngoài ra còn 1 số thuộc tính khác của <meta> như keyword dùng trong các search engine:
+        
+        +   <meta name="keywords" content="từ khoá 1, từ khoá 2, từ khoá 3">
+    -    <link>: dùng để liên kết với tài nguyên bên ngoài với trang web như tệp CSS, font chữ của google, các biểu tượng, tệp âm thanh,...
+--------------------------------------
+Trong vs code có 1 phím tắt là là Emmet Abbreviation hỗ trợ gõ lệnh nhanh hơn là gõ ! và nhấn phím tab
+    
+-->
+ 
+    <head>
+        <!-- ví dụ HTML5-->
+        <title>Learning Web Apptlication Development</title>
+        <link rel="shortcut icon" href="/images/ExIcon.png" type="image/x-icon"/>
+        <meta charset="utf-8">
+        <!--Ví dụ về <link> liên kết với font Roboto của Google-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        
+    </head>
+    <body>
+        <!-- Demo 1 trang web html đơn giản -->
+
+        <!-- Dùng thẻ <h1> để tạo các tiêu đề. có 6 thẻ dùng để tạo đề là <h1>, <h2>, <h3>, <h4>, <h5>, <h6>.
+            6 thẻ này sẽ hiển thị 6 kiểu tiêu đề khác nhau. ví dụ
+        -->
+        <h1> DEMO h1</h1>
+        <h2> DEMO h2</h2> 
+        <h3> DEMO h3</h3> 
+        <h4> DEMO h4</h4> 
+        <h5> DEMO h5</h5> 
+        <h6> DEMO h6</h6>
+        <hr>
+        
+        <!-- Trong HTML khi hiển thị nội dung của trang web lên trình duyệt thì html sẽ chuẩn hóa theo quy tắc của html  -->
+        <!-- ví dụ html sẽ chuẩn hóa 1 đoạn văn bản thừa ký tự khoảng trắng -->
+        đây là                      ví dụ về chuẩn hóa dữ liệu hiển
+        
+        
+        
+        thị của đoạn văn bản thừa ký tự               khoảng trắng
+        <p>đây là                      ví dụ 2 về chuẩn hóa dữ liệu hiển
+        
+        
+        
+            thị của đoan văn bản thừa ký tự               khoảng trắng có dùng thẻ p</p>
+        <hr>
+
+        <!--
+            Phân biệt Block và Inline Element
+            -   <div> là block element, thẻ này sẽ tự động xuống hàng khi viết trong 1 hàng
+            -   <span> là thẻ inline element thẻ này sẽ không tự xuống dòng khi viết trong 1 hàng
+            
+        -->
+        <!--Ví dụ về Block và inline-->
+        Can you see different between <div>Block element</div> and <span>Inline element?</span>
+        <hr>
+        <!--
+            -   Thẻ <p> là 1 thẻ định nghĩa 1 đoạn văn bản
+            -   Thẻ <hr> tạo ra một đường kẻ ngang (horizontal rule), thường được sử dụng để phân tách các phần khác nhau của nội dung trên trang web.
+            -   Phân biệt thẻ <p> và thẻ <div>
+                +   <p>: đánh dấu đoạn văn bản
+                    *   Thẻ <p> sẽ có khoảng cách giữa 2 thẻ lớn hơn khoảng cách giữa 2 thẻ <div>
+                    *   Không lồng thẻ <p> trong thẻ <p>
+                +   <div>: phân chia nội dung trong 1 trang web, không nhất thiết là văn bản mà có thể là 1 block, 1 vùng nội dung,...
+                    thẻ này thường dùng trong layout
+                    *   Có thể lồng nhiều thẻ <div> với nhau
+            -   <img> trong HTML được sử dụng để chèn hình ảnh vào trang web.
+                +   <img src="duong-dan-den-hinh-anh.jpg" alt="Mô tả hình ảnh">
+                <table> được sử dụng để tạo bảng trên trang web. Bảng này có thể chứa hàng (<tr>), cột (<td> - dữ liệu) và tiêu đề cột (<th> - header)
+                +   Trong table để xác định số ô trong 1 dòng là đếm số ô có thể nhìn thầy được
+                +   Trong ví dụ table bên dưới thì số ô nhiều nhất trong 1 dòng có thể thấy được là 3 (nhìn vào Dữ liệu dòng 3)
+                +   rowspan và colspan biểu thị cho độ rộng của dòng và cột. trong ví dụ dưới thì rowspan="2" là dòng rộng = 2 dòng trong bảng,
+                    colspan="2" là cột rộng bằng 2 cột trong bảng
+        -->
+        
+        <!--Ví dụ về thẻ table-->
+
+        <table border="1">
+            
+              <tr>
+                <th>Tiêu đề cột 0</th>
+                <td colspan="2">Cột 1</td>
+              </tr>
+           
+
+              <tr>
+                <th rowspan="2">Dữ liệu dòng 1 cột 0</th>
+                <td>Dữ liệu dòng 1 cột 1</td>
+                <td>Dữ liệu dòng 1 cột 2</td>
+              </tr>
+
+              <tr>
+                <td>dữ liệu dòng 2 cột 1</td>
+                <td>dữ liệu dòng 2 cột 2</td>
+              </tr>
+
+              <tr>
+                <td>dữ liệu dòng 3 cột 0</td>
+                <td>dữ liệu dòng 3 cột 1</td>
+                <td>Dữ liệu dòng 3 cột 2</td>
+              </tr>
+          </table>
+          <hr>
+          <!--
+            Hiển thị ký tự đặc biệt trong html ra trang web
+            dùng html entites để hiện thị các ký tự đặc biệt
+        -->
+          <!-- Ví dụ ký tự copy -->
+          &copy;
+          <!-- Ví dụ ký tự và -->
+          &amp;
+          <!-- ví dụ hiển thị <Demo> -->
+            &lt;Demo&gt;
+            <hr>
+            <div>
+            <!-- 
+                            HYPERLINK
+            -   Để tạo một liên kết (hyperlink) trong HTML, bạn sử dụng thẻ <a> (anchor).
+                +   <a href="https://www.example.com" target= `....`>Đây là một liên kết đến Example.com</a>
+                    *   <a>: Thẻ mở của liên kết.
+                    *   href: Thuộc tính chứa đường dẫn (URL) mà liên kết sẽ trỏ đến.
+                    *   "https://www.example.com": Đường dẫn (URL) của trang mà liên kết sẽ mở khi được nhấp vào.
+                    *   target: xác định cách liên kết sẽ mở. target có các thuộc tính sau:
+                        **  _blank: Mở liên kết trong một cửa sổ hoặc tab mới.
+                        **  _self: Mở liên kết trong cùng một cửa sổ hoặc tab.
+                        **  _parent: Mở liên kết trong cửa sổ cha (nếu có cửa sổ con).
+                        **  _top: Mở liên kết trong cửa sổ hiện tại, loại bỏ bất kỳ khung nào đang tồn tại.
+                        **  framename: Mở liên kết trong frame cụ thể
+                    *   "Đây là một liên kết đến Example.com": Nội dung của liên kết, nó sẽ hiển thị trên trang và là phần mà người dùng có thể nhấp vào.
+            -   Trong hyperlink có các dạng sau:
+                +   External Link:  trỏ tới một trang web hoặc tài nguyên ở nơi khác ngoài trang web hiện tại trong cùng 1 hệ thống website
+                    *   <a href="lession2.html" > Go to Lession 2</a>
+                +   Internal Link: mở đề mục bên trong 1 trang web
+                    *   <a href="#c4">Go to chapter 4</a>
+                    *   <h2 id="c4">Chapter 4</h2> => dòng này định nghĩa id của chapter 4 để dùng hyperlink phía trên
+                +   Email Link: tạo một liên kết email trong HTML
+                    *   <a href="mailto:example@example.com">Gửi email cho chúng tôi</a>
+
+             
+             
+            -->
+             <div>Ví dụ về hyperlink</div>
+             <a href="http://w3schools.com" target="_blank">Ví dụ hyperlink với target _blank</a><br>
+             <a href="http://w3schools.com" target="_self">Ví dụ hyperlink với target _self</a><br>
+             <a href="http://w3schools.com" target="_parent">Ví dụ hyperlink với target _parent</a><br>
+             <a href="http://w3schools.com" target="_top">Ví dụ hyperlink với target _top</a><br>
+             <a href="http://w3schools.com" target="framename">Ví dụ hyperlink với target framename</a><br>
+             <a href="mailto:nguyenchaulong208@gmail.com">Gửi email cho chúng tôi</a>
+
+            </div>
+
+            <div>
+                <!--
+                                            ABSOLUTE VS. RELATIVE URL
+
+                    -   Absolute URL: Đường dẫn tuyệt đối
+                        +   http://www.MySite.com/blog/images/blogImageOne.png
+                    -   RELATIVE URL: Đường dẫn tương đối
+                        +   ../images/logo.png
+                        + syntax của Relative URL
+                            *   / Đi đến thư mục gốc của website
+                            *   ./ Đi đến file hiện tại của danh mục
+                            *   ../ Lùi một bước so với thư mục tập tin hiện tại
+                -->
+                <p>Absolute và Relative URL</p>
+                <img src="https://onedrive.live.com/embed?resid=aa6d521390f02587%2144110&authkey=%21AIpXQeGde0MfDSM&width=1273&height=955" width="1273" height="955" alt="Absolute và Relative URL"/>
+            </div>
+    </body>
+</html>
