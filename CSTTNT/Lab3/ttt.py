@@ -149,14 +149,15 @@ def render(state, c_choice, h_choice):
 
 #Ham may danh
 def ai_turn(c_choice, h_choice):
-    depth = len(empty_cells(board))
+    depth = len(empty_cells(board)) #Tính độ sâu tối đa mà minmax có thể tìm kiếm được
     if depth == 0 or game_over(board):
         return
-
-    clean()
+#Xoá màn hình và in ra lượt đi của máy tính
+    clean()  
     print('Computer turn [%s]' % c_choice)
     render(board, c_choice, h_choice)
-
+#Nếu bàn cờ còn 16 ô trống thì máy tính sẽ chọn ngẫu nhiên 1 ô trống để đi,
+#Nếu bàn cờ đã có các ô được lựa chọn thì máy tính sẽ dùng thuật toán minimax để tìm đường đi tối ưu nhất
     if depth == 16:
         x = choice([0, 1, 2, 3])
         y = choice([0, 1, 2, 3])
@@ -164,16 +165,17 @@ def ai_turn(c_choice, h_choice):
         move = minimax(board, depth, COMP, -infinity, infinity)
         x, y = move[0], move[1]
 
-    set_move(x, y, COMP)
+    set_move(x, y, COMP) #Đánh dầu nước đi của máy trên bàn cờ
     time.sleep(1)
 
-#Ham nguoi choi danh
+#Hàm đánh dấu người chơi đánh
 def human_turn(c_choice, h_choice):
     depth = len(empty_cells(board))
     if depth == 0 or game_over(board):
         return
 
     move = -1
+    #Khởi tạo 1 dic để người chơi nhập vào vị trí của nước đi
     moves = {
         1: [0, 0], 2: [0, 1], 3: [0, 2], 4: [0, 3],
         5: [1, 0], 6: [1, 1], 7: [1, 2], 8: [1, 3],
@@ -184,7 +186,7 @@ def human_turn(c_choice, h_choice):
     clean()
     print(f'Human turn [%s]' % h_choice)
     render(board, c_choice, h_choice)
-
+#Kiếm tra các ô trên bàn cờ 4x4 đã được đánh dấu chưa
     while move < 1 or move > 16:
         try:
             move = int(input('Use numpad (1..16): '))
