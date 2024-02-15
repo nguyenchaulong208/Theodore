@@ -6,7 +6,7 @@ import os
 
 HUMAN = -1
 COMP = +1
-#Cai dat ban co 4x4
+#Cài đặt bàn cờ có kích thước là 4x4
 board = [
     [0, 0, 0, 0],
     [0, 0, 0, 0],
@@ -14,7 +14,7 @@ board = [
     [0, 0, 0, 0]
 ]
 
-#Ham danh gia
+#Ham danh gia: Nếu máy thắng thì score trả về +1, người chơi thắng thì score trả về 2, hoà thì score = 0
 def evaluate(state):
     if wins(state, COMP):
         score = +1
@@ -25,10 +25,10 @@ def evaluate(state):
 
     return score
 
-#Ham kiem tra thang thua
+#Hàm định nghĩa các ô [XXX] hoặc [OOO] liên tiếp là chiến thắng
 def wins(state, player):
     win_state = [
-        # Rows
+        # Các dòng [XXX] hoặc [OOO] liên tiếp
         [state[0][0], state[0][1], state[0][2]],
         [state[1][0], state[1][1], state[1][2]],
         [state[2][0], state[2][1], state[2][2]],
@@ -38,7 +38,7 @@ def wins(state, player):
         [state[2][1], state[2][2], state[2][3]],
         [state[3][1], state[3][2], state[3][3]],
 
-        # Columns
+        # Các cột [XXX] hoặc [OOO] liên tiếp
         [state[0][0], state[1][0], state[2][0]],
         [state[0][1], state[1][1], state[2][1]],
         [state[0][2], state[1][2], state[2][2]],
@@ -48,7 +48,7 @@ def wins(state, player):
         [state[1][2], state[2][2], state[3][2]],
         [state[1][3], state[2][3], state[3][3]],
 
-        # Diagonals
+        # Các đường chéo [XXX] hoặc [OOO] liên tiếp
         [state[0][0], state[1][1], state[2][2]],
         [state[1][1], state[2][2], state[3][3]],
         [state[0][3], state[1][2], state[2][1]],
@@ -57,32 +57,35 @@ def wins(state, player):
 
 
     ]
+
+    #Nếu player/AI đánh liên tiếp 3 ô [XXX] hoặc [OOO] sẻ chiến thắng (return True)
     if [player, player, player] in win_state:
         return True
     else:
         return False
 
-#Ham kiem tra het nuoc di
+#Ham trả về kết quả là AI thắng hay người chơi thắng
 def game_over(state):
     return wins(state, HUMAN) or wins(state, COMP)
 
-#Ham tra ve cac o trong
+#Hàm kiểm tra các ô trống trên bàn cờ. Tạo 1 mảng cell để lưu trữ các vị trí ô trống,
+#nếu ô nào chưa được người chơi hoặc AI đánh thì sẽ thêm vào cell để sử dụng cho các nước đi sau
 def empty_cells(state):
     cells = []
     for x, row in enumerate(state):
         for y, cell in enumerate(row):
             if cell == 0:
-                cells.append([x, y])
+                cells.append([x, y]) #Lưu dưới dạng toạ độ
     return cells
 
-#Ham kiem tra nuoc di hop le
+#Hàm kiểm tra các nước đi có sẵn từ empty_cells, sử dụng mảng cell của hàm empty_cells để kiểm tra
 def valid_move(x, y):
     if [x, y] in empty_cells(board):
         return True
     else:
         return False
 
-#Ham danh co
+#Hàm đánh dấu các nước đi của người chơi/AI
 def set_move(x, y, player):
     if valid_move(x, y):
         board[x][y] = player
@@ -92,44 +95,44 @@ def set_move(x, y, player):
 
 #Ham Minimax
 def minimax(state, depth, player, alpha, beta):
-   
+   #Khởi tạo giá trị của COMP và HUMAN, nếu player là máy thì best sẽ khởi tạo là [-1, -1, -infinity], nếu là máy thì sẽ khởi tạo là [-1, -1, +infinity]
     if player == COMP:
-        best = [-1, -1, -infinity]
+        best = [-1, -1, -infinity] 
     else:
         best = [-1, -1, +infinity]
-
+#Nếu độ sâu (depth) là 0 hoặc kết thúc trò chơi thì hàm evaluate sẽ đánh giá trạng thái hiện tại và điểm số tương ứng với trạng thái đó.
     if depth == 0 or game_over(state):
         score = evaluate(state)
         return [-1, -1, score]
-
+#Duyệt các ô trống trên bàng cờ và đánh dấu các nước đi của player
     for cell in empty_cells(state):
         x, y = cell[0], cell[1]
         state[x][y] = player
-    #Su dung alpha-beta cat tia de giam thoi gian chay
+   #Gọi đệ quy để tìm kiếm các nước đi tối ưu
         score = minimax(state, depth - 1, -player, alpha, beta)
-        state[x][y] = 0
-        score[0], score[1] = x, y
+        state[x][y] = 0 #Đặt lại vị trí đó là ô trống
+        score[0], score[1] = x, y #Cập nhật tọa độ của nước đi tốt nhất hiện tại
 
-        if player == COMP:
+        if player == COMP: #Kiểm tra lượt đi là người hay máy, nếu là máy thì cập nhật nước đi tối ưu nhất
             if score[2] > best[2]:
                 best = score
-    #Cap nhat alpha
+    #Cập nhật giá trị alpha, là giá trị tốt nhất mà máy có thể đảm bảo
             alpha = max(alpha, best[2])
         else:
             if score[2] < best[2]:
                 best = score
-    #Cap nhat beta
+    #Cập nhật giá trị beta, là giá trị tốt nhất người chơi) có thể đảm bảo.
             beta = min(beta, best[2])
-    #Thuc hien cat tia neu alpha >= beta thi thoat
+    #Nếu alpha >= beta thi thoát khỏi vòng lặp, điều này tương với việc cắt tỉa cây để giảm bớt các giá trị không còn phù hợp để tối ưu hoá code
         if beta <= alpha:
             break
     return best
+    
 
-
+#Xoá màn hình Console
 def clean():
     os.system('cls' if os.name == 'nt' else 'clear')
-
-#Ham in ban co
+#In bàn cờ ra màn hình console
 def render(state, c_choice, h_choice):
     chars = {
         -1: h_choice,
@@ -207,7 +210,7 @@ def main():
     h_choice = ''  
     c_choice = ''  
     first = ''  
-
+#thao tác chơi cờ và các thông báo
     while h_choice != 'O' and h_choice != 'X':
         try:
             h_choice = input('Choose X or O\nChosen: ').upper()
