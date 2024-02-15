@@ -1,20 +1,14 @@
 from math import inf as infinity
 from random import choice
-import platform
-import time
 import os
+import time
 
 HUMAN = -1
 COMP = +1
-#Cai dat ban co 4x4
 board = [
-    [0, 0, 0, 0],
-    [0, 0, 0, 0],
-    [0, 0, 0, 0],
-    [0, 0, 0, 0]
+    [0] * 10 for _ in range(10)
 ]
 
-#Ham danh gia
 def evaluate(state):
     if wins(state, COMP):
         score = +1
@@ -25,48 +19,26 @@ def evaluate(state):
 
     return score
 
-#Ham kiem tra thang thua
 def wins(state, player):
-    win_state = [
-        # Rows
-        [state[0][0], state[0][1], state[0][2]],
-        [state[1][0], state[1][1], state[1][2]],
-        [state[2][0], state[2][1], state[2][2]],
-        [state[3][0], state[3][1], state[3][2]],
-        [state[0][1], state[0][2], state[0][3]],
-        [state[1][1], state[1][2], state[1][3]],
-        [state[2][1], state[2][2], state[2][3]],
-        [state[3][1], state[3][2], state[3][3]],
+    for i in range(10):
+        for j in range(6):
+            if all(state[i][j + k] == player for k in range(5)):
+                return True
+    for i in range(10):
+        for j in range(6):
+            if all(state[j + k][i] == player for k in range(5)):
+                return True
+    for i in range(6):
+        for j in range(6):
+            if all(state[i + k][j + k] == player for k in range(5)):
+                return True
+            if all(state[i + k][9 - j - k] == player for k in range(5)):
+                return True
+    return False
 
-        # Columns
-        [state[0][0], state[1][0], state[2][0]],
-        [state[0][1], state[1][1], state[2][1]],
-        [state[0][2], state[1][2], state[2][2]],
-        [state[0][3], state[1][3], state[2][3]],
-        [state[1][0], state[2][0], state[3][0]],
-        [state[1][1], state[2][1], state[3][1]],
-        [state[1][2], state[2][2], state[3][2]],
-        [state[1][3], state[2][3], state[3][3]],
-
-        # Diagonals
-        [state[0][0], state[1][1], state[2][2]],
-        [state[1][1], state[2][2], state[3][3]],
-        [state[0][3], state[1][2], state[2][1]],
-        [state[1][2], state[2][1], state[3][0]],
-        [state[1][0], state[2][1], state[3][2]],
-
-
-    ]
-    if [player, player, player] in win_state:
-        return True
-    else:
-        return False
-
-#Ham kiem tra het nuoc di
 def game_over(state):
     return wins(state, HUMAN) or wins(state, COMP)
 
-#Ham tra ve cac o trong
 def empty_cells(state):
     cells = []
     for x, row in enumerate(state):
@@ -75,68 +47,62 @@ def empty_cells(state):
                 cells.append([x, y])
     return cells
 
-#Ham kiem tra nuoc di hop le
 def valid_move(x, y):
-    if [x, y] in empty_cells(board):
-        return True
-    else:
-        return False
+    return [x, y] in empty_cells(board)
 
-#Ham danh co
 def set_move(x, y, player):
     if valid_move(x, y):
         board[x][y] = player
         return True
-    else:
-        return False
+    return False
 
-#Ham Minimax
-def minimax(state, depth, player, alpha, beta):
-   
-    if player == COMP:
-        best = [-1, -1, -infinity]
-    else:
-        best = [-1, -1, +infinity]
+def iterative_deepening_ab(state, player, max_depth):
+    best_move = [-1, -1, -infinity]
+    for depth in range(1, max_depth + 1):
+        move = alpha_beta(state, player, depth, -infinity, infinity)
+        best_move = max(best_move, move, key=lambda x: x[2])
+    return best_move
 
+def alpha_beta(state, player, depth, alpha, beta):
     if depth == 0 or game_over(state):
-        score = evaluate(state)
-        return [-1, -1, score]
+        return [-1, -1, evaluate(state)]
 
-    for cell in empty_cells(state):
-        x, y = cell[0], cell[1]
-        state[x][y] = player
-    #Su dung alpha-beta cat tia de giam thoi gian chay
-        score = minimax(state, depth - 1, -player, alpha, beta)
-        state[x][y] = 0
-        score[0], score[1] = x, y
-
-        if player == COMP:
-            if score[2] > best[2]:
-                best = score
-    #Cap nhat alpha
-            alpha = max(alpha, best[2])
-        else:
-            if score[2] < best[2]:
-                best = score
-    #Cap nhat beta
-            beta = min(beta, best[2])
-    #Thuc hien cat tia neu alpha >= beta thi thoat
-        if beta <= alpha:
-            break
-    return best
-
+    moves = empty_cells(state)
+    if player == COMP:
+        v = -infinity
+        for move in moves:
+            x, y = move[0], move[1]
+            state[x][y] = COMP
+            score = alpha_beta(state, HUMAN, depth - 1, alpha, beta)
+            state[x][y] = 0
+            v = max(v, score[2])
+            alpha = max(alpha, v)
+            if beta <= alpha:
+                break
+        return [x, y, v]
+    else:
+        v = infinity
+        for move in moves:
+            x, y = move[0], move[1]
+            state[x][y] = HUMAN
+            score = alpha_beta(state, COMP, depth - 1, alpha, beta)
+            state[x][y] = 0
+            v = min(v, score[2])
+            beta = min(beta, v)
+            if beta <= alpha:
+                break
+        return [x, y, v]
 
 def clean():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-#Ham in ban co
 def render(state, c_choice, h_choice):
     chars = {
         -1: h_choice,
         +1: c_choice,
         0: ' '
     }
-    str_line = '-----------------'
+    str_line = '-' * 64
     print('\n' + str_line)
     for row in state:
         for cell in row:
@@ -144,7 +110,6 @@ def render(state, c_choice, h_choice):
             print(f'| {symbol} ', end='')
         print('|\n' + str_line)
 
-#Ham may danh
 def ai_turn(c_choice, h_choice):
     depth = len(empty_cells(board))
     if depth == 0 or game_over(board):
@@ -154,17 +119,19 @@ def ai_turn(c_choice, h_choice):
     print('Computer turn [%s]' % c_choice)
     render(board, c_choice, h_choice)
 
-    if depth == 16:
-        x = choice([0, 1, 2, 3])
-        y = choice([0, 1, 2, 3])
+    if depth == 100:
+        x = choice(range(10))
+        y = choice(range(10))
     else:
-        move = minimax(board, depth, COMP, -infinity, infinity)
+        start_time = time.time()
+        move = iterative_deepening_ab(board, COMP, depth)
+        end_time = time.time()
+        print(f"Time taken for AI's turn: {end_time - start_time} seconds")
         x, y = move[0], move[1]
 
     set_move(x, y, COMP)
     time.sleep(1)
 
-#Ham nguoi choi danh
 def human_turn(c_choice, h_choice):
     depth = len(empty_cells(board))
     if depth == 0 or game_over(board):
@@ -172,20 +139,17 @@ def human_turn(c_choice, h_choice):
 
     move = -1
     moves = {
-        1: [0, 0], 2: [0, 1], 3: [0, 2], 4: [0, 3],
-        5: [1, 0], 6: [1, 1], 7: [1, 2], 8: [1, 3],
-        9: [2, 0], 10: [2, 1], 11: [2, 2], 12: [2, 3],
-        13: [3, 0], 14: [3, 1], 15: [3, 2], 16: [3, 3]
+        i + 1: [i // 10, i % 10] for i in range(100)
     }
 
     clean()
     print(f'Human turn [%s]' % h_choice)
     render(board, c_choice, h_choice)
 
-    while move < 1 or move > 16:
+    while move < 1 or move > 100:
         try:
-            move = int(input('Use numpad (1..16): '))
-            if move < 1 or move > 16:
+            move = int(input('Use numpad (1..100): '))
+            if move < 1 or move > 100:
                 print('Bad move')
             else:
                 coord = moves[move]
@@ -200,9 +164,7 @@ def human_turn(c_choice, h_choice):
         except (KeyError, ValueError):
             print('Bad choice')
 
-#Ham chinh              
 def main():
-    
     clean()
     h_choice = ''  
     c_choice = ''  
@@ -239,7 +201,6 @@ def main():
 
         human_turn(c_choice, h_choice)
         ai_turn(c_choice, h_choice)
-    
 
     if wins(board, HUMAN):
         clean()
@@ -258,8 +219,5 @@ def main():
 
     exit()
 
-
 if __name__ == '__main__':
     main()
-    
-    
