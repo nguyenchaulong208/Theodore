@@ -14,6 +14,11 @@ board = [
     [0, 0, 0, 0]
 ]
 
+avaliable_board = []
+#Nhập 1 số ô X và O  vào avaliable_board và in ra bàn cờ
+
+
+
 #Ham danh gia: Nếu máy thắng thì score trả về +1, người chơi thắng thì score trả về 2, hoà thì score = 0
 def evaluate(state):
     if wins(state, COMP):
@@ -53,9 +58,14 @@ def wins(state, player):
         [state[1][1], state[2][2], state[3][3]],
         [state[0][3], state[1][2], state[2][1]],
         [state[1][2], state[2][1], state[3][0]],
+        [state[0][3], state[1][2], state[2][1]],
+        [state[1][2], state[2][1], state[3][0]],
+        [state[0][1], state[1][2], state[2][3]],
         [state[1][0], state[2][1], state[3][2]],
-
-
+        [state[0][0], state[1][1], state[2][2]],
+        [state[1][1], state[2][2], state[3][3]],
+        [state[0][2], state[1][1], state[2][0]],
+        [state[1][3], state[2][2], state[3][1]],
     ]
 
     #Nếu player/AI đánh liên tiếp 3 ô [XXX] hoặc [OOO] sẻ chiến thắng (return True)
@@ -212,6 +222,45 @@ def main():
     h_choice = ''  
     c_choice = ''  
     first = ''  
+while h_choice != 'O' and h_choice != 'X':
+    try:
+        h_choice = input('Choose X or O\nChosen: ').upper()
+    except (EOFError, KeyboardInterrupt):
+        print('Bye')
+        exit()
+    except (KeyError, ValueError):
+        print('Bad choice')
+
+if h_choice == 'X':
+    c_choice = 'O'
+else:
+    c_choice = 'X'
+
+clean()
+
+while True:
+    try:
+        moves = input('Enter the previous moves (e.g., "1,2,X 2,3,O"): ').split()
+        for move in moves:
+            x, y, value = move.split(',')
+            set_move(int(x)-1, int(y)-1, value)
+        break
+    except (ValueError, IndexError):
+        print("Invalid input format. Please enter moves in the format 'x,y,player' separated by space.")
+
+# Add either -1 or 1 to any square on the board
+while True:
+    try:
+        position = input('Enter the position to place either -1 or 1 (e.g., "1,2,-1"): ').split(',')
+        x, y, value = map(int, position)
+        if valid_move(x-1, y-1):
+            set_move(x-1, y-1, value)
+            break
+        else:
+            print("Invalid move. Try again.")
+    except ValueError:
+        print("Invalid input format. Please enter row, column, and value separated by comma.")
+
 #thao tác chơi cờ và các thông báo
     while h_choice != 'O' and h_choice != 'X':
         try:
