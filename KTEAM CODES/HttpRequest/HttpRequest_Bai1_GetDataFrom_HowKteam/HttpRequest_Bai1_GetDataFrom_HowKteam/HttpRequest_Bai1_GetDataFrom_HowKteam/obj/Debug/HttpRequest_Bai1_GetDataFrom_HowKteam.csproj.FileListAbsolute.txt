@@ -1,0 +1,12 @@
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.exe.config
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.exe
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.pdb
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\xNet.dll
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.csprojAssemblyReference.cache
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.Form1.resources
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.Properties.Resources.resources
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.csproj.GenerateResource.cache
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.csproj.CoreCompileInputs.cache
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.csproj.CopyComplete
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.exe
+E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\Project\HttpRequest_Bai1_GetDataFrom_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.pdb
