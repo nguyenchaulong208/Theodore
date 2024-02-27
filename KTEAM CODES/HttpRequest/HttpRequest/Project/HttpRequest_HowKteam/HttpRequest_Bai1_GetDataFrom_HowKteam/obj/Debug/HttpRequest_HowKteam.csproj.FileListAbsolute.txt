@@ -11,3 +11,14 @@ E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\2. Get data howktea
 E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\2. Get data howkteam kèm cookie với HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_HowKteam.csproj.CopyComplete
 E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\2. Get data howkteam kèm cookie với HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.exe
 E:\Work server\Team\Video hướng dẫn\Auto C#\HttpRequest\2. Get data howkteam kèm cookie với HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.pdb
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.exe.config
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.exe
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.pdb
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_HowKteam.csproj.AssemblyReference.cache
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.Form1.resources
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.Properties.Resources.resources
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_HowKteam.csproj.GenerateResource.cache
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_HowKteam.csproj.CoreCompileInputs.cache
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_HowKteam.csproj.CopyComplete
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.exe
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.pdb
