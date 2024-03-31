@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -6,10 +7,13 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using xNet;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace HttpRequest_Bai1_GetDataFrom_HowKteam
 {
@@ -78,5 +82,45 @@ namespace HttpRequest_Bai1_GetDataFrom_HowKteam
             var html = GetData("https://www.howkteam.com/", cookie);
             TestData(html);
         }
+
+        private async void button3_Click(object sender, EventArgs e)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                // Tạo đối tượng chứa dữ liệu
+                var data = new
+                {
+                    ckey ="65e0d0fbf9783f6c5719b448"
+                };
+
+                // Chuyển đối tượng sang chuỗi JSON
+                string jsonData = JsonConvert.SerializeObject(data);
+
+                // Gửi dữ liệu POST đến API
+                string url = "https://hoadondientu.gdt.gov.vn:30000/security-taxpayer/authenticate";
+                System.Net.Http.StringContent content = new System.Net.Http.StringContent(jsonData, Encoding.UTF8, "application/json");
+
+                try
+                {
+                    HttpResponseMessage response = await client.PostAsync(url, content);
+                    response.EnsureSuccessStatusCode(); // Đảm bảo kết quả thành công
+
+                    string result = await response.Content.ReadAsStringAsync();
+                    // Xử lý kết quả (result)
+                }
+                catch (HttpRequestException ex)
+                {
+                    // Xử lý lỗi HTTP
+                    MessageBox.Show($"Lỗi HTTP: {ex.Message}");
+                }
+                catch (Exception ex)
+                {
+                    // Xử lý các loại lỗi khác
+                    MessageBox.Show($"Lỗi: {ex.Message}");
+                }
+            }
+        }
+
+
     }
 }

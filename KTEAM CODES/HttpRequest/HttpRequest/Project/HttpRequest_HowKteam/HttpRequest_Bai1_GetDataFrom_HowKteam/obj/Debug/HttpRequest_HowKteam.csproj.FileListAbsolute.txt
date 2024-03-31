@@ -22,3 +22,5 @@ G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpReques
 G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_HowKteam.csproj.CopyComplete
 G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.exe
 G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\obj\Debug\HttpRequest_Bai1_GetDataFrom_HowKteam.pdb
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\Newtonsoft.Json.dll
+G:\GITHUB UPLOAD\my-codes\KTEAM CODES\HttpRequest\HttpRequest\Project\HttpRequest_HowKteam\HttpRequest_Bai1_GetDataFrom_HowKteam\bin\Debug\Newtonsoft.Json.xml
