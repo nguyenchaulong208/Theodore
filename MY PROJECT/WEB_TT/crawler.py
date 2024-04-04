@@ -1,13 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-# Open file
-url = "index.html"
-with open(url) as openLinks:
-    soup = BeautifulSoup(openLinks,'html.parser')
+import pycountry
+# # Open file
+# url = "index.html"
+# with open(url) as openLinks:
+#     soup = BeautifulSoup(openLinks,'html.parser')
 
-# print(soup)
-#open link, get all source html
+# # print(soup)
+# #open link, get all source html
 
 open_link = 'http://satisfiability.org/SAT24/'
 soup_link = requests.get(open_link)
@@ -20,7 +21,7 @@ get_content = BeautifulSoup(soup_link.content,'html.parser')
 # print(get_tag)
 data_links = []
 date_link = ''
-get_specific = soup.find_all('a') 
+get_specific = get_content.find_all('a') 
 if get_specific:
     for get_link in get_specific:
       data_links.append(get_link.get('href'))  
@@ -70,5 +71,18 @@ deadline = find_start[0]+ '-' + find_deadline[0]+' '+find_month[0] +' '+ find_de
 print(deadline)
     
 #Get City, Country
-  
-    
+countries = [country.name for country in pycountry.countries]
+location = get_content.find('div',class_='banner-content')
+for item in location:
+   text_item = item.get_text().strip()
+   for country in countries:
+      if country in text_item:
+         get_locationContent = text_item.strip()
+         get_location = re.findall('\D[A-Za-z]+\S',get_locationContent)
+         print(get_location[1]+get_location[2])
+#Get conference
+if get_specific:
+    for get_link in get_specific:
+      if 'SAT' in get_link.text:
+        get_reference = get_link.get_text().replace(get_link.get_text(),'SAT')
+        print(get_reference)
