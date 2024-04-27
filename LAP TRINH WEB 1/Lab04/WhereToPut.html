@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function headFunc(){
+                document.getElementById("demo").innerHTML="Paragraph changed from head";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>JavaScript in Body</h1>
+        <p id="demo">A Paragraph.</p>
+        <button type="button" onclick="bodyFunc()">Body</button>
+        <button type="button" onclick="headFunc()">Head</button>
+        <button type="button" onclick="externalFunc()">External file</button>
+        <script>
+            function bodyFunc(){
+                document.getElementById("demo").innerHTML="Paragraph changed from body"
+            }
+        </script>
+        <script src="myScript.js"></script>
+    </body>
+</html>
