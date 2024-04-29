@@ -34,16 +34,17 @@ function quantity(){
 
 function checkPhone(){
     var limit = document.getElementById("phoneNumber").value;
-    if(limit !=""  ){
+    var phone_number = /^(0)\d{9}$/;
+    if(limit !=""){
     
      
-        if(limit.length > 10 ||limit.length < 1){
+        if(limit.match(phone_number)){
             
-            window.alert("Số điện thoại di động phải có 10 số")
+            window.alert("Cập nhật thành công")
         
 
         } else {
-            window.alert("Gửi thông tin thành công")
+            window.alert("Số điện thoại không hợp lệ")
         }
     } else {
         window.alert("Vui lòng nhập đầy đủ thông tin")
