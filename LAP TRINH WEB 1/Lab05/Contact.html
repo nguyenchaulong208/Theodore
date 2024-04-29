@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <title>Contact</title>
 </head>
-<body>
+<body><form method="get">
     <input type="text" placeholder="Name" required
-    oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Please enter your name')"
+    oninput="this.setCustomValidity('')" oninvalid="this.setCustomValidity('Please enter your name!')"
     ><br>
     <input type="email" placeholder="Email" required 
-    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
     ><br>
     <input type="text" placeholder="Subject"><br>
     <textarea placeholder="Message"></textarea><br>
     <button>Send</button>
+</form>
+    
 </body>
 </html>
