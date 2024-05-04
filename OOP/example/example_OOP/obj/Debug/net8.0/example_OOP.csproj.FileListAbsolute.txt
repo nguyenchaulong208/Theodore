@@ -1,0 +1,15 @@
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\bin\Debug\net8.0\example_OOP.exe
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\bin\Debug\net8.0\example_OOP.deps.json
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\bin\Debug\net8.0\example_OOP.runtimeconfig.json
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\bin\Debug\net8.0\example_OOP.dll
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\bin\Debug\net8.0\example_OOP.pdb
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\example_OOP.GeneratedMSBuildEditorConfig.editorconfig
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\example_OOP.AssemblyInfoInputs.cache
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\example_OOP.AssemblyInfo.cs
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\example_OOP.csproj.CoreCompileInputs.cache
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\example_OOP.sourcelink.json
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\example_OOP.dll
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\refint\example_OOP.dll
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\example_OOP.pdb
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\example_OOP.genruntimeconfig.cache
+g:\GITHUB UPLOAD\my-codes\OOP\example\example_OOP\obj\Debug\net8.0\ref\example_OOP.dll
