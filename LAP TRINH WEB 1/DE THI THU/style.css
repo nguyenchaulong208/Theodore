@@ -1,0 +1,33 @@
+#background {
+    background-image: url("images/le-bg.png");
+    height: 600px;
+   background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+   
+
+}
+
+#padding{
+    
+    padding-left: 10rem;
+    margin: 0;
+}
+#textCenter{
+    text-align: center;
+}
+#buttonSubmit{
+    background-color: #e38773;
+    border: none;
+}
+#buttonSubmit2{
+    background-color: #252525;
+    border: none;
+}
+
+#formBoder{
+   border: 0.5px solid orangered;
+  padding: 1rem 4rem 1rem 2rem;
+  display: flex;
+    
+}

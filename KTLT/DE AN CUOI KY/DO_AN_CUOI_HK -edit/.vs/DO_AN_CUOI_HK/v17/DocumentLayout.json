@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|d:\\github code\\theodore\\ktlt\\de an cuoi ky\\do_an_cuoi_hk -edit\\do_an_cuoi_hk\\pages\\xoadulieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|solutionrelative:do_an_cuoi_hk\\pages\\xoadulieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|d:\\github code\\theodore\\ktlt\\de an cuoi ky\\do_an_cuoi_hk -edit\\do_an_cuoi_hk\\pages\\suadulieu.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|solutionrelative:do_an_cuoi_hk\\pages\\suadulieu.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|d:\\github code\\theodore\\ktlt\\de an cuoi ky\\do_an_cuoi_hk -edit\\do_an_cuoi_hk\\dal\\luutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|solutionrelative:do_an_cuoi_hk\\dal\\luutru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|d:\\github code\\theodore\\ktlt\\de an cuoi ky\\do_an_cuoi_hk -edit\\do_an_cuoi_hk\\bussinesslayer\\xuly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|solutionrelative:do_an_cuoi_hk\\bussinesslayer\\xuly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|d:\\github code\\theodore\\ktlt\\de an cuoi ky\\do_an_cuoi_hk -edit\\do_an_cuoi_hk\\pages\\suahangxuat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|solutionrelative:do_an_cuoi_hk\\pages\\suahangxuat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|d:\\github code\\theodore\\ktlt\\de an cuoi ky\\do_an_cuoi_hk -edit\\do_an_cuoi_hk\\pages\\danhsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|solutionrelative:do_an_cuoi_hk\\pages\\danhsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|d:\\github code\\theodore\\ktlt\\de an cuoi ky\\do_an_cuoi_hk -edit\\do_an_cuoi_hk\\pages\\danhsachbanra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|solutionrelative:do_an_cuoi_hk\\pages\\danhsachbanra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|d:\\github code\\theodore\\ktlt\\de an cuoi ky\\do_an_cuoi_hk -edit\\do_an_cuoi_hk\\pages\\suadulieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68938E1B-3A1B-4D4C-BF96-263E72934534}|DO_AN_CUOI_HK\\DO_AN_CUOI_HK.csproj|solutionrelative:do_an_cuoi_hk\\pages\\suadulieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 363,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XoaDuLieu.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\XoaDuLieu.cshtml",
+              "RelativeDocumentMoniker": "DO_AN_CUOI_HK\\Pages\\XoaDuLieu.cshtml",
+              "ToolTip": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\XoaDuLieu.cshtml",
+              "RelativeToolTip": "DO_AN_CUOI_HK\\Pages\\XoaDuLieu.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:58:27.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LuuTru.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\DAL\\LuuTru.cs",
+              "RelativeDocumentMoniker": "DO_AN_CUOI_HK\\DAL\\LuuTru.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\DAL\\LuuTru.cs",
+              "RelativeToolTip": "DO_AN_CUOI_HK\\DAL\\LuuTru.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAiwG8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:38:59.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DanhSach.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\DanhSach.cshtml",
+              "RelativeDocumentMoniker": "DO_AN_CUOI_HK\\Pages\\DanhSach.cshtml",
+              "ToolTip": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\DanhSach.cshtml",
+              "RelativeToolTip": "DO_AN_CUOI_HK\\Pages\\DanhSach.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAIwEIAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T12:26:40.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DanhSachBanra.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\DanhSachBanra.cshtml",
+              "RelativeDocumentMoniker": "DO_AN_CUOI_HK\\Pages\\DanhSachBanra.cshtml",
+              "ToolTip": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\DanhSachBanra.cshtml",
+              "RelativeToolTip": "DO_AN_CUOI_HK\\Pages\\DanhSachBanra.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAswBoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T12:26:34.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XuLy.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\BussinessLayer\\XuLy.cs",
+              "RelativeDocumentMoniker": "DO_AN_CUOI_HK\\BussinessLayer\\XuLy.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\BussinessLayer\\XuLy.cs",
+              "RelativeToolTip": "DO_AN_CUOI_HK\\BussinessLayer\\XuLy.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAcwFYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:56:21.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SuaHangXuat.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\SuaHangXuat.cshtml.cs",
+              "RelativeDocumentMoniker": "DO_AN_CUOI_HK\\Pages\\SuaHangXuat.cshtml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\SuaHangXuat.cshtml.cs",
+              "RelativeToolTip": "DO_AN_CUOI_HK\\Pages\\SuaHangXuat.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:21:04.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuaDulieu.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\SuaDulieu.cshtml.cs",
+              "RelativeDocumentMoniker": "DO_AN_CUOI_HK\\Pages\\SuaDulieu.cshtml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\SuaDulieu.cshtml.cs",
+              "RelativeToolTip": "DO_AN_CUOI_HK\\Pages\\SuaDulieu.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:20:55.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SuaDulieu.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\SuaDulieu.cshtml",
+              "RelativeDocumentMoniker": "DO_AN_CUOI_HK\\Pages\\SuaDulieu.cshtml",
+              "ToolTip": "D:\\Github Code\\Theodore\\KTLT\\DE AN CUOI KY\\DO_AN_CUOI_HK -edit\\DO_AN_CUOI_HK\\Pages\\SuaDulieu.cshtml",
+              "RelativeToolTip": "DO_AN_CUOI_HK\\Pages\\SuaDulieu.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwEMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T09:23:15.952Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
