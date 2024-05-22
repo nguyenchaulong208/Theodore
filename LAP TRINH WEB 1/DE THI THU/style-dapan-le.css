@@ -6,16 +6,16 @@
  
  /* Header */
  header{
-    background: url(images/chan-bg.png);
+    background: url(images/le-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 600px;
  }
-/* lùi thẻ h3 của header về bên trái 1 chút */
-/* header h3{
-   left: 0;
-} */
+header h3{
+   padding-bottom: 6rem;
+}
+
 
  .btn-primary{
     background-color: var(--primary-color) !important;
@@ -39,7 +39,7 @@
  #cau3 img{
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 680px;
     height: 420px;
 
@@ -47,7 +47,7 @@
  #cau3 form{
     position: absolute;
     top: 1rem;
-    left: 0;
+    right: 0;
     width: 50%;
     border-color: var(--primary-color) !important;
     padding: 1rem;
