@@ -1,0 +1,24 @@
+ /* Root */
+ :root{
+    --primary-color: #e38773;
+    --secondary-color: #252525;
+ }
+ 
+ /* Header */
+ header{
+    background: url(images/chan-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+ }
+
+ .btn-primary{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+ }
+
+ .btn-secondary{
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+ }
