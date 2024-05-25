@@ -1,0 +1,15 @@
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\bin\Debug\net7.0\OOP_Example.exe
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\bin\Debug\net7.0\OOP_Example.deps.json
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\bin\Debug\net7.0\OOP_Example.runtimeconfig.json
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\bin\Debug\net7.0\OOP_Example.dll
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\bin\Debug\net7.0\OOP_Example.pdb
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\OOP_Example.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\OOP_Example.AssemblyInfoInputs.cache
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\OOP_Example.AssemblyInfo.cs
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\OOP_Example.csproj.CoreCompileInputs.cache
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\OOP_Example.sourcelink.json
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\OOP_Example.dll
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\refint\OOP_Example.dll
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\OOP_Example.pdb
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\OOP_Example.genruntimeconfig.cache
+D:\Github Code\Theodore\OOP\OOP_Example\OOP_Example\obj\Debug\net7.0\ref\OOP_Example.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "23Tgbj+YVLquUWOS6PAgJS39hn/pKv0t5o8+GAbIhCwmbzdvbZotbHvUNd0s5jSE9irdpMSmuzd5TqVcjDv/og==",
+  "success": true,
+  "projectFilePath": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\OOP_Example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
