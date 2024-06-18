@@ -4,16 +4,16 @@
 // console.log('Hello, world!'); //Hiển thị thông báo trên console
 // console.log('Hello, world!'); //Hiển thị thông báo trên console
 // window.alert('Hello, world!'); //Hiển thị thông báo trên trình duyệt
- //Comment trong javascript dùng // hoặc /* */ 
+//Comment trong javascript dùng // hoặc /* */ 
 
 //-----------------------------------------------
- //Tạo 1 thẻ <h1> trong và gán giá trị cho nó
- document.getElementById('myH1').textContent = 'This is my h1 tag';
- /*
-    - document : đại diện cho trang web
-    - document.getElementById('myH1') : lấy thẻ có id là myH1
-    - textContent : gán giá trị cho thẻ
- */
+//Tạo 1 thẻ <h1> trong và gán giá trị cho nó
+document.getElementById('myH1').textContent = 'This is my h1 tag';
+/*
+   - document : đại diện cho trang web
+   - document.getElementById('myH1') : lấy thẻ có id là myH1
+   - textContent : gán giá trị cho thẻ
+*/
 //tương tự với thẻ <p>
 document.getElementById('myP').textContent = 'This is my paragraph';
 //-----------------------------------------------
@@ -53,7 +53,7 @@ khai báo biến: VD: var name = 'John';
 // //VD: template string
 // console.log(`Hello, ${name}`);
 // console.log(`Tong cua ${num1} va ${num2} la: ${num1 + num2}`);
-let firstName ='Theodore';
+let firstName = 'Theodore';
 
 console.log(`Your name is ${firstName}, type is ${typeof firstName} and length is ${firstName.length} characters`);
 
@@ -127,14 +127,240 @@ console.log(result);
 //Ví dụ về professional way
 
 let userName;
-document.getElementById('mySubmit').onclick = function(){
+document.getElementById('mySubmit').onclick = function () {
     userName = document.getElementById('myText').value;
     document.getElementById('text').textContent = `Hello, ${userName}`;
 }
-    /*
-    - document.getElementById('mySubmit') : lấy thẻ có id là mySubmit
-    - onclick : sự kiện click vào thẻ
-    - function() : hàm xử lý sự kiện
-    - document.getElementById('myText').value : lấy giá trị của thẻ input có id là myText
-    - document.getElementById('text').textContent : gán giá trị cho thẻ có id là text
+/*
+- document.getElementById('mySubmit') : lấy thẻ có id là mySubmit
+- onclick : sự kiện click vào thẻ
+- function() : hàm xử lý sự kiện
+- document.getElementById('myText').value : lấy giá trị của thẻ input có id là myText
+- document.getElementById('text').textContent : gán giá trị cho thẻ có id là text
+*/
+//-----------------------------------------------
+//5. Type Conversion
+/*
+ - Type conversion : chuyển đổi kiểu dữ liệu
+ - String() : chuyển đổi sang kiểu chuỗi
+ - Number() : chuyển đổi sang kiểu số
+ - Boolean() : chuyển đổi sang kiểu boolean
+ --------------------------------
+ - parseInt() : chuyển đổi sang kiểu số nguyên
+ - parseFloat() : chuyển đổi sang kiểu số thực
+ --------------------------------
+ - toString() : chuyển đổi sang kiểu chuỗi
+ - toFixed() : làm tròn số
+ --------------------------------
+
+ */
+//Ví dụ:
+//    let age1 = prompt("How old are you?");
+age1 = 20;
+console.log('first age: ', age1);
+console.log('type of age1: ', typeof age1);
+age1 = String(age1);
+console.log('type of age1: ', typeof age1);
+
+//-----------------------------------------------
+
+//6. Constants
+/*
+    - Constants : hằng số
+    - const : khai báo hằng số
+    - hằng số không thể thay đổi giá trị
+    --------------------------------
+    - const PI = 3.14;
+    - PI = 3.14159; => error
+    --------------------------------
     */
+//Ví dụ:
+//    const PI = 3.14;
+//    console.log(PI);
+//    PI = 3.14159;
+//     console.log(PI);
+// => error
+// const PI = 3.14;
+// let radius;
+// let circumference;
+
+// radius = window.prompt('Enter radius');
+// radius = Number(radius);
+// circumference = 2 * PI * radius;
+// console.log('Circumference: ', circumference);
+
+//Cach viet theo kieu professional
+
+const PI = 3.14;
+let radius;
+let circumference;
+// PI = 100; //=> error
+document.getElementById('myConstants').onclick = function () {
+    radius = document.getElementById('constants').value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius;
+    document.getElementById('resultContants').textContent = `Circumference: ${circumference}`;
+}
+//textContent : gán giá trị cho thẻ text trong html
+
+//-----------------------------------------------
+//7. Counter Program
+/*
+    - Counter Program : chương trình đếm
+    - sử dụng biến để lưu trữ giá trị đếm
+    - sử dụng toán tử ++ để tăng giá trị đếm
+    --------------------------------
+    */
+//Ví dụ:
+const decreaseBtn = document.getElementById('decreaseBtn');
+const increaseBtn = document.getElementById('increaseBtn');
+const resetBtn = document.getElementById('resetBtn');
+let count = 0;
+increaseBtn.onclick = function () {
+    count++;
+    resultCounter.textContent = count;
+}
+decreaseBtn.onclick = function () {
+    count--;
+    resultCounter.textContent = count;
+}
+resetBtn.onclick = function () {
+    count = 0;
+    resultCounter.textContent = count;
+}
+//-----------------------------------------------
+//8. Math Object
+/*
+Math = built-in object that prides a collection and properties and methods
+- Math Object : đối tượng toán học
+- Math.PI : số PI
+- Math.round() : làm tròn số
+- Math.ceil() : làm tròn lên
+- Math.floor() : làm tròn xuống
+- Math.sqrt() : căn bậc 2
+- Math.abs() : giá trị tuyệt đối
+- Math.pow() : lũy thừa
+- Math.min() : tìm số nhỏ nhất
+- Math.max() : tìm số lớn nhất
+- Math.random() : số ngẫu nhiên
+--------------------------------
+*/
+//Ví dụ:
+// console.log(`Math.PI: ${Math.PI}`);
+// console.log(`Math.E: ${Math.E}`);
+// console.log(`Math.round(4.7): ${Math.round(4.7)}`);
+// console.log(`Math.ceil(4.4): ${Math.ceil(4.4)}`);
+// console.log(`Math.floor(4.7): ${Math.floor(4.7)}`);
+// console.log(`Math.sqrt(16): ${Math.sqrt(16)}`);
+// console.log(`Math.abs(-4): ${Math.abs(-4)}`);
+// console.log(`Math.pow(2, 3): ${Math.pow(2, 3)}`);
+// console.log(`Math.min(0, -3, 5): ${Math.min(0, -3, 5)}`);
+// console.log(`Math.max(0, -3, 5): ${Math.max(0, -3, 5)}`);
+// console.log(`Math.random(): ${Math.random()}`);
+
+var num = 4;
+var num2 = 4.5;
+var num3 = 4.2;
+var num4 = -4;
+document.getElementById('pi').textContent = `Math.PI: ${Math.PI}`;
+document.getElementById('round').textContent = `Math.round of ${num2}: ${Math.round(num2)}`;
+document.getElementById('ceil').textContent = `Math.ceil of ${num3}: ${Math.ceil(num3)}`;
+document.getElementById('floor').textContent = `Math.floor of ${num3}: ${Math.floor(num3)}`;
+document.getElementById('sqrt').textContent = `Math.sqrt of ${num}: ${Math.sqrt(num)}`;
+document.getElementById('abs').textContent = `Math.abs of ${num4}: ${Math.abs(num4)}`;
+document.getElementById('pow').textContent = `Math.pow of ${num}: ${Math.pow(num, 3)}`;
+document.getElementById('min').textContent = `Math.min of 0, -3, 5: ${Math.min(0, -3, 5)}`;
+document.getElementById('max').textContent = `Math.max of 0, -3, 5: ${Math.max(0, -3, 5)}`;
+document.getElementById('random').textContent = `Math.random: ${Math.random()}`;
+//-----------------------------------------------
+//8. Random Number Generator
+/*
+    - Random Number Generator : tạo số ngẫu nhiên
+    - Math.random() : tạo số ngẫu nhiên từ 0 đến 1
+    - Math.floor(Math.random() * 10) : tạo số ngẫu nhiên từ 0 đến 9
+    - Math.floor(Math.random() * 10 + 1) : tạo số ngẫu nhiên từ 1 đến 10
+    --------------------------------
+    */
+//Ví dụ:
+var randomNum = Math.random();
+const min = 50;
+const max = 100;
+document.getElementById('randomNum').textContent = `Random number: ${randomNum}`;
+document.getElementById('randomNum0-6').textContent = `Random number from 0 to 5: ${Math.floor(Math.random() * 6)}`;
+document.getElementById('randomNumMin-max').textContent = `Random number from ${min} to ${max}: ${Math.floor(Math.random() * (max - min)) + min}`;
+//-----------------------------------------------
+//9. If...Else Statement
+/*
+ if a condition is true, execute some code
+ if not, do something else
+*/
+//Ví dụ:
+let ageIf = 10;
+if (ageIf >= 18) {
+    document.getElementById('ifElse').textContent = 'You are an adult';
+}
+else {
+    document.getElementById('ifElse').textContent = 'You are a child';
+}
+
+//-----------------------------------------------
+//10. Checked Properties
+/*
+    - Checked Properties : thuộc tính kiểm tra
+    - checked : kiểm tra xem checkbox hoặc radio button có được chọn hay không
+    --------------------------------
+    */
+//Ví dụ:
+const myCheck = document.getElementById('myCheck'); //Lấy thẻ input có id là myCheck
+const visaBtn = document.getElementById('visaBtn'); //Lấy thẻ button có id là visaBtn
+const masterBtn = document.getElementById('masterBtn'); //Lấy thẻ button có id là masterBtn
+const paypalBtn = document.getElementById('paypalBtn'); //Lấy thẻ có id là paypalBtn
+const submitBtn = document.getElementById('submitBtn'); //Lấy thẻ có id là submitBtn
+const resultCheck = document.getElementById('resultCheck'); //Lấy thẻ có id là resultCheck
+const paymentResult = document.getElementById('paymentResult'); //Lấy thẻ có id là paymentResult
+
+submitBtn.onclick = function () {
+
+    if(myCheck.checked){
+        subResult.textContent = 'Your are subscribed';
+       
+    }
+    else{
+        subResult.textContent = 'Your are not subscribed';
+    }
+    if(visaBtn.checked){
+        paymentResult.textContent = 'You are paying with Visa';
+    }
+    else if(masterBtn.checked){
+        paymentResult.textContent = 'You are paying with Master';
+    }
+    else if(paypalBtn.checked){
+        paymentResult.textContent = 'You are paying with Paypal';
+    }
+    else{
+        paymentResult.textContent = 'You have not chosen any payment method';
+    }
+}
+
+//-----------------------------------------------
+//10. Termary Operator
+/*
+    - Termary Operator : toán tử 3 ngôi
+    - condition ? expr1 : expr2
+    - nếu condition là true thì expr1 được thực thi
+    - nếu condition là false thì expr2 được thực thi
+    --------------------------------
+    */
+//Ví dụ:
+let ageTermary = 20;
+let resultTermary = ageTermary >= 18 ? 'You are an adult' : 'You are a child';//Nếu age >= 18 thì result = 'You are an adult' ngược lại result = 'You are a child'
+document.getElementById('termary').textContent = resultTermary;
+//Cach viet day du
+if (ageTermary >= 18) {
+    document.getElementById('termary2').textContent = 'You are an adult';
+}
+else {
+    document.getElementById('termary2').textContent = 'You are a child';
+}
+
+

@@ -1,62 +1,120 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>My Website</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <title>My Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main>
-            <!-- place main content here -->
-                <!-- Tạo 1 thẻ <h1> trong và gán giá trị cho nó -->
-                    <h1 id="myH1"></h1>
-                <!-- tạo 1 thẻ <p> và gán giá trị cho nó -->
-                    <p id="myP"></p>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <main>
+       <section class="px-5">
+         <!-- place main content here -->
+        <!-- Tạo 1 thẻ <h1> trong và gán giá trị cho nó -->
+            <h1 id="myH1"></h1>
+            <!-- tạo 1 thẻ <p> và gán giá trị cho nó -->
+            <p id="myP"></p>
+            <hr>
+            <!-- ------------------------------------- -->
+            <p>Ví dụ về biến</p>
+            <p id="name"></p>
+            <p id="age"></p>
+            <p id="isStudent"></p>
+            <hr>
+            <!-- ------------------------------------- -->
+            <p>Ví dụ về professional way accept input user</p><br>
+            <h1 id="text"></h1>
+            <label>Username: </label>
+            <input type="text" id="myText" placeholder="Enter your username">
+            <button id="mySubmit">Submit</button>
+            <hr>
+            <!-- ------------------------------------- -->
+            <h1>Ví dụ về Constants</h1>
+            <h2 id="Constants">Enter the radius of a circle:</h2>
+            <label>Radius</label>
+            <input type="text" id="constants">
+            <button id="myConstants">Submit</button>
+            <h3 id="resultContants"></h3>
+            <hr>
+            <!-- ------------------------------------- -->
+            <h1>Ví dụ về Counter Program</h1>
+            <label id="resultCounter">0</label>
+            <div id="btnContainer">
+                <button id="decreaseBtn" class="btn">decrease</button>
+                <button id="resetBtn" class="btn">reset</button>
+                <button id="increaseBtn" class="btn">increase</button>
+            </div>
+            <hr>
+             <!-- ------------------------------------- -->
+            <div id="MathObject">
+                <h1>Math Object</h1>
+                <p id="pi"></p>
+                <p id="round"></p>
+                <p id="ceil"></p>
+                <p id="floor"></p>
+                <p id="sqrt"></p>
+                <p id="abs"></p>
+                <p id="pow"></p>
+                <p id="min"></p>
+                <p id="max"></p>
+                <p id="random"></p>
+    
+            </div>
+            <hr>
+             <!-- ------------------------------------- -->
+              <h1>Random Number Generator</h1>
+              <p id="randomNum"></p>
+              <p id="randomNum0-6"></p>
+              <p id="randomNumMin-max"></p>
+              <hr>
+              <!-- ------------------------------------- -->
+               <h1>IF ELSE STATEMENT</h1>
+               <p id="ifElse"></p>
+                <hr>
+                <!-- ------------------------------------- -->
+                 <h1>Checked Properties</h1>
+                    <input type="checkbox" id="myCheck" name="card">
+                    <label for="myCheck">subscribe</label><br>
+                    <input type="radio" id="visaBtn" name="card">
+                    <label for="visaBtn">Visa</label><br>
+                    <input type="radio" id="masterBtn" name="card">
+                    <label for="masterBtn">Master</label><br>
+                    <input type="radio" id="paypalBtn" name="card">
+                    <label for="paypalBtn">Paypal</label><br>
+                    <button type="submit" id="submitBtn">Submit</button>
+                    <p id="subResult"></p>
+                    <p id="paymentResult"></p>
                     <hr>
-                    <p>Ví dụ về biến</p>
-                    <p id="name"></p>
-                    <p id="age"></p>
-                    <p id="isStudent"></p>
-                    <hr>
-                    <p>Ví dụ về professional way accept input user</p><br>
-                    <h1 id="text"></h1>
-                    <label>Username: </label>
-                    <input type="text" id="myText" placeholder="Enter your username">
-                    <button id="mySubmit">Submit</button>
+                    <!-- ------------------------------------- -->
+                     <h1>Termary Operator</h1>
+                     <p id="termary"></p>
+                     <h5>Cách viết đầy đủ</h5>
+                     <p id="termary2"></p>
+       </section>
+       </section>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
 
-        </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-        <script src="index.js"></script>
-    </body>
 </html>
