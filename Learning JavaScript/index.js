@@ -321,29 +321,29 @@ const paymentResult = document.getElementById('paymentResult'); //Lấy thẻ c�
 
 submitBtn.onclick = function () {
 
-    if(myCheck.checked){
+    if (myCheck.checked) {
         subResult.textContent = 'Your are subscribed';
-       
+
     }
-    else{
+    else {
         subResult.textContent = 'Your are not subscribed';
     }
-    if(visaBtn.checked){
+    if (visaBtn.checked) {
         paymentResult.textContent = 'You are paying with Visa';
     }
-    else if(masterBtn.checked){
+    else if (masterBtn.checked) {
         paymentResult.textContent = 'You are paying with Master';
     }
-    else if(paypalBtn.checked){
+    else if (paypalBtn.checked) {
         paymentResult.textContent = 'You are paying with Paypal';
     }
-    else{
+    else {
         paymentResult.textContent = 'You have not chosen any payment method';
     }
 }
 
 //-----------------------------------------------
-//10. Termary Operator
+//11. Termary Operator
 /*
     - Termary Operator : toán tử 3 ngôi
     - condition ? expr1 : expr2
@@ -362,5 +362,137 @@ if (ageTermary >= 18) {
 else {
     document.getElementById('termary2').textContent = 'You are a child';
 }
+
+//-----------------------------------------------
+//12. Switch Statement
+/*
+    - Switch Statement : câu lệnh switch, tương tự if...else. 
+    - sử dụng khi có nhiều trường hợp cần xử lý
+    - switch(expression){
+        case value1:
+            //code
+            break;
+        case value2:
+            //code
+            break;
+        default:
+            //code
+            break;
+    }
+    --------------------------------
+    */
+//Ví dụ:
+let day = 4;
+
+switch (day) {
+    case 1:
+        document.getElementById('switch').textContent = 'Monday';
+        break;
+    case 2:
+        document.getElementById('switch').textContent = 'Tuesday';
+        break;
+    case 3:
+        document.getElementById('switch').textContent = 'Wednesday';
+        break;
+    case 4:
+        document.getElementById('switch').textContent = 'Thursday';
+        break;
+    case 5:
+        document.getElementById('switch').textContent = 'Friday';
+        break;
+    case 6:
+        document.getElementById('switch').textContent = 'Saturday';
+        break;
+    case 7:
+        document.getElementById('switch').textContent = 'Sunday';
+        break;
+    default:
+        document.getElementById('switch').textContent = 'Invalid day';
+        break;
+}
+//break dung de ket thuc 1 case, nếu không dùng break thì sẽ thực thi tiếp các case phía sau dù đã thỏa mãn điều kiện
+//ví dụ khác:
+let testScore = 92;
+let letterGrade;
+switch (true) {
+    case testScore >= 90:
+        letterGrade = 'A';
+        break;
+    case testScore >= 80:
+        letterGrade = 'B';
+        break;
+    case testScore >= 70:
+        letterGrade = 'C';
+        break;
+    case testScore >= 60:
+        letterGrade = 'D';
+        break;
+    default:
+        letterGrade = 'F';
+        break;
+}
+document.getElementById('switch2').textContent = `Your grade is: ${letterGrade}`;
+
+//-----------------------------------------------
+//13. String Methods
+/*
+    - String Methods : cho phép bạn thao tác và làm việc với văn bản
+    - length : độ dài chuỗi
+    - toUpperCase() : chuyển chuỗi thành chữ in hoa
+    - toLowerCase() : chuyển chuỗi thành chữ in thường
+    - charAt() : lấy ký tự ở vị trí x
+    - indexOf() : tìm vị trí của ký tự đầu tiên
+    - lastIndexOf() : tìm vị trí của ký tự cuối cùng
+    - slice() : cắt chuỗi
+    - substring() : cắt chuỗi
+    - substr() : cắt chuỗi
+    - replace() : thay thế chuỗi
+    - split() : tách chuỗi
+    - trim() : xóa khoảng trắng 2 đầu chuỗi
+    - concat() : nối chuỗi
+    - includes() : kiểm tra chuỗi có chứa chuỗi khác không
+    - startsWith() : kiểm tra chuỗi có bắt đầu bằng chuỗi khác không
+    - endsWith() : kiểm tra chuỗi có kết thúc bằng chuỗi khác không
+    - repeat() : lặp lại chuỗi
+    - match() : tìm chuỗi
+    - search() : tìm chuỗi
+    - localeCompare() : so sánh chuỗi
+    - toString() : chuyển đổi sang chuỗi
+    - valueOf() : trả về giá trị nguyên thủy của chuỗi
+    - replaceAll() : thay thế tất cả chuỗi
+    - padStart() : thêm chuỗi vào đầu chuỗi
+    - padEnd() : thêm chuỗi vào cuối chuỗi
+
+    
+
+    --------------------------------
+    */
+
+//Ví dụ:
+let str = 'BroCode';
+document.getElementById('length').textContent = `Length: ${str.length}`;
+document.getElementById('toUpperCase').textContent = `toUpperCase: ${str.toUpperCase()}`;
+document.getElementById('toLowerCase').textContent = `toLowerCase: ${str.toLowerCase()}`;
+document.getElementById('charAt').textContent = `charAt: ${str.charAt(3)}`;
+document.getElementById('indexOf').textContent = `indexOf: ${str.indexOf('o')}`;
+document.getElementById('lastIndexOf').textContent = `lastIndexOf: ${str.lastIndexOf('o')}`;
+document.getElementById('slice').textContent = `slice: ${str.slice(1, 3)}`;
+document.getElementById('substring').textContent = `substring: ${str.substring(1, 3)}`;
+document.getElementById('substr').textContent = `substr: ${str.substr(1, 3)}`;
+document.getElementById('replace').textContent = `replace: ${str.replace('Bro', 'Sis')}`;
+document.getElementById('split').textContent = `split: ${str.split('o')}`;
+document.getElementById('trim').textContent = `trim: ${str.trim()}`;
+document.getElementById('concat').textContent = `concat: ${str.concat(' is awesome')}`;
+document.getElementById('includes').textContent = `includes: ${str.includes('Bro')}`;
+document.getElementById('startsWith').textContent = `startsWith: ${str.startsWith('Bro')}`;
+document.getElementById('endsWith').textContent = `endsWith: ${str.endsWith('Code')}`;
+document.getElementById('repeat').textContent = `repeat: ${str.repeat(3)}`;
+document.getElementById('match').textContent = `match: ${str.match('o')}`;
+document.getElementById('search').textContent = `search: ${str.search('o')}`;
+document.getElementById('localeCompare').textContent = `localeCompare: ${str.localeCompare('BroCode')}`;
+document.getElementById('valueOf').textContent = `valueOf: ${str.valueOf()}`;
+document.getElementById('replaceAll').textContent = `replaceAll: ${str.replaceAll('o', 'a')}`;
+document.getElementById('padStart').textContent = `padStart: ${str.padStart(10, '0')}`;
+document.getElementById('padEnd').textContent = `padEnd: ${str.padEnd(10, '0')}`;
 
 
