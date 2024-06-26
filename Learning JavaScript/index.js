@@ -492,7 +492,104 @@ document.getElementById('search').textContent = `search: ${str.search('o')}`;
 document.getElementById('localeCompare').textContent = `localeCompare: ${str.localeCompare('BroCode')}`;
 document.getElementById('valueOf').textContent = `valueOf: ${str.valueOf()}`;
 document.getElementById('replaceAll').textContent = `replaceAll: ${str.replaceAll('o', 'a')}`;
-document.getElementById('padStart').textContent = `padStart: ${str.padStart(10, '0')}`;
-document.getElementById('padEnd').textContent = `padEnd: ${str.padEnd(10, '0')}`;
+document.getElementById('padStart').textContent = `padStart: ${str.padStart(10, '0')}`;// Thêm chuỗi 0 vào đầu chuỗi để đủ 10 ký tự
+document.getElementById('padEnd').textContent = `padEnd: ${str.padEnd(10, '0')}`; //Thêm chuỗi 0 vào cuối chuỗi để đủ 10 ký tự
 
+//-----------------------------------------------
+//14. String slicing
+/*
+    - String slicing : Tạo 1 chuỗi con từ chuỗi khác
+    - slice() : cắt chuỗi
+    - substring() : cắt chuỗi
+    - substr() : cắt chuỗi
+    => cú pháp: slice(start, end), substring(start, end), substr(start, length)
+    - start : vị trí bắt đầu cắt
+    - end : vị trí kết thúc cắt
+    - length : độ dài chuỗi cần cắt
+    ----------------
+    - nếu start < 0 thì bắt đầu từ cuối chuỗi
+    - nếu end < 0 thì kết thúc từ cuối chuỗi
+    - có thể sử dụng số âm để cắt chuỗi từ cuối chuỗi
+    - nếu không có end thì sẽ cắt từ vị trí start đến hết chuỗi
+    ----------------
+    - có thể kết hợp với indexOf() để cắt chuỗi
+    -
 
+    --------------------------------
+    */
+//ví dụ:
+const fullNameSlicing = 'Theodore Nguyen';
+let firstNameSlicing = fullNameSlicing.slice(0, 8);
+let lastNameSlicing = fullNameSlicing.slice(9);//Nếu không có end thì sẽ cắt từ vị trí start đến hết chuỗi
+let lastNameSlicing1 = fullNameSlicing.slice(-9);//Cắt từ vị trí cuối chuỗi trở về trước 9 ký tự
+let lastNameSlicing2 = fullNameSlicing.slice(-2);//Cắt từ vị trí cuối chuỗi trở về trước 2 ký tự
+document.getElementById('fullNameSlicing').textContent = `Full name: ${fullNameSlicing}`;
+document.getElementById('firstNameSlicing').textContent = `First name: ${firstNameSlicing}`;
+document.getElementById('lastNameSlicing').textContent = `Last name: ${lastNameSlicing}`;
+//-----------------------------------------------
+//15. Method chaining
+/*
+    - Method chaining : gọi nhiều phương thức liên tiếp nhau
+    - có thể gọi nhiều phương thức liên tiếp nhau
+    - giúp code ngắn gọn và dễ đọc
+    --------------------------------
+    */
+//Ví dụ:
+//let username =window.prompt('Enter your name');
+// document.getElementById('Input').textContent = `Normal: ${username}`;
+// username = username.trim();
+// let letter = username.charAt(0);
+// letter = letter.toUpperCase();
+// let extraChars = username.slice(1);
+// extraChars = extraChars.toLowerCase();
+// let resultNormal = letter + extraChars;
+// document.getElementById('normal').textContent = `Normal: ${resultNormal}`;
+// //Method chaining
+// let resultChaining = username.trim().charAt(0).toUpperCase() + username.slice(1).toLowerCase();
+// document.getElementById('chaining').textContent = `Chaining: ${resultChaining}`;
+
+//-----------------------------------------------
+//16. Logical Operators
+/*
+    - Logical Operators : toán tử logic
+    - AND : &&
+    - OR : ||
+    - NOT : !
+    --------------------------------
+    */
+//Ví dụ:
+const temp = -20;
+if(temp <= 0 || temp > 30){
+    document.getElementById('logical').textContent = 'The weather is bad';
+}
+
+else{
+    document.getElementById('logical').textContent = 'The weather is good';
+}
+//-----------------------------------------------
+//17. strict equality
+/*
+    - strict equality : so sánh bằng chính xác
+    - === : so sánh giá trị và kiểu dữ liệu
+    - !== : so sánh giá trị và kiểu dữ liệu
+    --------------------------------
+    */
+//Ví dụ:
+// let num1 = 10;
+// let num2 = '10';
+// if(num1 === num2){
+//     document.getElementById('strict').textContent = 'Equal';
+// }
+// else{
+//     document.getElementById('strict').textContent = 'Not equal';
+// }
+//-----------------------------------------------
+//18. While Loop
+/*
+    - While Loop : vòng lặp while
+    - sử dụng khi không biết trước số lần lặp
+    - while(condition){
+        //code
+    }
+    --------------------------------
+    */
