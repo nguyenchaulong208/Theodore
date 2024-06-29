@@ -83,8 +83,8 @@ document.getElementById('isStudent').textContent = `Is student: ${student}`;
     
 */
 //Ví dụ:
-let result = 1 + 2 * 3 + 4 ** 2;
-console.log(result);
+// let result = 1 + 2 * 3 + 4 ** 2;
+// console.log(result);
 
 //-----------------------------------------------
 //4. Accepting User Input
@@ -156,11 +156,11 @@ document.getElementById('mySubmit').onclick = function () {
  */
 //Ví dụ:
 //    let age1 = prompt("How old are you?");
-age1 = 20;
-console.log('first age: ', age1);
-console.log('type of age1: ', typeof age1);
-age1 = String(age1);
-console.log('type of age1: ', typeof age1);
+// age1 = 20;
+// console.log('first age: ', age1);
+// console.log('type of age1: ', typeof age1);
+// age1 = String(age1);
+// console.log('type of age1: ', typeof age1);
 
 //-----------------------------------------------
 
@@ -593,3 +593,91 @@ else{
     }
     --------------------------------
     */
+//Ví dụ:
+// let countWhile = 0;
+// while(countWhile < 5){
+//     document.getElementById('while').textContent += `${countWhile} `;
+//     countWhile++;
+// }
+//-----------------------------------------------
+//19. For Loop
+/*
+    - For Loop : vòng lặp for
+    - sử dụng khi biết trước số lần lặp
+    - for(initialization; condition; increment){
+        //code
+    }
+    --------------------------------
+    */
+//Ví dụ:
+// for(let i = 0; i < 5; i++){
+//     document.getElementById('for').textContent += `${i} `;
+// }
+
+//-----------------------------------------------
+//20. Number guessing game
+/*
+    - Number guessing game : trò chơi đoán số
+    - Math.random() : tạo số ngẫu nhiên
+    - Math.floor(Math.random() * 10 + 1) : tạo số ngẫu nhiên từ 1 đến 10
+    --------------------------------
+    */
+//Ví dụ:
+
+//----------------
+//21. Funtions
+/*
+    - Functions có agruments: Hàm có chứa tham số truyền vào
+    - Functions không có arguments: Hàm không chứa tham số truyền vào
+*/
+
+//-----------------------------------------
+//22. Variable Scope
+/*
+    - local scope : phạm vi cục bộ
+    - global scope : phạm vi toàn cục
+    - block scope : phạm vi khối
+    --------------------------------
+    - Biến trong hàm chỉ có thể truy cập trong hàm đó
+    - Biến ngoài hàm có thể truy cập ở mọi nơi
+    
+
+
+*/
+
+//------------------------------------------
+//23. Array
+/*
+    - Array : là 1 cấu trúc giống như biến có thể chứa nhiều hơn 1 giá trị
+    - unshift() : thêm giá trị vào đầu mảng
+    - push() : thêm giá trị vào cuối mảng
+    - shift() : xóa giá trị đầu mảng
+    - pop() : xóa giá trị cuối mảng
+    - splice() : thêm hoặc xóa giá trị ở vị trí xác định
+    Sắp xếp mảng:
+    - sort() : sắp xếp mảng
+    - reverse() : đảo ngược mảng
+    - concat() : nối mảng
+
+*/
+//Ví dụ:
+let fruit = ["apple", "banana", "orange"];
+console.log(fruit);
+fruit.unshift("grape");
+console.log(fruit);
+fruit.push("mango");
+console.log(fruit);
+fruit.shift();
+console.log(fruit);
+fruit.pop();
+console.log(fruit);
+fruit.splice(1, 1, "kiwi");
+console.log(fruit);
+console.log("--------")
+for (let i = 0; i < fruit.length; i++) {
+    console.log(fruit[i]);
+}
+console.log("--------")
+for (let i of fruit) {
+    console.log(i);
+}
