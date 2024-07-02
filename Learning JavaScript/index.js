@@ -681,3 +681,80 @@ console.log("--------")
 for (let i of fruit) {
     console.log(i);
 }
+//-----------------------------------------------
+//24. spread operator
+/*
+    - spread operator : toán tử mở rộng
+    - ... : mở rộng mảng
+    - [...array1, ...array2] : nối 2 mảng
+    --------------------------------
+    */
+//Ví dụ:
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let arr3 = [...arr1, ...arr2];
+console.log(arr3);
+//-----------------------------------------------
+//25. rest parameter
+/*
+    - rest parameter : tham số còn lại
+    - ... : tham số còn lại
+    - function sum(...args){
+        //code
+    }
+    --------------------------------
+    */
+//Ví dụ:
+function sum(...args) {
+    let total = 0;
+    for (let i of args) {
+        total += i;
+    }
+    return total;
+}
+console.log(sum(1, 2, 3, 4, 5));
+//-----------------------------------------------
+//26.
+//27
+//28. forEach
+/*
+    forEach: là phương thức dùng để tương tác với các phần tử của mảng và áp dụng 1 hàm đặc biệt là callback cho từng  phần tử
+    array.forEach(callback)     
+
+    --------------------------------
+    */
+//Ví dụ:
+let numbers = [1, 2, 3, 4, 5];
+console.log("--------")
+numbers.forEach(Number);
+function Number(number) {
+    console.log(number);
+}
+//Viết ngắn gọn:
+numbers.forEach(function (number) {
+    console.log(number);
+});
+//-----------------------------------------------
+//29. map
+/*
+   map: chấp nhận gọi lại và áp dụng 1 hàm cho từng phần tử của mảng và trả về 1 mảng mới
+    array.map(callback)
+    --------------------------------
+    */
+//Ví dụ:
+console.log("--------")
+const numbersMap = [1, 2, 3, 4, 5];
+const squares = numbersMap.map(square);
+console.log(squares);
+function square(element){
+    
+    return Math.pow(element, 2);
+}
+console.log("--------")
+const dates = ['2021-01-01', '2021-02-01', '2021-03-01'];
+const formatDate = dates.map(FormateDates);
+console.log(formatDate);
+function FormateDates(element){
+    const parts = element.split('-');
+    return `${parts[2]}/${parts[1]}/${parts[0]}`;
+}
