@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|d:\\github code\\theodore\\oop\\oop_example\\oop_example\\lopphanso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|solutionrelative:oop_example\\lopphanso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|d:\\github code\\theodore\\oop\\oop_example\\oop_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|solutionrelative:oop_example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|d:\\github code\\theodore\\oop\\oop_example\\oop_example\\congty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|solutionrelative:oop_example\\congty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|d:\\github code\\theodore\\oop\\oop_example\\oop_example\\lopnhanphienpx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|solutionrelative:oop_example\\lopnhanphienpx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|d:\\github code\\theodore\\oop\\oop_example\\oop_example\\lopnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|d:\\github code\\theodore\\oop\\oop_example\\oop_example\\loptamgiac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|solutionrelative:oop_example\\loptamgiac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|d:\\github code\\theodore\\oop\\oop_example\\oop_example\\lopphanso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|solutionrelative:oop_example\\lopphanso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D229B4A2-0EC8-4076-A7AF-72E247053635}|OOP_Example\\OOP_Example.csproj|d:\\github code\\theodore\\oop\\oop_example\\oop_example\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 297,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,33 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CongTy.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\CongTy.cs",
-              "RelativeDocumentMoniker": "OOP_Example\\CongTy.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\CongTy.cs",
-              "RelativeToolTip": "OOP_Example\\CongTy.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAqwB0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T03:40:01.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LopNhanPhienPX.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\LopNhanPhienPX.cs",
-              "RelativeDocumentMoniker": "OOP_Example\\LopNhanPhienPX.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\LopNhanPhienPX.cs",
-              "RelativeToolTip": "OOP_Example\\LopNhanPhienPX.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAwwGIAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T03:22:05.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "LopNhanVien.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\LopNhanVien.cs",
               "RelativeDocumentMoniker": "OOP_Example\\LopNhanVien.cs",
@@ -92,12 +58,11 @@
               "RelativeToolTip": "OOP_Example\\LopNhanVien.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAAwFcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T02:51:01.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T02:51:01.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LopTamGiac.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\LopTamGiac.cs",
               "RelativeDocumentMoniker": "OOP_Example\\LopTamGiac.cs",
@@ -105,25 +70,24 @@
               "RelativeToolTip": "OOP_Example\\LopTamGiac.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T21:52:10.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T21:52:10.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "LopPhanSo.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\LopPhanSo.cs",
               "RelativeDocumentMoniker": "OOP_Example\\LopPhanSo.cs",
               "ToolTip": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\LopPhanSo.cs",
               "RelativeToolTip": "OOP_Example\\LopPhanSo.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAswBsAAAAJAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T20:58:14.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Diem.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\Diem.cs",
               "RelativeDocumentMoniker": "OOP_Example\\Diem.cs",
@@ -131,12 +95,11 @@
               "RelativeToolTip": "OOP_Example\\Diem.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAswBMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T20:21:53.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T20:21:53.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "DaGiac.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\DaGiac.cs",
               "RelativeDocumentMoniker": "OOP_Example\\DaGiac.cs",
@@ -144,18 +107,17 @@
               "RelativeToolTip": "OOP_Example\\DaGiac.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwBoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T20:20:44.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T20:20:44.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\Program.cs",
               "RelativeDocumentMoniker": "OOP_Example\\Program.cs",
               "ToolTip": "D:\\Github Code\\Theodore\\OOP\\OOP_Example\\OOP_Example\\Program.cs",
               "RelativeToolTip": "OOP_Example\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAUwCoAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T20:19:20.588Z",
               "EditorCaption": ""

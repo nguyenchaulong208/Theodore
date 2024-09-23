@@ -1,0 +1,2 @@
+D:\Github Code\Theodore\LTUDW2\BTVN08\BTVN08\BTVN08\obj\Debug\net8.0-windows\App.g.cs
+D:\Github Code\Theodore\LTUDW2\BTVN08\BTVN08\BTVN08\obj\Debug\net8.0-windows\BTVN08_MarkupCompile.cache

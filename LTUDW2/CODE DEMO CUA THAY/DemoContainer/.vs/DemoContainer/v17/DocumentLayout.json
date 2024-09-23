@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\ltudw2\\code demo cua thay\\democontainer\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\ltudw2\\code demo cua thay\\democontainer\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\ltudw2\\code demo cua thay\\democontainer\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\ltudw2\\code demo cua thay\\democontainer\\productusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:productusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\ltudw2\\code demo cua thay\\democontainer\\productusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:productusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\ltudw2\\code demo cua thay\\democontainer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\ltudw2\\code demo cua thay\\democontainer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Page2.xaml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\Page2.xaml.cs",
+              "RelativeDocumentMoniker": "Page2.xaml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\Page2.xaml.cs",
+              "RelativeToolTip": "Page2.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:44:54.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductUserControl.xaml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\ProductUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "ProductUserControl.xaml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\ProductUserControl.xaml.cs",
+              "RelativeToolTip": "ProductUserControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:44:17.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductUserControl.xaml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\ProductUserControl.xaml",
+              "RelativeDocumentMoniker": "ProductUserControl.xaml",
+              "ToolTip": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\ProductUserControl.xaml",
+              "RelativeToolTip": "ProductUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-15T18:44:15.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:43:06.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T14:24:16.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Page1.xaml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\Page1.xaml.cs",
+              "RelativeDocumentMoniker": "Page1.xaml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\Page1.xaml.cs",
+              "RelativeToolTip": "Page1.xaml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwEAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T14:28:44.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-15T11:38:42.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

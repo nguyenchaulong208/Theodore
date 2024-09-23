@@ -715,7 +715,45 @@ function sum(...args) {
 console.log(sum(1, 2, 3, 4, 5));
 //-----------------------------------------------
 //26.
-//27
+//27. callback
+/*
+    callback = là 1 chức năng mà được chuyển dưới dạng 1 đối số cho 1 hàm khác, được dùng để xử lý cho các hoạt động bất đồng bộ như
+    1. Đoc file
+    2. Yêu cầu mạng
+    3. Tương tác với cơ sở dữ liệu
+    Các hoạt động này cần chút thời gian để hoàn thành tuy nhiên trong JavaScript  thì không cần phải đợi quá trình này kết thúc trước khi tiếp tục.
+    - Ví dụ như nếu chương trình đọc file, nếu ta đọc 1 tệp mất thời gian thì JavaScript sẽ thực hiện phần còn lại của chương trình, callback sẽ cố gắng hiển thị nội dung của tệp do trước khi đọc xong.
+    ”Hey, When you’re done, call this next”
+    --------------------------------
+    */
+//Ví dụ:
+console.log("--------")
+console.log("Callback")
+hello(leave);
+function hello(callback){
+    console.log("Hello");
+    callback();
+}
+function leave(){
+    console.log("Leave");
+}
+function goodbye(){
+    console.log("Goodbye");
+}
+console.log("--------");
+console.log("Ví dụ 2:");
+sumCallback(displayConsole, 1, 2);//Gọi hàm sumCallback và truyền vào 3 tham số: callback, 1, 2. Hàm sumCallback sẽ thực thi hàm callback với 2 tham số 1 và 2. 
+//Hàm callback sẽ hiển thị kết quả ra màn hình console với tham số là kết quả của phép cộng 1 + 2 = 3
+function sumCallback(callback, x, y){
+    let result = x + y;
+    callback(result);
+}
+function displayConsole(result){
+    console.log(result);
+}
+//-----------------------------------------------
+
+
 //28. forEach
 /*
     forEach: là phương thức dùng để tương tác với các phần tử của mảng và áp dụng 1 hàm đặc biệt là callback cho từng  phần tử
@@ -723,6 +761,8 @@ console.log(sum(1, 2, 3, 4, 5));
 
     --------------------------------
     */
+
+
 //Ví dụ:
 let numbers = [1, 2, 3, 4, 5];
 console.log("--------")
@@ -757,4 +797,44 @@ console.log(formatDate);
 function FormateDates(element){
     const parts = element.split('-');
     return `${parts[2]}/${parts[1]}/${parts[0]}`;
+}
+
+//-----------------------------------------------
+//34. filter
+//.filter() = Tạo 1 mảng mới bằng cách lọc ra các phần tử
+const words = ["apple","orange","banana","kiwi","pomegranate","coconut"];
+const shortWords = words.filter(getShortWords);
+const longWords = words.filter(getLongWords);
+//Trong vi du nay gia su <= 6 la Short Words, > 6 la Long Words
+console.log(shortWords);
+console.log(longWords);
+
+function getShortWords(element){
+	return element.length <= 6;
+}
+
+function getLongWords(element){
+	return element.length > 6;
+}
+
+//-----------------------------------------------
+//35. reduce
+//.reduce() = Là 1 phương thức rút gọn,giảm các thành phần của mảng thành 1 giá trị đơn.
+//ví dụ:
+const prices = [5,30,10,25,15,20];
+const total = prices.reduce(sumPrices);
+console.log(`Total prices is $${total.toFixed(2)}`);
+function sumPrices(previous, next){
+    return previous + next;
+}
+//-----------------------------------------------
+//36. Function expressions
+//Function expressions = Là 1 cách định nghĩa các function dưới dạng các giá trị hoặc biến để không bị nhầm lẫn với function declarations
+const sayHelloExpressions = function(){
+    console.log("Hello");
+}
+sayHelloExpressions();
+//Function declarations = định nghĩa khối mã có thể tái sử dụng để thực hiện một tác vụ cụ thể
+function sayHello(){
+    console.log("Hello");
 }

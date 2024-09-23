@@ -1,0 +1,163 @@
+﻿<Fluent:RibbonWindow  xmlns:Fluent="urn:fluent-ribbon" x:Class="DemoContainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoContainer" xmlns:wpflibrary1="clr-namespace:WpfLibrary1;assembly=WpfLibrary1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1053">
+    <DockPanel>
+        <Fluent:Ribbon Name="ribbon" DockPanel.Dock="Top">
+            <Fluent:Ribbon.Menu>
+                <Fluent:Backstage Header="File">
+                    <Fluent:BackstageTabControl>
+                        <Fluent:BackstageTabItem Header="Option1"/>
+                        <Fluent:BackstageTabItem Header="Option2"/>
+                        <Fluent:BackstageTabItem Header="Option3"/>
+                        <Fluent:BackstageTabItem Header="Option4"/>
+                    </Fluent:BackstageTabControl>
+                </Fluent:Backstage>
+            </Fluent:Ribbon.Menu>
+            <Fluent:RibbonTabItem Header="Dashboard">
+                <Fluent:RibbonGroupBox Header="Group 1">
+                    <Fluent:Button Header="Button 1" >
+                        <Fluent:Button.Icon>
+                            <Image Source="/Images/excel.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.Icon>
+                    </Fluent:Button>
+                    <Fluent:Button Header="Button 2">
+                        <Fluent:Button.Icon>
+                            <Image Source="/Images/microsoft-access.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.Icon>
+                    </Fluent:Button>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="Products">
+                <Fluent:RibbonGroupBox Header="Group 1">                    
+                    <Fluent:Button Header="Button 2">
+                        <Fluent:Button.Icon>
+                            <Image Source="/Images/microsoft-access.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.Icon>
+                    </Fluent:Button>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="Orders">
+                <Fluent:RibbonGroupBox Header="Group 1">
+                    <Fluent:Button Header="Button 1" >
+                        <Fluent:Button.Icon>
+                            <Image Source="/Images/excel.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.Icon>
+                    </Fluent:Button>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="Reports">
+                <Fluent:RibbonGroupBox Header="Group 1">
+                    <Fluent:Button Header="Button 1" >
+                        <Fluent:Button.Icon>
+                            <Image Source="/Images/excel.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.Icon>
+                    </Fluent:Button>
+                    <Fluent:Button Header="Button 2">
+                        <Fluent:Button.Icon>
+                            <Image Source="/Images/microsoft-access.png" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Fluent:Button.Icon>
+                    </Fluent:Button>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+        </Fluent:Ribbon>
+        <StatusBar DockPanel.Dock="Bottom" Background="Gray" Height="30">
+            <ProgressBar IsIndeterminate="True" Name="loading" Width="50" Height="10"/>
+            <TextBlock x:Name="statusTextBlock" Text="Ready" Foreground="White" />
+        </StatusBar>
+        <TabControl BorderThickness="0" SelectedIndex="{Binding ElementName=ribbon, Path=SelectedTabIndex}">
+            <TabControl.Resources>
+                <Style TargetType="TabItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="TabItem">
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TabControl.Resources>
+
+            <TabItem Header="Dashboard">
+                <Grid>
+                    <Frame Source="Page1.xaml" NavigationUIVisibility="Hidden"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Products">
+                <DockPanel LastChildFill="True">
+                    <TextBlock Text="Kim" Background="White" Height="30" DockPanel.Dock="Top" />
+                    <TextBlock Text="Thủy" Background="Blue" Height="30" DockPanel.Dock="Bottom"    />
+                    <TextBlock Text="Mộc" Background="Green" Width="100" DockPanel.Dock="Right" />
+                    <StackPanel Background="Yellow" Width="100" DockPanel.Dock="left" >
+                        <Button Content="Settings">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <TextBlock >
+      		        <ContentPresenter />
+                                    </TextBlock>
+                                </ControlTemplate>
+                            </Button.Template>
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Foreground" Value="Blue" />
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="true">
+                                            <Setter Property="Foreground" Value="Red" />
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+                        <Rectangle Grid.Row="2" Grid.Column="0" Fill="Red"/>
+                        <Rectangle Grid.Row="1" Grid.Column="1" Fill="Orange"/>
+                        <Rectangle Grid.Row="0" Grid.Column="0" Fill="Magenta"/>
+                        <Rectangle Grid.Row="2" Grid.Column="2" Fill="Blue"/>
+                    </Grid>
+                    <!--<WrapPanel>
+    <Rectangle Margin="10" Fill="White" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Blue" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Green" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Yellow" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Magenta" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Pink" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Orange" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Red" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="White" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Blue" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Green" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Yellow" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Magenta" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Pink" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Orange" Height="80" Width="80" />
+    <Rectangle Margin="10" Fill="Red" Height="80" Width="80" />
+</WrapPanel>-->
+                </DockPanel>
+            </TabItem>
+
+            <TabItem Header="Orders">
+                <local:CategoryUserControl />
+            </TabItem>
+
+            <TabItem Header="Report">
+                <local:ProductUserControl />
+            </TabItem>
+        </TabControl>
+    </DockPanel>
+    
+</Fluent:RibbonWindow>
