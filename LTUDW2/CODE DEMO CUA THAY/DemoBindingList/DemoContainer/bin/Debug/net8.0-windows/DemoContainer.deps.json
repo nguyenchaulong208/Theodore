@@ -1,0 +1,123 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DemoContainer/1.0.0": {
+        "dependencies": {
+          "Fluent.Ribbon": "10.1.0",
+          "PropertyChanged.Fody": "4.1.0",
+          "WpfLibrary1": "1.0.0"
+        },
+        "runtime": {
+          "DemoContainer.dll": {}
+        }
+      },
+      "ControlzEx/6.0.0": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39",
+          "System.Text.Json": "5.0.2"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/ControlzEx.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.283"
+          }
+        }
+      },
+      "Fluent.Ribbon/10.1.0": {
+        "dependencies": {
+          "ControlzEx": "6.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Fluent.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.1.0.0"
+          }
+        }
+      },
+      "Fody/6.6.4": {},
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      },
+      "PropertyChanged.Fody/4.1.0": {
+        "dependencies": {
+          "Fody": "6.6.4"
+        }
+      },
+      "System.Text.Json/5.0.2": {},
+      "WpfLibrary1/1.0.0": {
+        "runtime": {
+          "lib/net6.0-windows7.0/WpfLibrary1.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoContainer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlzEx/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MEaqj6ienvKR4E7QJ3vwzo2vrdy2Kqw9Z3CudY5iUixR5iMYeLoMlks7EiABsz4WqDsgVLd9u7fixmCOGU+4ow==",
+      "path": "controlzex/6.0.0",
+      "hashPath": "controlzex.6.0.0.nupkg.sha512"
+    },
+    "Fluent.Ribbon/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OO1SF61qGKNnEUEAQz54qy8V8XdzrYzqiqpXyMM/rS+lZ6/03a+LWuFJ+QRjTcXC5p8rhgQ9eLdD2MkQGgVCFA==",
+      "path": "fluent.ribbon/10.1.0",
+      "hashPath": "fluent.ribbon.10.1.0.nupkg.sha512"
+    },
+    "Fody/6.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLZS+oa+ndUHYPlx/8n9bBTT3dHkCF0riml4paKq4D663+cZd47x1uagQo32D/gKFZ/sfmV1oqKaLmH0elxq4A==",
+      "path": "fody/6.6.4",
+      "hashPath": "fody.6.6.4.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6v+f9cI8YjnZH2WBHuOqWEAo8DFFNGFIdU8xD3AsL6fhV6Y8oAmVWd7XKk49t8DpeUBwhR/X+97+6Epvek0Y3A==",
+      "path": "propertychanged.fody/4.1.0",
+      "hashPath": "propertychanged.fody.4.1.0.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
+      "path": "system.text.json/5.0.2",
+      "hashPath": "system.text.json.5.0.2.nupkg.sha512"
+    },
+    "WpfLibrary1/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sNe4TQsu9Cu6uEsGb3EDcxc66i51KeaPF78X+2cU1lZAw8UkMplqS048Ue2S4wKMVQb/J1Lro1c6KTQPoEjhkw==",
+      "path": "wpflibrary1/1.0.0",
+      "hashPath": "wpflibrary1.1.0.0.nupkg.sha512"
+    }
+  }
+}
