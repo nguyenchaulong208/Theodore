@@ -1,0 +1,14 @@
+is_global = true
+build_property.PropertyChangedAnalyzerConfiguration = 
+build_property.TargetFramework = net8.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DemoContainer_qabnnqft_wpftmp
+build_property.ProjectDir = D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoContainer\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

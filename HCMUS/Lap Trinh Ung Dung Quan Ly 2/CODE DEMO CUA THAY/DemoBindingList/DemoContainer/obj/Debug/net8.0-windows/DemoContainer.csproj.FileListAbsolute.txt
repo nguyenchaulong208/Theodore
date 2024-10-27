@@ -1,0 +1,118 @@
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.exe
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.deps.json
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.runtimeconfig.json
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.dll
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.pdb
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer_MarkupCompile.cache
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer_MarkupCompile.lref
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.g.resources
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.AssemblyInfoInputs.cache
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.AssemblyInfo.cs
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.csproj.CoreCompileInputs.cache
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.dll
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\refint\DemoContainer.dll
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.pdb
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.genruntimeconfig.cache
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\ref\DemoContainer.dll
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\CategoryUserControl.g.cs
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\ProductUserControl.g.cs
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\CategoryUserControl.baml
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\ProductUserControl.baml
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\WpfLibrary1.dll
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\WpfLibrary1.pdb
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.csproj.AssemblyReference.cache
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoCont.8ABFB33E.Up2Date
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\ControlzEx.dll
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Fluent.dll
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\App.baml
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\Page1.g.cs
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\Page1.baml
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\Page2.g.cs
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\Page2.baml
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.csproj.Fody.CopyLocal.cache
+C:\Users\tdqua\source\repos\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.csproj.Fody.RuntimeCopyLocal.cache
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar01.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar02.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar03.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar04.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar05.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar06.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar07.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar08.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar09.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar10.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar11.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar12.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar13.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar14.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar15.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar16.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar17.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar18.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar19.jpg
+C:\Users\tdqua\source\repos\DemoContainer\bin\Debug\net8.0-windows\Images\avatar20.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar01.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar02.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar03.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar04.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar05.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar06.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar07.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar08.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar09.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar10.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar11.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar12.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar13.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar14.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar15.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar16.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar17.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar18.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar19.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Images\avatar20.jpg
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.exe
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.deps.json
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.runtimeconfig.json
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.dll
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\DemoContainer.pdb
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\ControlzEx.dll
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Fluent.dll
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\bin\Debug\net8.0-windows\WpfLibrary1.dll
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.csproj.AssemblyReference.cache
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\CategoryUserControl.g.cs
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\Page1.g.cs
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\Page2.g.cs
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\ProductUserControl.g.cs
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\App.g.cs
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer_MarkupCompile.cache
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer_MarkupCompile.lref
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\App.baml
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\CategoryUserControl.baml
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\Page1.baml
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\Page2.baml
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\ProductUserControl.baml
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.g.resources
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.AssemblyInfoInputs.cache
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.AssemblyInfo.cs
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.csproj.CoreCompileInputs.cache
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.sourcelink.json
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.csproj.Fody.CopyLocal.cache
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.csproj.Fody.RuntimeCopyLocal.cache
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoCont.8ABFB33E.Up2Date
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.dll
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\refint\DemoContainer.dll
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.pdb
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\DemoContainer.genruntimeconfig.cache
+D:\Github Code\Theodore\LTUDW2\CODE DEMO CUA THAY\DemoBindingList\DemoContainer\obj\Debug\net8.0-windows\ref\DemoContainer.dll

@@ -1,0 +1,23 @@
+﻿<Window x:Class="CongPhanSo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CongPhanSo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="362">
+    <Grid Margin="40,50,40,50">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="415*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Phân số A:" HorizontalAlignment="Left" Height="29" Margin="19,144,0,0" VerticalAlignment="Top" Width="76"/>
+        <Label Content="Phân số B:" HorizontalAlignment="Left" Height="29" Margin="19,194,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBox x:Name="phanSoA" HorizontalAlignment="Left" Height="28" Margin="100,145,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="102"/>
+        <TextBox x:Name="phanSoB" HorizontalAlignment="Left" Height="29" Margin="100,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <Button Content="Cộng phân số" HorizontalAlignment="Left" Height="30" Margin="100,250,0,0" VerticalAlignment="Top" Width="97" Click="Button_Click"/>
+        <Label Content="Nhập vào hai phân số" HorizontalAlignment="Left" Height="29" Margin="19,99,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Cộng Phân Số" FontSize="25" FontWeight="Bold" HorizontalAlignment="Left" Height="45" Margin="71,27,0,0" VerticalAlignment="Top" Width="177"/>
+
+    </Grid>
+</Window>

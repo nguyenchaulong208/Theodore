@@ -1,0 +1,35 @@
+﻿<Page x:Class="DemoContainer.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DemoContainer"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1" Loaded="Page_Loaded">
+    <Page.Resources>
+        <local:CreditsToPercentageConverter x:Key="converter" Max="155"/>
+    </Page.Resources>
+    <StackPanel>
+        <TextBlock >
+            <Run Text="MSSV: " FontWeight="Bold"/>
+            <Run Text="{Binding ID}" d:Text="007"/>
+        </TextBlock>
+        <TextBlock >
+            <Run Text="Họ và tên: " FontWeight="Bold"/>
+            <Run Text="{Binding Fullname}" d:Text="James Bond"/>
+        </TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Số tín chỉ tích lũy: " />
+            <ProgressBar Name="maxCreditsProgresbar" 
+                         Minimum="0" Maximum="140" Margin="0, 2, 0, 0" 
+                         Value="{Binding Credits}" d:Value="71" Width="150" Height="10" />
+            <TextBlock Margin="5, 0, 0, 0">
+                <Run Text="{Binding Credits, Converter={StaticResource converter}}" d:Text="71/140 => 40%"/>
+            </TextBlock>
+        </StackPanel>
+        
+        <TextBox x:Name="dataTextBox" Width="200" Height="35"/>
+        <Button Content="Edit" Width="80" Height="35" Click="Button_Click"/>
+    </StackPanel>
+</Page>

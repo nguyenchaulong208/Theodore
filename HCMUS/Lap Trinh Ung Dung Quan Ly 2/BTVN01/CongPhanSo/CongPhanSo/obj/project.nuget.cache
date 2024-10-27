@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "E2wY1pdC+w7d146WmtUE5MIBbb8xHAzRxFnqGCzh2WqFwap1l6zZaPsREfoDM2VNyvBHr/qSSFdbwAPL13XrNA==",
+  "success": true,
+  "projectFilePath": "D:\\Github Code\\Theodore\\LTUDW2\\BTVN01\\CongPhanSo\\CongPhanSo\\CongPhanSo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

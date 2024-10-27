@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "J9MZUdnFFSYwDiudSGz4YAZDoRwExyFfNOpt4nR4Ic5a0kmVXi3PU3GI4/+v4NcMtWnBzzRUEj+JvIpzHIBnpg==",
+  "success": true,
+  "projectFilePath": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LONG\\.nuget\\packages\\controlzex\\7.0.0-alpha0106\\controlzex.7.0.0-alpha0106.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\fluent.ribbon\\11.0.0-alpha0235\\fluent.ribbon.11.0.0-alpha0235.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\propertychanged.fody\\4.1.0\\propertychanged.fody.4.1.0.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\wpflibrary1\\1.0.0\\wpflibrary1.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

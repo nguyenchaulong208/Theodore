@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "9620xVVD7MLfJBh4USDkYBJPjCZPy6yMPHudPJkPg2LgxX0wloYURpQ6RZNaJI9lqkExIgy2xUzVegMEcCa9VQ==",
+  "success": true,
+  "projectFilePath": "D:\\Github Code\\Theodore\\LTUDW2\\BTVN08\\BTVN08\\BTVN08\\BTVN08.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LONG\\.nuget\\packages\\controlzex\\7.0.0-alpha0106\\controlzex.7.0.0-alpha0106.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\fluent.ribbon\\11.0.0-alpha0235\\fluent.ribbon.11.0.0-alpha0235.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

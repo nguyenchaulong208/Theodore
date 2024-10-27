@@ -1,0 +1,107 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ControlzEx/7.0.0-alpha0106": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77",
+          "System.Text.Json": "8.0.3"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/ControlzEx.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.106"
+          }
+        }
+      },
+      "Fluent.Ribbon/11.0.0-alpha0235": {
+        "dependencies": {
+          "ControlzEx": "7.0.0-alpha0106",
+          "System.Text.Json": "8.0.3"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Fluent.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.235"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.77.27830"
+          }
+        }
+      },
+      "System.Text.Encodings.Web/8.0.0": {
+        "runtime": {
+          "lib/net7.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net7.0/System.Text.Encodings.Web.dll": {
+            "rid": "browser",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Text.Json/8.0.3": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/System.Text.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11423"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControlzEx/7.0.0-alpha0106": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zUlfspNsV6E5b0791J7IkAtIiqq1GGb3YPKywnzEC37GbKoZssgKT2QcTtUlSifVmhn0hq7U1YvOAmluygKJbQ==",
+      "path": "controlzex/7.0.0-alpha0106",
+      "hashPath": "controlzex.7.0.0-alpha0106.nupkg.sha512"
+    },
+    "Fluent.Ribbon/11.0.0-alpha0235": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RGmU5DpDtVfucbbi2himWSnItx7BsA1R28TDyQ9fEipbMavpQjFSwwltDE4S39+OXlh6MIMURR224avNCndioQ==",
+      "path": "fluent.ribbon/11.0.0-alpha0235",
+      "hashPath": "fluent.ribbon.11.0.0-alpha0235.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MCu674ZETgU18EbxfwIlRpUPJ02YbZenLsMCXTkpeA7KUBpXfFaOUDlEO+7UWu5AFnUoydg+aQENJkuaZPheMQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.77",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hpagS9joOwv6efWfrMmV9MjQXpiXZH72PgN067Ysfr6AWMSD1/1hEcvh/U5mUpPLezEWsOJSuVrmqDIVD958iA==",
+      "path": "system.text.json/8.0.3",
+      "hashPath": "system.text.json.8.0.3.nupkg.sha512"
+    }
+  }
+}
