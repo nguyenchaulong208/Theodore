@@ -27,7 +27,16 @@ namespace Tuan_3_Example_1
         {
             var screen = new ConfigWindow(); //Var sẽ tự nhận diện kiểu dữ liệu theo đối tượng bên trái
             screen.Owner = this;
-            screen.Show();
+            var result = screen.ShowDialog();
+            if (result == true)
+            {
+                MessageBox.Show($"da co du lieu moi {screen.NewData}");
+
+            }
+            else
+            {
+                MessageBox.Show("Khong can thay doi gi het");
+            }
         }
 
         private void logoutButton(object sender, RoutedEventArgs e)

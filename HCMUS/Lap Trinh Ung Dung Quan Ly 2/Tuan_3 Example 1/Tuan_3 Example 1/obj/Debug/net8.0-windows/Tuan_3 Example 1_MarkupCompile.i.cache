@@ -5,7 +5,7 @@ winexe
 C#
 .cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\
-Tuan_3_Example_1
+Tuan_3_Example1
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
@@ -16,5 +16,5 @@ D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan
 198155382431
 ConfigWindow.xaml;LoginWindow.xaml;MainWindow.xaml;
 
-True
+False
 

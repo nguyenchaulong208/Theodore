@@ -19,16 +19,18 @@ namespace Tuan_3_Example_1
     /// </summary>
     public partial class ConfigWindow : Window
     {
+
+        public string NewData { get; set; } = "";
+
         public ConfigWindow()
         {
             InitializeComponent();
         }
 
-        
-
         private void okButton_Click(object sender, RoutedEventArgs e)
         {
-
+            NewData = dataTextBox.Text;
+            this.DialogResult = true;
         }
 
         private void cancelButton_Click(object sender, RoutedEventArgs e)

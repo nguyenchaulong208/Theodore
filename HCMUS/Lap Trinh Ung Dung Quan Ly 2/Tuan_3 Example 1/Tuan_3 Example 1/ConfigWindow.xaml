@@ -13,7 +13,7 @@
         <TextBlock Text="Congifguration" FontSize="30" FontWeight="Bold" Canvas.Left="226" Canvas.Top="60"/>
         <TextBlock Text="Data" Canvas.Left="226" Canvas.Top="121"/>
         <TextBox x:Name="dataTextBox" Width="202" Height="35" Canvas.Left="226" Canvas.Top="142" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button Content="OK" Width="80" Height=" 35" Click="okButton_Click" Canvas.Left="247" Canvas.Top="192" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button Content="Cancel" Width="80" Height=" 35" Click="cancelButton_Click" Canvas.Left="348" Canvas.Top="192" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Content="OK" IsDefault="True" Width="80" Height=" 35" Click="okButton_Click" Canvas.Left="247" Canvas.Top="192" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Content="Cancel" IsCancel="True" Width="80" Height=" 35" Click="cancelButton_Click" Canvas.Left="348" Canvas.Top="192" HorizontalAlignment="Left" VerticalAlignment="Top"/>
     </Canvas>
 </Window>

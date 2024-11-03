@@ -1,8 +1,3 @@
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.exe
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.deps.json
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.runtimeconfig.json
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.dll
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.pdb
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\ConfigWindow.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\LoginWindow.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\MainWindow.g.cs
@@ -10,6 +5,11 @@ D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\Tuan_3 Example 1_Content.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\Tuan_3 Example 1_MarkupCompile.cache
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\Tuan_3 Example 1_MarkupCompile.lref
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.exe
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.deps.json
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.runtimeconfig.json
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.dll
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\bin\Debug\net8.0-windows\Tuan_3 Example 1.pdb
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\ConfigWindow.baml
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\LoginWindow.baml
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Tuan_3 Example 1\Tuan_3 Example 1\obj\Debug\net8.0-windows\MainWindow.baml

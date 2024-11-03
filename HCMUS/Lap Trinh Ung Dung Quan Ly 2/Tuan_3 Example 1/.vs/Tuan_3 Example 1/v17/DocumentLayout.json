@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\tuan_3 example 1\\tuan_3 example 1\\configwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|solutionrelative:tuan_3 example 1\\configwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\tuan_3 example 1\\tuan_3 example 1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|solutionrelative:tuan_3 example 1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +19,6 @@
       "RelativeMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|solutionrelative:tuan_3 example 1\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\tuan_3 example 1\\tuan_3 example 1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|solutionrelative:tuan_3 example 1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\tuan_3 example 1\\tuan_3 example 1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|solutionrelative:tuan_3 example 1\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|solutionrelative:tuan_3 example 1\\configwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\tuan_3 example 1\\tuan_3 example 1\\configwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|solutionrelative:tuan_3 example 1\\configwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\tuan_3 example 1\\tuan_3 example 1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{625B9CCE-C317-47A3-BFD9-F5EE78C82A4D}|Tuan_3 Example 1\\Tuan_3 Example 1.csproj|solutionrelative:tuan_3 example 1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,21 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Tuan_3 Example 1\\LoginWindow.xaml.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "Tuan_3 Example 1\\LoginWindow.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAIwCEAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T20:38:15.111Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -68,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Tuan_3 Example 1\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "Tuan_3 Example 1\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:38:15.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\App.xaml",
               "RelativeDocumentMoniker": "Tuan_3 Example 1\\App.xaml",
@@ -91,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ConfigWindow.xaml.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\ConfigWindow.xaml.cs",
               "RelativeDocumentMoniker": "Tuan_3 Example 1\\ConfigWindow.xaml.cs",
               "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\ConfigWindow.xaml.cs",
               "RelativeToolTip": "Tuan_3 Example 1\\ConfigWindow.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwvyMAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T20:07:56.037Z",
               "EditorCaption": ""
@@ -111,12 +111,11 @@
               "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\ConfigWindow.xaml",
               "RelativeToolTip": "Tuan_3 Example 1\\ConfigWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-03T20:06:00.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T20:06:00.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Tuan_3 Example 1\\MainWindow.xaml",
@@ -128,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Tuan_3 Example 1\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\MainWindow.xaml.cs",
               "RelativeToolTip": "Tuan_3 Example 1\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAwwCUAAAAJAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAmwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T19:49:19.297Z",
               "EditorCaption": ""
