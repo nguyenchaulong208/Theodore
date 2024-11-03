@@ -1,0 +1,7 @@
+E:\Git Data\my-codes\HCMUS\Lap Trinh Ung Dung Quan Ly 2\BAI GIANG\TUAN 2\ON TAP OOP\ON TAP OOP\bin\Debug\ON TAP OOP.exe.config
+E:\Git Data\my-codes\HCMUS\Lap Trinh Ung Dung Quan Ly 2\BAI GIANG\TUAN 2\ON TAP OOP\ON TAP OOP\bin\Debug\ON TAP OOP.exe
+E:\Git Data\my-codes\HCMUS\Lap Trinh Ung Dung Quan Ly 2\BAI GIANG\TUAN 2\ON TAP OOP\ON TAP OOP\bin\Debug\ON TAP OOP.pdb
+E:\Git Data\my-codes\HCMUS\Lap Trinh Ung Dung Quan Ly 2\BAI GIANG\TUAN 2\ON TAP OOP\ON TAP OOP\obj\Debug\ON TAP OOP.csproj.AssemblyReference.cache
+E:\Git Data\my-codes\HCMUS\Lap Trinh Ung Dung Quan Ly 2\BAI GIANG\TUAN 2\ON TAP OOP\ON TAP OOP\obj\Debug\ON TAP OOP.csproj.CoreCompileInputs.cache
+E:\Git Data\my-codes\HCMUS\Lap Trinh Ung Dung Quan Ly 2\BAI GIANG\TUAN 2\ON TAP OOP\ON TAP OOP\obj\Debug\ON TAP OOP.exe
+E:\Git Data\my-codes\HCMUS\Lap Trinh Ung Dung Quan Ly 2\BAI GIANG\TUAN 2\ON TAP OOP\ON TAP OOP\obj\Debug\ON TAP OOP.pdb
