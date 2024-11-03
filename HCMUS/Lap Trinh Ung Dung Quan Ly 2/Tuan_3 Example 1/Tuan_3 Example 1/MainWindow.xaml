@@ -1,0 +1,17 @@
+﻿<Window x:Class="Tuan_3_Example_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tuan_3_Example_1"
+        mc:Ignorable="d"
+        Title="Sample Data" d:Title="Sample Data" Height="450" Width="800" WindowStartupLocation="CenterOwner"
+
+        >
+    <Canvas>
+        <Button Content="ConfigButton" Click="configButton" Canvas.Left="325" Canvas.Top="197" Height="66" Width="155"/>
+        <Button Content="Logout" Canvas.Left="677" Canvas.Top="10" Height="45" Width="113" Click="logoutButton"/>
+
+
+    </Canvas>
+</Window>

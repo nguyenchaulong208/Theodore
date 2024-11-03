@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Tuan_3_Example_1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>web-coding.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\puzzle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="web-coding.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\puzzle.png" />
+  </ItemGroup>
+
+</Project>
