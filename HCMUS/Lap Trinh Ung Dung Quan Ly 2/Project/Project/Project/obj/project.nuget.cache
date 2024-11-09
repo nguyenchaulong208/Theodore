@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "yDqWH7vNiXaLKLMGhFUoUN18oReJW2Z7Ng6e3T37dRPx041A/XWMDqIonXnw/WK6sq/H9BwzA36IRfIV07RbKQ==",
+  "success": true,
+  "projectFilePath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Project.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LONG\\.nuget\\packages\\controlzex\\7.0.0-rc0118\\controlzex.7.0.0-rc0118.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\fluent.ribbon\\11.0.0-rc0264\\fluent.ribbon.11.0.0-rc0264.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

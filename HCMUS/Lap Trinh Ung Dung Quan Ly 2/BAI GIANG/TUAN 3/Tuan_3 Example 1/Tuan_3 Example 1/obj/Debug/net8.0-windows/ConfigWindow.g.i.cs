@@ -61,7 +61,7 @@ namespace Tuan_3_Example_1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tuan_3 Example 1;component/configwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tuan_3 Example 1;V1.0.0.0;component/configwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ConfigWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

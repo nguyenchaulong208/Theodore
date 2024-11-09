@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj": {}
+    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj": {}
   },
   "projects": {
-    "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj": {
+    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj",
+        "projectUniqueName": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj",
         "projectName": "DemoContainer",
-        "projectPath": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj",
+        "projectPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContainer\\DemoContainer.csproj",
         "packagesPath": "C:\\Users\\LONG\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoContainer\\obj\\",
+        "outputPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContainer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

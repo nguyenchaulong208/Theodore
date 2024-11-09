@@ -1,1 +1,2 @@
-Cài code từ file zip tải từ E-Learning thì phải cài nuGet WpfLibrary1 và Fluent Ribbon
+Cài code từ file zip tải từ E-Learning thì phải cài nuGet Fluent Ribbon
+ WpfLibrary1 là 1 project thầy tạo mới để minh họa cho câu hỏi nhúng dll từ project khác vào project hiện tại

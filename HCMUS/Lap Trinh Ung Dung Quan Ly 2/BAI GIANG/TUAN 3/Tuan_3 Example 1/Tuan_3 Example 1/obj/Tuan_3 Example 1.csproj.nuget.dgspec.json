@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\Tuan_3 Example 1.csproj": {}
+    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\BAI GIANG\\TUAN 3\\Tuan_3 Example 1\\Tuan_3 Example 1\\Tuan_3 Example 1.csproj": {}
   },
   "projects": {
-    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\Tuan_3 Example 1.csproj": {
+    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\BAI GIANG\\TUAN 3\\Tuan_3 Example 1\\Tuan_3 Example 1\\Tuan_3 Example 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\Tuan_3 Example 1.csproj",
+        "projectUniqueName": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\BAI GIANG\\TUAN 3\\Tuan_3 Example 1\\Tuan_3 Example 1\\Tuan_3 Example 1.csproj",
         "projectName": "Tuan_3 Example 1",
-        "projectPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\Tuan_3 Example 1.csproj",
+        "projectPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\BAI GIANG\\TUAN 3\\Tuan_3 Example 1\\Tuan_3 Example 1\\Tuan_3 Example 1.csproj",
         "packagesPath": "C:\\Users\\LONG\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Tuan_3 Example 1\\Tuan_3 Example 1\\obj\\",
+        "outputPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\BAI GIANG\\TUAN 3\\Tuan_3 Example 1\\Tuan_3 Example 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

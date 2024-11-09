@@ -42,12 +42,6 @@
       "PropertyChanged.Fody/4.1.0": {
         "dependencies": {
           "Fody": "6.6.4"
-        },
-        "runtime": {
-          "lib/netstandard2.1/PropertyChanged.dll": {
-            "assemblyVersion": "4.1.0.0",
-            "fileVersion": "4.1.0.0"
-          }
         }
       },
       "System.Text.Encodings.Web/8.0.0": {
