@@ -9,6 +9,23 @@
       Title="Tonghop">
 
     <Grid>
-        <TextBlock Text="Day la trang tong hop"/>
+        <TextBlock/>
+        <ListView HorizontalAlignment="Stretch" Height="430" VerticalAlignment="Center" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="50" Header="STT"/>
+                    <GridViewColumn Width="auto" Header="Mã hàng"/>
+                    <GridViewColumn Width="auto" Header="Tên hàng"/>
+                    <GridViewColumn Width="50" Header="Đơn vị tính"/>
+                    <GridViewColumn Width="50" Header="Số lượng nhập"/>
+                    <GridViewColumn Width="100" Header="Giá trị nhập"/>
+                    <GridViewColumn Width="50" Header="Số lượng xuất"/>
+                    <GridViewColumn Width="100" Header="Giá trị xuất"/>
+                    <GridViewColumn Width="50" Header="Số lượng tồn kho"/>
+                    <GridViewColumn Width="auto" Header="Giá trị tồn kho"/>
+                    
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Page>

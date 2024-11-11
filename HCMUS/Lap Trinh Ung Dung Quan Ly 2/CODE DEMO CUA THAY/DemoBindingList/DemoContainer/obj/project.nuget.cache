@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dtXZw0/ox2eEM60i5KhXsKDYQqy0na2mOcbCmkMP3wyh2xKO97RwTetkEH49qR7FK6ZEyfBq13h9ZtGdpjSKZg==",
+  "dgSpecHash": "NOw87NM/TYBozVfE69n/S6K3vpAR3MtQk0jBsquXugz7V+EqrPMA9IppLPdmPZYbH1ak+ER+XbKNDZdBSWiLvQ==",
   "success": true,
-  "projectFilePath": "D:\\Github Code\\Theodore\\LTUDW2\\CODE DEMO CUA THAY\\DemoBindingList\\DemoContainer\\DemoContainer.csproj",
+  "projectFilePath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoBindingList\\DemoContainer\\DemoContainer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LONG\\.nuget\\packages\\controlzex\\6.0.0\\controlzex.6.0.0.nupkg.sha512",
     "C:\\Users\\LONG\\.nuget\\packages\\fluent.ribbon\\10.1.0\\fluent.ribbon.10.1.0.nupkg.sha512",

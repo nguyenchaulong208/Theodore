@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.ComponentModel;
 
 namespace Project
 {
@@ -27,5 +28,7 @@ namespace Project
             var loginScreen = new LoginWindow();
             loginScreen.Show();
         }
+
+        
     }
 }

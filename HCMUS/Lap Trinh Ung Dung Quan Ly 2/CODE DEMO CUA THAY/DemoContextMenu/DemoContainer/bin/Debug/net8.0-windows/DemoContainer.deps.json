@@ -9,8 +9,7 @@
       "DemoContainer/1.0.0": {
         "dependencies": {
           "Fluent.Ribbon": "10.1.0",
-          "PropertyChanged.Fody": "4.1.0",
-          "WpfLibrary1": "1.0.0.0"
+          "PropertyChanged.Fody": "4.1.0"
         },
         "runtime": {
           "DemoContainer.dll": {}
@@ -53,15 +52,7 @@
           "Fody": "6.6.4"
         }
       },
-      "System.Text.Json/5.0.2": {},
-      "WpfLibrary1/1.0.0.0": {
-        "runtime": {
-          "WpfLibrary1.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      }
+      "System.Text.Json/5.0.2": {}
     }
   },
   "libraries": {
@@ -111,11 +102,6 @@
       "sha512": "sha512-I47dVIGiV6SfAyppphxqupertT/5oZkYLDCX6vC3HpOI4ZLjyoKAreUoem2ie6G0RbRuFrlqz/PcTQjfb2DOfQ==",
       "path": "system.text.json/5.0.2",
       "hashPath": "system.text.json.5.0.2.nupkg.sha512"
-    },
-    "WpfLibrary1/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tdqua\\source\\repos\\DemoContainer\\DemoContainer.csproj": {}
+    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\DemoContainer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tdqua\\source\\repos\\DemoContainer\\DemoContainer.csproj": {
+    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\DemoContainer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tdqua\\source\\repos\\DemoContainer\\DemoContainer.csproj",
+        "projectUniqueName": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\DemoContainer.csproj",
         "projectName": "DemoContainer",
-        "projectPath": "C:\\Users\\tdqua\\source\\repos\\DemoContainer\\DemoContainer.csproj",
-        "packagesPath": "C:\\Users\\tdqua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tdqua\\source\\repos\\DemoContainer\\obj\\",
+        "projectPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\DemoContainer.csproj",
+        "packagesPath": "C:\\Users\\LONG\\.nuget\\packages\\",
+        "outputPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tdqua\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

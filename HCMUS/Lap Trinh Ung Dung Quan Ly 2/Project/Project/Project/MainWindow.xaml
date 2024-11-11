@@ -6,12 +6,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
-        Title="T-MOTOR" Height="450" Width="800" Icon="/images/motorcycle.png">
+        Title="T-MOTOR" Height="600" Width="850" Icon="/images/motorcycle.png"
+        WindowStartupLocation="CenterScreen"
+        >
     <!--Tạo backstage để chứa các setting-->
-   <!--Dùng DockPanel để bao bọc các item-->
+    <!--Dùng DockPanel để bao bọc các item-->
     <DockPanel>
 
-        <Fluent:Ribbon Name="settingRibbon" DockPanel.Dock="Top" IsMinimized="True">
+        <Fluent:Ribbon Name="settingRibbon" DockPanel.Dock="Top" IsMinimized="False">
             <Fluent:Ribbon.Menu >
                 <Fluent:Backstage Header="T-Motor">
                     <Fluent:BackstageTabControl>
@@ -24,24 +26,24 @@
             </Fluent:Ribbon.Menu>
             <!--Tạo các item của Ribbon-->
             <Fluent:RibbonTabItem Header="Dasboard">
-                
+
             </Fluent:RibbonTabItem>
             <Fluent:RibbonTabItem Header="Products">
-            <!--Các mục con của Product-->
+                <!--Các mục con của Product-->
                 <Fluent:RibbonGroupBox Header="Hàng tồn kho">
                     <Fluent:Button Header="Tồng hợp">
-                        
+
                     </Fluent:Button>
-                    
+
                     <Fluent:Button Header="Bảng kê hàng nhập">
-                        
+
                     </Fluent:Button>
                     <Fluent:Button Header="Bảng kê hàng xuất">
 
                     </Fluent:Button>
                 </Fluent:RibbonGroupBox>
                 <Fluent:RibbonGroupBox Header="Nhập/Xuất">
-                    <Fluent:Button Header="Phiếu nhập">
+                    <Fluent:Button Header="Phiếu nhập" >
 
                     </Fluent:Button>
                     <Fluent:Button Header="Phiếu xuất">
@@ -57,7 +59,7 @@
                     </Fluent:Button>
                 </Fluent:RibbonGroupBox>
             </Fluent:RibbonTabItem>
-            
+
             <Fluent:RibbonTabItem Header="Order">
                 <Fluent:RibbonGroupBox Header="Hóa đơn">
                     <Fluent:Button Header="Hóa đơn bán hàng">
@@ -71,7 +73,7 @@
                     </Fluent:Button>
                 </Fluent:RibbonGroupBox>
             </Fluent:RibbonTabItem>
-            
+
             <Fluent:RibbonTabItem Header="Report">
 
             </Fluent:RibbonTabItem>
@@ -89,22 +91,20 @@
             </TabControl.Resources>
             <TabItem Header="Dashboard">
                 <Grid>
-                  
+
                 </Grid>
             </TabItem>
             <TabItem Header="Products">
-                <Grid>
-                    <Frame Source="Tonghop.xaml" NavigationUIVisibility="Hidden"/>
-                </Grid>
+                <Frame Source="Tonghop.xaml" NavigationUIVisibility="Hidden"/>
             </TabItem>
             <TabItem Header="Order">
                 <Grid>
-                  
+
                 </Grid>
             </TabItem>
             <TabItem Header="Report">
                 <Grid>
-                  
+
                 </Grid>
             </TabItem>
         </TabControl>
