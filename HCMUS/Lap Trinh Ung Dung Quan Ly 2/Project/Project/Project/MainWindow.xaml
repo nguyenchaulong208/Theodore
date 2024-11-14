@@ -31,6 +31,9 @@
             <Fluent:RibbonTabItem Header="Products">
                 <!--Các mục con của Product-->
                 <Fluent:RibbonGroupBox Header="Hàng tồn kho">
+                    <Fluent:Button Header="Danh mục hàng hóa" Click="danhmucBtn">
+
+                    </Fluent:Button>
                     <Fluent:Button Header="Tồng hợp">
 
                     </Fluent:Button>
@@ -63,7 +66,7 @@
             <Fluent:RibbonTabItem Header="Order">
                 <Fluent:RibbonGroupBox Header="Hóa đơn">
                     <Fluent:Button Header="Hóa đơn bán hàng">
-
+                        
                     </Fluent:Button>
                     <Fluent:Button Header="Chỉnh sửa hóa đơn">
 
@@ -91,7 +94,7 @@
             </TabControl.Resources>
             <TabItem Header="Dashboard">
                 <Grid>
-
+                    <Frame Source="ConfigScreen.xaml" NavigationUIVisibility="Hidden"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Products">

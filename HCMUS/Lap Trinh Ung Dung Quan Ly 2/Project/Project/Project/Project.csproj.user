@@ -10,6 +10,9 @@
     <Compile Update="AddProduct.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ConfigScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="EditWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,12 +22,18 @@
     <Compile Update="MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ProductCodeWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Tonghop.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="AddProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConfigScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EditWindow.xaml">
@@ -37,6 +46,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProductCodeWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Tonghop.xaml">

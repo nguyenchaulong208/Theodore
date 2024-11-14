@@ -29,6 +29,10 @@ namespace Project
             loginScreen.Show();
         }
 
-        
+        private void danhmucBtn(object sender, RoutedEventArgs e)
+        {
+            var screen = new ProductCodeWindow();
+            screen.Show();
+        }
     }
 }

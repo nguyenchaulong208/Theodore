@@ -1,0 +1,22 @@
+﻿<Page x:Class="Project.ConfigScreen"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Project"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ConfigScreen">
+
+    <Canvas>
+        <TextBlock Text="Server" Canvas.Left="300" Canvas.Top="118" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="serverPort" Canvas.Left="361" Canvas.Top="111" Height="30" Width="200"/>
+        <TextBlock Text="Database" Canvas.Left="300" Canvas.Top="153" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="db" Canvas.Left="361" Canvas.Top="146" Height="30" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Text="Username" Canvas.Left="300" Canvas.Top="188" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="userName" Canvas.Left="361" Canvas.Top="181" Height="30" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Text="Password" Canvas.Left="300" Canvas.Top="223" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passServer" Canvas.Left="361" Canvas.Top="216" Height="30" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button Content="Kết nối Server" x:Name="connectServer" Click="connectsvBtn" Canvas.Left="410" Canvas.Top="257" Height="36" Width="102" HorizontalAlignment="Center" VerticalAlignment="Top" />
+    </Canvas>
+</Page>

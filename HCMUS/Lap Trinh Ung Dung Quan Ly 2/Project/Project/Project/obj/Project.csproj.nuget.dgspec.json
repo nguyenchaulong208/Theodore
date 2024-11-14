@@ -48,6 +48,10 @@
             "Fluent.Ribbon": {
               "target": "Package",
               "version": "[11.0.0-rc0264, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.0-preview2.24304.8, )"
             }
           },
           "imports": [

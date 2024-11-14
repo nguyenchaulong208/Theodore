@@ -5,16 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
-        Title="ĐĂNG NHẬP" Height="266" Width="421" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
-       Icon="/images/password.png"
+        Title="ĐĂNG NHẬP" Height="266" Width="421"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Icon="/images/password.png"
+        Loaded="LoadWindow"
+        
         >
     <Canvas>
-        
+
         <TextBlock Text="Tài khoản" Canvas.Left="110" Canvas.Top="41" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <TextBlock Text="Mật khẩu" Canvas.Left="110" Canvas.Top="92" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <TextBox x:Name="usernameTxt" Width="134" Canvas.Left="168" Canvas.Top="41" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <PasswordBox x:Name="passwordTxt" Width="134" Canvas.Left="168" Canvas.Top="89" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <Button x:Name="loginButton" Content="Đăng nhập" Height="27" IsDefault="True" Canvas.Left="190" Canvas.Top="126" Width="85" HorizontalAlignment="Center" VerticalAlignment="Top" Click="loginBtn"/>
-        <TextBlock x:Name="forgotPassword" Text="Bạn gặp sự cố về đăng nhập?" Canvas.Left="135" Canvas.Top="170" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="loginButton" Content="Đăng nhập" Height="27" IsDefault="True" Canvas.Left="190" Canvas.Top="146" Width="85" HorizontalAlignment="Center" VerticalAlignment="Top" Click="loginBtn"/>
+        <TextBlock x:Name="forgotPassword" Text="Bạn gặp sự cố về đăng nhập?" Canvas.Left="150" Canvas.Top="192" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Ghi nhớ đăng nhập" Canvas.Left="200" Canvas.Top="125" FontStyle="Italic"/>
+        <CheckBox x:Name="rememberChecked" Height="16" Canvas.Left="179" Canvas.Top="125" Width="14" />
     </Canvas>
 </Window>
