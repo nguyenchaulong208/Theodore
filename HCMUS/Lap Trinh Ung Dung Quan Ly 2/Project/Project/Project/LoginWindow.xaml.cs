@@ -27,24 +27,24 @@ namespace Project
         }
         private void LoadWindow(object sender, RoutedEventArgs e)
         {
-            //Lấy thông tin username và password đã mã hóa từ file config
-            string encryptedUsernameString = ConfigurationManager.AppSettings["Username"];
-            string encryptedPasswordString = ConfigurationManager.AppSettings["Password"];
-            string entropyString = ConfigurationManager.AppSettings["Entropy"];
-            //Giải mã thông tin username và password
-            var encryptedUsernameInBytes = Convert.FromBase64String(encryptedUsernameString);
-            var encryptedPasswordInBytes = Convert.FromBase64String(encryptedPasswordString);
-            var entropy = Convert.FromBase64String(entropyString);
-            var usernameBytes = ProtectedData.Unprotect(encryptedUsernameInBytes, entropy, DataProtectionScope.CurrentUser);
-            var passwordBytes = ProtectedData.Unprotect(encryptedPasswordInBytes, entropy, DataProtectionScope.CurrentUser);
-            var username = Encoding.UTF8.GetString(usernameBytes);
-            var password = Encoding.UTF8.GetString(passwordBytes);
-            //Hiển thị thông tin username và password
-            var usernameSave = ConfigurationManager.AppSettings["Username"];
-            var passwordSave = ConfigurationManager.AppSettings["Password"];
-            //Hiển thị thông tin username và password lên textbox
-            usernameTxt.Text = username;
-            passwordTxt.Password = password;
+            ////Lấy thông tin username và password đã mã hóa từ file config
+            //string encryptedUsernameString = ConfigurationManager.AppSettings["Username"];
+            //string encryptedPasswordString = ConfigurationManager.AppSettings["Password"];
+            //string entropyString = ConfigurationManager.AppSettings["Entropy"];
+            ////Giải mã thông tin username và password
+            //var encryptedUsernameInBytes = Convert.FromBase64String(encryptedUsernameString);
+            //var encryptedPasswordInBytes = Convert.FromBase64String(encryptedPasswordString);
+            //var entropy = Convert.FromBase64String(entropyString);
+            //var usernameBytes = ProtectedData.Unprotect(encryptedUsernameInBytes, entropy, DataProtectionScope.CurrentUser);
+            //var passwordBytes = ProtectedData.Unprotect(encryptedPasswordInBytes, entropy, DataProtectionScope.CurrentUser);
+            //var username = Encoding.UTF8.GetString(usernameBytes);
+            //var password = Encoding.UTF8.GetString(passwordBytes);
+            ////Hiển thị thông tin username và password
+            //var usernameSave = ConfigurationManager.AppSettings["Username"];
+            //var passwordSave = ConfigurationManager.AppSettings["Password"];
+            ////Hiển thị thông tin username và password lên textbox
+            //usernameTxt.Text = username;
+            //passwordTxt.Password = password;
 
         }
 
