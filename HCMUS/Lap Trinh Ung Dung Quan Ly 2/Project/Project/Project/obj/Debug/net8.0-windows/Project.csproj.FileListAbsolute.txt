@@ -81,3 +81,5 @@ D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Proje
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Project.pdb
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Project.genruntimeconfig.cache
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\ref\Project.dll
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\test.g.cs
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\test.baml

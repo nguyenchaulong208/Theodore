@@ -32,5 +32,9 @@ namespace Project
         public decimal UnitPrice { get; set; }
         public decimal TotalPrice { get; set; }
     }
-
+    public class  StoreAccount
+    {
+        private string _username { get; set; }
+        private string _password { get; set; }
+    }
 }

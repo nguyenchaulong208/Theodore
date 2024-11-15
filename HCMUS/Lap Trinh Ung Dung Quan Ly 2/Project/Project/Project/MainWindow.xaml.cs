@@ -31,8 +31,29 @@ namespace Project
 
         private void danhmucBtn(object sender, RoutedEventArgs e)
         {
-            var screen = new ProductCodeWindow();
-            screen.Show();
+            //var screen = new ProductCodeWindow();
+            //screen.Show();
+            var existingTab = mainTabControl.Items
+                        .OfType<TabItem>()
+                        .FirstOrDefault(t => t.Header.ToString() == "Danh mục hàng hóa");
+            if (existingTab == null)
+            {
+                // Tạo một TabItem mới
+                TabItem newTab = new TabItem();
+                newTab.Header = "Danh mục hàng hóa";
+
+                // Nhúng ProductCodeWindow (đã chuyển thành UserControl)
+                newTab.Content = new test();
+
+                // Thêm TabItem mới vào TabControl
+                mainTabControl.Items.Add(newTab);
+                mainTabControl.SelectedItem = newTab; // Chuyển đến tab vừa mở
+            }
+            else
+            {
+                mainTabControl.SelectedItem = existingTab; // Chuyển đến tab đã tồn tại
+            }
+
         }
     }
 }

@@ -81,7 +81,7 @@
 
             </Fluent:RibbonTabItem>
         </Fluent:Ribbon>
-        <TabControl BorderThickness="0" SelectedIndex="{Binding ElementName=settingRibbon, Path=SelectedTabIndex}">
+        <TabControl x:Name="mainTabControl" BorderThickness="0" SelectedIndex="{Binding ElementName=settingRibbon, Path=SelectedTabIndex}">
             <TabControl.Resources>
                 <Style TargetType="TabItem">
                     <Setter Property="Template">
@@ -98,11 +98,14 @@
                 </Grid>
             </TabItem>
             <TabItem Header="Products">
-                <Frame Source="Tonghop.xaml" NavigationUIVisibility="Hidden"/>
+                <!--<Frame Source="Tonghop.xaml" NavigationUIVisibility="Hidden"/>-->
             </TabItem>
             <TabItem Header="Order">
                 <Grid>
-
+                    
+                        <Frame Source="EditWindow.xaml" NavigationUIVisibility="Hidden"/>
+                    
+                    
                 </Grid>
             </TabItem>
             <TabItem Header="Report">
@@ -110,6 +113,8 @@
 
                 </Grid>
             </TabItem>
+            
         </TabControl>
+        
     </DockPanel>
 </Fluent:RibbonWindow>

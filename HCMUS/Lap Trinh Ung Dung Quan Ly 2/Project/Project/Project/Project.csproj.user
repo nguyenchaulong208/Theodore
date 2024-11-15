@@ -25,6 +25,9 @@
     <Compile Update="ProductCodeWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="test.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Tonghop.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -49,6 +52,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ProductCodeWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="test.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Tonghop.xaml">
