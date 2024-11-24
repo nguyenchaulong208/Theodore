@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ex09</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.3.3 -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <h1 class="text-center py-3">Ex09 - Local Storage</h1>
+        <div class="container">
+            <form action="#" method="post" onsubmit="addItem(event)">
+                <div class="mb-3">
+                    <label for="keyword" class="form-label">Add Item</label>
+                    <input type="text" class="form-control" name="keyword" id="keyword" aria-describedby="helpId"
+                        placeholder="" required>
+                </div>
+            </form>
+            <ul class="list-group" id="myList">
+                <li class="list-group-item">Item 1</li>
+                <li class="list-group-item">Item 2</li>
+                <li class="list-group-item">Item 3</li>
+            </ul>
+            <button class="btn btn-danger float-end mt-3" onclick="clearItems()">Clear All Items</button>
+        </div>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>

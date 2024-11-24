@@ -1,5 +1,0 @@
-// currentPage = 1, pageCount = 25, size = 5
-[1] 2 3 4 5 >
-
-// currentPage = 16, pageCount = 25, size = 5
-< 14 15 [16] 17 18 >
