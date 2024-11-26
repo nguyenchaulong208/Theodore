@@ -18,6 +18,13 @@ app.set('view engine', 'hbs');
 app.set('views', __dirname + '/views'); // Đảm bảo express biết thư mục views
 
 // Tạo route cho trang chủ (home page)
+app.get('/createTables', (req, res) => {
+    let models = require('./models');
+    models.sequelize.sync().then(() => {
+        res.send('Table created!');
+    });
+}
+);
 app.get('/', (req, res) => {
     res.render('index', { 
     });
