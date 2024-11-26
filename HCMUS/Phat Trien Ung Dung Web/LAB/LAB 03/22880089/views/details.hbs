@@ -1,0 +1,35 @@
+{{#with blog}}
+<div class="blog__details__text">
+    {{{description}}}
+</div>
+<div class="blog__details__content">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="blog__details__author">
+                <div class="blog__details__author__pic">
+                    <img src="{{User.imagePath}}" alt="">
+                </div>
+                <div class="blog__details__author__text">
+                    <h6>{{User.firstName}} {{User.lastName}}</h6>
+                    <span>{{#if User.isAdMin}}Admin{{else}}Member{{/if}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="blog__details__widget">
+                <ul>
+                    <li><span>Categories:</span> {{Category.name}}</li>
+                    <li><span>Tags:</span> {{#each Tags}}{{name}}, {{/each}}</li>
+                </ul>
+                <div class="blog__details__social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/with}}
