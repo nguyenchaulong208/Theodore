@@ -24,6 +24,7 @@ app.set('view engine', 'hbs');
 app.set('views', __dirname + '/views'); // Đảm bảo express biết thư mục views
 //Routes
 app.use('/', require('./routes/indexRouter'));
+app.use('/products', require('./routes/productsRouter'));
 
 // Xu ly loi
 app.use((req, res, next) => {
