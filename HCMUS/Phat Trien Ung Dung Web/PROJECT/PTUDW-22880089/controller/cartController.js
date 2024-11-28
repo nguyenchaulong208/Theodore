@@ -15,4 +15,25 @@ controller.show = (req, res) => {
     return res.render('cart');
 }
 
+controller.update = async (req, res) => {
+    let id = isNaN(req.body.id) ? 0 : parseInt(req.body.id);
+    let quantity = isNaN(req.body.quantity) ? 0 : parseInt(req.body.quantity);
+    
+    if(quantity > 0){
+      let updateItem =  req.session.cart.update(id,quantity);
+    
+    return res.json({
+        item: updateItem,
+        quantity: req.session.cart.quantity,
+        subtotal: req.session.cart.subtotal,
+        total: req.session.cart.total
+
+
+
+    });
+    
+}
+   res.sendStatus(204).end();
+}
+
 module.exports = controller;
