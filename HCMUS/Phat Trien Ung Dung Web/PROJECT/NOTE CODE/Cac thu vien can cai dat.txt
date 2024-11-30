@@ -1,0 +1,10 @@
+npm init
+pnpm i -s express cài express
+pnpm i -s express-handlebars cài express handlebars
+pnpm i -s pg pg-hstore sequelize
+npm i -g sequelize-cli cài đặt thư viện sequelize để cấu hình. tạo bảng trong csdl
+sequelize model:create --name Product --attributes name:string,imagePath:string tạo bảng product với 2 thuộc tính là name và imagePath
+//tao bảng nhanh
+sequelize model:create --name Product --attributes name:string
+
+sequelize db:seed:all chạy database
