@@ -1,4 +1,6 @@
 npm init
+npm install -s nodemon
+npm install -g pnpm
 pnpm i -s express cài express
 pnpm i -s express-handlebars cài express handlebars
 pnpm i -s pg pg-hstore sequelize
