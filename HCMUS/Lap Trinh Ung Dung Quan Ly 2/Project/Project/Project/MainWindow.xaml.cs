@@ -23,6 +23,7 @@ namespace Project
             InitializeComponent();
         }
        
+     
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var loginScreen = new LoginWindow();
@@ -31,29 +32,29 @@ namespace Project
 
         private void danhmucBtn(object sender, RoutedEventArgs e)
         {
-            //var screen = new ProductCodeWindow();
-            //screen.Show();
-            var existingTab = mainTabControl.Items
-                        .OfType<TabItem>()
-                        .FirstOrDefault(t => t.Header.ToString() == "Danh mục hàng hóa");
-            if (existingTab == null)
-            {
-                // Tạo một TabItem mới
-                TabItem newTab = new TabItem();
-                newTab.Header = "Danh mục hàng hóa";
+            var screen = new ProductCodeWindow();
+            screen.Show();
 
-                // Nhúng ProductCodeWindow (đã chuyển thành UserControl)
-                newTab.Content = new test();
 
-                // Thêm TabItem mới vào TabControl
-                mainTabControl.Items.Add(newTab);
-                mainTabControl.SelectedItem = newTab; // Chuyển đến tab vừa mở
-            }
-            else
-            {
-                mainTabControl.SelectedItem = existingTab; // Chuyển đến tab đã tồn tại
-            }
+        }
 
+        private void sellScreen(object sender, RoutedEventArgs e)
+        {
+            var sellScreen = new SellScreen();
+            sellScreen.Show();
+        }
+
+        private void purchaseScreen(object sender, RoutedEventArgs e)
+        {
+            var prurchaseScreen = new PurchaseScreen();
+            prurchaseScreen.Show();
+            
+        }
+
+        private void TonghopBtn(object sender, RoutedEventArgs e)
+        {
+            var screen = new TestQuery();
+            screen.Show();
         }
     }
 }

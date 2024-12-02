@@ -53,9 +53,10 @@ D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Proje
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\ConfigScreen.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\EditWindow.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\LoginWindow.g.cs
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\MainPage.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\MainWindow.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\ProductCodeWindow.g.cs
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\PurchaseScreen.g.cs
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\SellScreen.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Tonghop.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\App.g.cs
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Project_MarkupCompile.cache
@@ -65,9 +66,10 @@ D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Proje
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\ConfigScreen.baml
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\EditWindow.baml
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\LoginWindow.baml
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\MainPage.baml
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\MainWindow.baml
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\ProductCodeWindow.baml
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\PurchaseScreen.baml
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\SellScreen.baml
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Tonghop.baml
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Project.g.resources
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Project.GeneratedMSBuildEditorConfig.editorconfig
@@ -81,5 +83,5 @@ D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Proje
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Project.pdb
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\Project.genruntimeconfig.cache
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\ref\Project.dll
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\test.g.cs
-D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\test.baml
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\TestQuery.g.cs
+D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\obj\Debug\net8.0-windows\TestQuery.baml

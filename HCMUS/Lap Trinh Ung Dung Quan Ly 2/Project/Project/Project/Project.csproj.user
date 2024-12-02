@@ -19,13 +19,16 @@
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MainPage.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="ProductCodeWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="test.xaml.cs">
+    <Compile Update="PurchaseScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SellScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TestQuery.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Tonghop.xaml.cs">
@@ -45,16 +48,19 @@
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ProductCodeWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="test.xaml">
+    <Page Update="PurchaseScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SellScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TestQuery.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Tonghop.xaml">

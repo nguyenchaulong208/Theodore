@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="ProductCodeWindow" Height="450" Width="800">
     <Canvas>
-        <TextBlock Text="DANH MỤC HÀNG HÓA" Canvas.Left="298" Canvas.Top="27" TextAlignment="Center" FontSize="18" FontWeight="Bold"/>
-        <ListView HorizontalAlignment="Center" Height="361" Margin="0,56,0,0" VerticalAlignment="Top" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}">
+        <TextBlock Text="DANH MỤC HÀNG HÓA" Canvas.Left="298" Canvas.Top="50" TextAlignment="Center" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <ListView HorizontalAlignment="Center" Height="338" VerticalAlignment="Top" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Top="79">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="STT" Width="50"/>
@@ -19,5 +19,8 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        <Button Content="Thêm" Height="22" Canvas.Left="10" Canvas.Top="22" Width="83"/>
+        <Button Content="Xóa" Height="22" Canvas.Left="98" Canvas.Top="22" Width="83" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button Content="Sửa" Height="22" Canvas.Left="186" Canvas.Top="22" Width="83" HorizontalAlignment="Left" VerticalAlignment="Center"/>
     </Canvas>
 </Window>

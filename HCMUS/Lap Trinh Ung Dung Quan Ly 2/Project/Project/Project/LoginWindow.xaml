@@ -22,5 +22,6 @@
         <TextBlock x:Name="forgotPassword" Text="Bạn gặp sự cố về đăng nhập?" Canvas.Left="150" Canvas.Top="192" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBlock Text="Ghi nhớ đăng nhập" Canvas.Left="200" Canvas.Top="125" FontStyle="Italic"/>
         <CheckBox x:Name="rememberChecked" Height="16" Canvas.Left="179" Canvas.Top="125" Width="14" />
+        <TextBlock x:Name="forgotPassword_Copy" Text="Version: 1.24" Canvas.Left="344" Canvas.Top="224" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Center"/>
     </Canvas>
 </Window>
