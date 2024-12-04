@@ -28,34 +28,60 @@ namespace Project
 
         private void connectsvBtn(object sender, RoutedEventArgs e)
         {
-            string server = serverPort.Text;
-            string database = db.Text;
-            string username = userName.Text;
-            string password = passServer.Password;
-            string connectionString = $"""
+            //Gan gia tri tu textbox vao bien
+            string server = serverPort.Text.Trim();
+            string database = db.Text.Trim();
+            string username = userName.Text.Trim();
+            string password = passServer.Password.Trim();
+
+            //Kiem tra loai xac thuc dang nhap vao server la windows hay sql server authentication
+            if (windowAuth.IsChecked == true)
+            {
+                string connectionString = $"""
+                        Data Source={server};
+                        Initial Catalog={database};
+                        Integrated Security=True;
+                        TrustServerCertificate=True;
+                        """;
+                var connection = new SqlConnection(connectionString);
+                try
+                {
+                    connection.Open();
+                    MessageBox.Show("Connection successful");
+                    DatabaseConnection.ConnectionString = connectionString;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                
+            }
+            else
+            {
+
+                string connectionString = $"""
                     Server={server};
                     Database={database};
                     User Id={username};
                     Password ={password};
                     Trusted_Connection=True;
                     """;
-            
-            var connection = new SqlConnection(connectionString);
-            try
-            {
-                connection.Open();
-                MessageBox.Show("Connection successful");
+
+                var connection = new SqlConnection(connectionString);
+                try
+                {
+                    connection.Open();
+                    MessageBox.Show("Connection successful");
+                    DatabaseConnection.ConnectionString = connectionString;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                connection.Close();
-            }
-            
 
         }
+
+       
     }
 }

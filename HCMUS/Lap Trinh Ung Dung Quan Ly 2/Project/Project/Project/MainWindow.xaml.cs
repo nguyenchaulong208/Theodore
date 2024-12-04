@@ -10,6 +10,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.ComponentModel;
+using System.Windows.Forms;
 
 namespace Project
 {
@@ -27,13 +28,13 @@ namespace Project
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var loginScreen = new LoginWindow();
-            loginScreen.Show();
+            loginScreen.ShowDialog();
         }
 
         private void danhmucBtn(object sender, RoutedEventArgs e)
         {
-            var screen = new ProductCodeWindow();
-            screen.Show();
+            var screen = new CategoryScreen();
+            screen.ShowDialog();
 
 
         }
@@ -41,20 +42,28 @@ namespace Project
         private void sellScreen(object sender, RoutedEventArgs e)
         {
             var sellScreen = new SellScreen();
-            sellScreen.Show();
+            sellScreen.ShowDialog();
         }
 
         private void purchaseScreen(object sender, RoutedEventArgs e)
         {
             var prurchaseScreen = new PurchaseScreen();
-            prurchaseScreen.Show();
+            prurchaseScreen.ShowDialog();
             
         }
 
         private void TonghopBtn(object sender, RoutedEventArgs e)
         {
             var screen = new TestQuery();
-            screen.Show();
+            screen.Owner = this;
+            screen.ShowDialog();
+        }
+
+        private void purchaseListBtn(object sender, RoutedEventArgs e)
+        {
+            var screen = new PurchaseListScreen();
+            screen.Owner = this;
+            screen.ShowDialog();
         }
     }
 }

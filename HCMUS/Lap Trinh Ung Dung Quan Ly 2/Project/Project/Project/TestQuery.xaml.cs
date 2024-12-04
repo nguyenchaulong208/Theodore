@@ -24,28 +24,28 @@ namespace Project
 
             try
             {
-                using (SqlConnection connectServer = new SqlConnection(constr))
-                {
-                    connectServer.Open();
-                    string sql = "SELECT MaHang, TenHang, MoTa FROM SanPham";
-                    SqlCommand cmd = new SqlCommand(sql, connectServer);
+                //using (SqlConnection connectServer = new SqlConnection(constr))
+                //{
+                //    connectServer.Open();
+                //    string sql = "SELECT MaHang, TenHang, MoTa FROM SanPham";
+                //    SqlCommand cmd = new SqlCommand(sql, connectServer);
 
-                    using (SqlDataReader reader = cmd.ExecuteReader())
-                    {
-                         // Thứ tự của sản phẩm
-                        while (reader.Read())
-                        {
-                            Product product = new Product
-                            {
-                                ProductCode = reader["MaHang"].ToString(),
-                                ProductName = reader["TenHang"].ToString(),
-                                Description = reader["MoTa"].ToString(),
+                //    using (SqlDataReader reader = cmd.ExecuteReader())
+                //    {
+                //         // Thứ tự của sản phẩm
+                //        while (reader.Read())
+                //        {
+                //            Product product = new Product
+                //            {
+                //                ProductCode = reader["MaHang"].ToString(),
+                //                ProductName = reader["TenHang"].ToString(),
+                //                Description = reader["MoTa"].ToString(),
                              
-                            };
-                            products.Add(product);
-                        }
-                    }
-                }
+                //            };
+                //            products.Add(product);
+                //        }
+                //    }
+                //}
 
                 // Gán dữ liệu vào ListView
                 ProductListView.ItemsSource = products;

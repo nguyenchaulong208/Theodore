@@ -10,6 +10,9 @@
     <Compile Update="AddProduct.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AddCategoryScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ConfigScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,7 +22,10 @@
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ProductCodeWindow.xaml.cs">
+    <Compile Update="CategoryScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PurchaseListScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PurchaseScreen.xaml.cs">
@@ -39,6 +45,9 @@
     <Page Update="AddProduct.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="AddCategoryScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ConfigScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -51,7 +60,10 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ProductCodeWindow.xaml">
+    <Page Update="CategoryScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PurchaseListScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PurchaseScreen.xaml">
