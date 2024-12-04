@@ -36,49 +36,65 @@ namespace Project
 
         private void delCategoryBtn(object sender, RoutedEventArgs e)
         {
+            if (categoryList.SelectedItem is Category selectedCategory)
+            {
 
+                MessageBoxResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa danh mục này?", "Xác nhận", MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
+                {
+                    // Tiến hành xóa trong cơ sở dữ liệu
+                    using (SqlConnection connect = DatabaseConnection.GetConnection())
+                    {
+                        try
+                        {
+                            connect.Open();
+                            string query = "DELETE FROM category WHERE category_id = @category_id";
+                            SqlCommand cmd = new SqlCommand(query, connect);
+                            cmd.Parameters.AddWithValue("@category_id", selectedCategory.CategoryId);
+
+                            cmd.ExecuteNonQuery();
+                            //remove data from listview
+                            //categoryList.Items.Remove(selectedCategory);
+                            //categoryList.Items.Refresh();
+                            refreshBtn(sender, e);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một danh mục để xóa.", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
 
         private void editCategoryBtn(object sender, RoutedEventArgs e)
         {
-
-        }
-
-        private void refreshBtn(object sender, RoutedEventArgs e)
-        {
-
-            //bing ding data to listview
-            using (SqlConnection connect = DatabaseConnection.GetConnection())
-             {
-                try
-                {
-                    List<Category> categories = new List<Category>();
-                    connect.Open();
-
-                    string query = "SELECT * FROM category";
-                    SqlCommand cmd = new SqlCommand(query, connect);
-
-                    SqlDataReader reader = cmd.ExecuteReader();
-                    while (reader.Read())
-                    {
-                        Category category = new Category();
-                        category.CategoryId = reader.GetInt32(0);
-                        category.CategoryName = reader.GetString(1);
-                        category.CategoryDescription = reader.GetString(2);
-                        categories.Add(category);
-                    }
-
-                    categoryList.ItemsSource = categories;
-                }
-
-                catch (Exception ex)
-                {
-
-                    MessageBox.Show("Đã xảy ra lỗi: " + ex.Message, "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
-
+            //truyền dữ liệu đã chọn từ listview qua màn hình chỉnh sửa để hiển thị nội dung chỉnh sửa
+            if (categoryList.SelectedItem is Category selectedCategory)
+            {
+               
+                var screen = new EditCategoryScreen(selectedCategory);
+                screen.Owner = this;
+                screen.ShowDialog();
             }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn một danh mục để chỉnh sửa.", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        public void refreshBtn(object sender, RoutedEventArgs e)
+        {
+            //Load database từ hàm LoadCategory trong LoadDatabase.cs
+            LoadDatabase loadDatabase = new LoadDatabase();
+            loadDatabase.LoadCategory(this);
+
 
         }
+        
     }
 }

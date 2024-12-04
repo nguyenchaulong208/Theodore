@@ -16,6 +16,9 @@
     <Compile Update="ConfigScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="EditCategoryScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="EditWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -49,6 +52,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ConfigScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditCategoryScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EditWindow.xaml">

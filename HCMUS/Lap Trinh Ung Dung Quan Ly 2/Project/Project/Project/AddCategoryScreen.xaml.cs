@@ -41,7 +41,9 @@ namespace Project
             {
                 AddCategoryToDatabase(category_id, category_name, category_description);
             }
-            
+            CategoryScreen _refeshBtn = new CategoryScreen();
+            _refeshBtn.refreshBtn(sender, e);
+
 
         }
         #region Them danh muc hang hoa vao database
@@ -62,13 +64,18 @@ namespace Project
 
                         if (rowsEffected > 0)
                         {
-                            MessageBox.Show("Category added successfully.");
-                            this.Close();
+                        //Gọi hàm refreshBtn từ CategoryScreen để cập nhật lại dữ liệu trên ListView
+                        CategoryScreen categoryScreen = (CategoryScreen)this.Owner;
+                        categoryScreen.refreshBtn(null, null);
+
+                        MessageBox.Show("Category added successfully.");
+                                this.Close();
                         }
                         else
                         {
                             MessageBox.Show("Category not added.");
                         }
+                        
                     }
                     
                 

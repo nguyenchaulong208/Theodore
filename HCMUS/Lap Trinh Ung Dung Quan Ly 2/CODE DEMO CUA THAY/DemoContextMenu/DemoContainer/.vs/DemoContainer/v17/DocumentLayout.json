@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\studentusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:studentusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\studentusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:studentusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\editstudentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:editstudentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\studentusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:studentusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\addstudentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:addstudentwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\addstudentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:addstudentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\editstudentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|solutionrelative:editstudentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C9E924B-93A0-412E-B010-291EFD82AF7D}|DemoContainer.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\code demo cua thay\\democontextmenu\\democontainer\\productusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -42,105 +30,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StudentUserControl.xaml.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\StudentUserControl.xaml.cs",
               "RelativeDocumentMoniker": "StudentUserControl.xaml.cs",
               "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\StudentUserControl.xaml.cs",
               "RelativeToolTip": "StudentUserControl.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwCQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:27:33.34Z",
+              "WhenOpened": "2024-12-04T21:19:18.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditStudentWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\EditStudentWindow.xaml.cs",
+              "RelativeDocumentMoniker": "EditStudentWindow.xaml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\EditStudentWindow.xaml.cs",
+              "RelativeToolTip": "EditStudentWindow.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T21:31:00.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\Student.cs",
-              "RelativeDocumentMoniker": "Student.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\Student.cs",
-              "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:27:19.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddStudentWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\AddStudentWindow.xaml.cs",
-              "RelativeDocumentMoniker": "AddStudentWindow.xaml.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\AddStudentWindow.xaml.cs",
-              "RelativeToolTip": "AddStudentWindow.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T20:21:26.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddStudentWindow.xaml",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\AddStudentWindow.xaml",
-              "RelativeDocumentMoniker": "AddStudentWindow.xaml",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\AddStudentWindow.xaml",
-              "RelativeToolTip": "AddStudentWindow.xaml",
+              "Title": "EditStudentWindow.xaml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\EditStudentWindow.xaml",
+              "RelativeDocumentMoniker": "EditStudentWindow.xaml",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\EditStudentWindow.xaml",
+              "RelativeToolTip": "EditStudentWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-11T20:21:20.981Z",
+              "WhenOpened": "2024-12-04T21:30:45.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StudentUserControl.xaml",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\StudentUserControl.xaml",
-              "RelativeDocumentMoniker": "StudentUserControl.xaml",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\StudentUserControl.xaml",
-              "RelativeToolTip": "StudentUserControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-11T19:24:37.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ProductUserControl.xaml",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\ProductUserControl.xaml",
               "RelativeDocumentMoniker": "ProductUserControl.xaml",
               "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\ProductUserControl.xaml",
               "RelativeToolTip": "ProductUserControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-11T19:24:29.269Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\MainWindow.xaml*",
-              "RelativeToolTip": "MainWindow.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-09T13:21:52.855Z",
+              "WhenOpened": "2024-12-04T21:30:33.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T13:13:25.767Z",
+              "DocumentIndex": 0,
+              "Title": "StudentUserControl.xaml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\StudentUserControl.xaml",
+              "RelativeDocumentMoniker": "StudentUserControl.xaml",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\CODE DEMO CUA THAY\\DemoContextMenu\\DemoContainer\\StudentUserControl.xaml",
+              "RelativeToolTip": "StudentUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-04T21:18:59.3Z",
               "EditorCaption": ""
             }
           ]

@@ -3,62 +3,50 @@
   "WorkspaceRootPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\categoryscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\categoryscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\configscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\configscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\loaddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\loaddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\addcategoryscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\addcategoryscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\testquery.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\testquery.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\motorstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\motorstore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\testquery.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\testquery.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\addcategoryscreen.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\addcategoryscreen.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\addcategoryscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\addcategoryscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|d:\\github code\\theodore\\hcmus\\lap trinh ung dung quan ly 2\\project\\project\\project\\addcategoryscreen.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{56A90BB9-B7C0-407C-A202-B377B3C132F6}|Project\\Project.csproj|solutionrelative:project\\addcategoryscreen.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 411,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 225,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Project\\MainWindow.xaml",
@@ -71,93 +59,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Project\\MainWindow.xaml.cs",
               "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\MainWindow.xaml.cs",
               "RelativeToolTip": "Project\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewCoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T20:23:02.692Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "Project\\DatabaseConnection.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\DatabaseConnection.cs",
-              "RelativeToolTip": "Project\\DatabaseConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:30:20.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConfigScreen.xaml.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\ConfigScreen.xaml.cs",
-              "RelativeDocumentMoniker": "Project\\ConfigScreen.xaml.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\ConfigScreen.xaml.cs",
-              "RelativeToolTip": "Project\\ConfigScreen.xaml.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwCQAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T23:28:49.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TestQuery.xaml",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\TestQuery.xaml",
-              "RelativeDocumentMoniker": "Project\\TestQuery.xaml",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\TestQuery.xaml",
-              "RelativeToolTip": "Project\\TestQuery.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-03T22:43:30.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CategoryScreen.xaml.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\CategoryScreen.xaml.cs",
-              "RelativeDocumentMoniker": "Project\\CategoryScreen.xaml.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\CategoryScreen.xaml.cs",
-              "RelativeToolTip": "Project\\CategoryScreen.xaml.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwDUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T22:19:51.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TestQuery.xaml.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\TestQuery.xaml.cs",
-              "RelativeDocumentMoniker": "Project\\TestQuery.xaml.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\TestQuery.xaml.cs",
-              "RelativeToolTip": "Project\\TestQuery.xaml.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswBoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T22:19:34.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MotorStore.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\MotorStore.cs",
-              "RelativeDocumentMoniker": "Project\\MotorStore.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\MotorStore.cs",
-              "RelativeToolTip": "Project\\MotorStore.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwEUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:42:30.102Z",
               "EditorCaption": ""
             },
             {
@@ -168,9 +79,35 @@
               "RelativeDocumentMoniker": "Project\\AddCategoryScreen.xaml.cs",
               "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\AddCategoryScreen.xaml.cs",
               "RelativeToolTip": "Project\\AddCategoryScreen.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwGkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T21:38:49.744Z",
+              "WhenOpened": "2024-12-04T22:49:42.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoadDatabase.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\LoadDatabase.cs",
+              "RelativeDocumentMoniker": "Project\\LoadDatabase.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\LoadDatabase.cs",
+              "RelativeToolTip": "Project\\LoadDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T22:44:26.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryScreen.xaml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\CategoryScreen.xaml.cs",
+              "RelativeDocumentMoniker": "Project\\CategoryScreen.xaml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\CategoryScreen.xaml.cs",
+              "RelativeToolTip": "Project\\CategoryScreen.xaml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAjwFsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T22:42:07.681Z",
               "EditorCaption": ""
             },
             {
@@ -192,9 +129,23 @@
           ]
         },
         {
-          "DockedHeight": 159,
-          "SelectedChildIndex": -1,
-          "Children": []
+          "DockedWidth": 175,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MotorStore.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\MotorStore.cs",
+              "RelativeDocumentMoniker": "Project\\MotorStore.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\MotorStore.cs",
+              "RelativeToolTip": "Project\\MotorStore.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwDsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T20:21:05.22Z",
+              "EditorCaption": ""
+            }
+          ]
         }
       ]
     },
@@ -217,7 +168,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "AddCategoryScreen.xaml",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\AddCategoryScreen.xaml",
               "RelativeDocumentMoniker": "Project\\AddCategoryScreen.xaml",

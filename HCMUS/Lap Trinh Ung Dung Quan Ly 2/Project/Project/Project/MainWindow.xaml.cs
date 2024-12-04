@@ -34,7 +34,14 @@ namespace Project
         private void danhmucBtn(object sender, RoutedEventArgs e)
         {
             var screen = new CategoryScreen();
+            //Load data from database lên ListView của CategoryScreen khi mở CategoryScreen lên
+            LoadDatabase loadDatabase = new LoadDatabase();
+            loadDatabase.LoadCategory(screen);
             screen.ShowDialog();
+           
+
+
+
 
 
         }
