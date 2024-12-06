@@ -1,0 +1,29 @@
+﻿<Window x:Class="Project.CategoryScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="Danh mục hàng hóa" Height="450" Width="800"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        >
+    <Canvas>
+        <TextBlock Text="DANH MỤC HÀNG HÓA" Canvas.Left="298" Canvas.Top="50" TextAlignment="Center" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <ListView x:Name="categoryList" HorizontalAlignment="Center" Height="338" VerticalAlignment="Top" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Top="79">
+            <ListView.View>
+                <GridView>
+                    <!--<GridViewColumn Header="STT" Width="50"/>-->
+                    <GridViewColumn Header="MÃ DANH MỤC" Width="200" DisplayMemberBinding="{Binding CategoryId}"/>
+                    <GridViewColumn Header="TÊN DANH MỤC" Width="350" DisplayMemberBinding="{Binding CategoryName}"/>
+                    <GridViewColumn Header="MÔ TẢ" Width="auto" DisplayMemberBinding="{Binding CategoryDescription}"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Thêm" Height="22" Canvas.Left="10" Canvas.Top="22" Width="83" Click="addCategoryBtn"/>
+        <Button Content="Xóa" Height="22" Canvas.Left="98" Canvas.Top="22" Width="83" HorizontalAlignment="Left" VerticalAlignment="Center" Click="delCategoryBtn"/>
+        <Button Content="Sửa" Height="22" Canvas.Left="186" Canvas.Top="22" Width="83" HorizontalAlignment="Left" VerticalAlignment="Center" Click="editCategoryBtn"/>
+        <Button Content="Làm mới" Click="refreshBtn" Canvas.Left="274" Canvas.Top="22" HorizontalAlignment="Left" Height="22" VerticalAlignment="Center" Width="74"/>
+    </Canvas>
+</Window>

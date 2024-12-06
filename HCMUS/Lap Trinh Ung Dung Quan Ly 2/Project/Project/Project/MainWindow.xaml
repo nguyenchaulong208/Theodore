@@ -7,7 +7,7 @@
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
         Title="T-MOTOR" Height="600" Width="850" Icon="/images/motorcycle.png"
-        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
         >
     <!--Tạo backstage để chứa các setting-->
     <!--Dùng DockPanel để bao bọc các item-->
@@ -34,22 +34,22 @@
                     <Fluent:Button Header="Danh mục hàng hóa" Click="danhmucBtn">
 
                     </Fluent:Button>
-                    <Fluent:Button Header="Tồng hợp">
+                    <Fluent:Button Header="Tồng hợp" Click="TonghopBtn">
 
                     </Fluent:Button>
 
-                    <Fluent:Button Header="Bảng kê hàng nhập">
+                    <Fluent:Button Header="Bảng kê hàng nhập" Click="purchaseListBtn">
 
                     </Fluent:Button>
                     <Fluent:Button Header="Bảng kê hàng xuất">
 
                     </Fluent:Button>
                 </Fluent:RibbonGroupBox>
-                <Fluent:RibbonGroupBox Header="Nhập/Xuất">
-                    <Fluent:Button Header="Phiếu nhập" >
+                <Fluent:RibbonGroupBox Header="Nhập">
+                    <Fluent:Button Header="Phiếu nhập" Click="purchaseScreen" >
 
                     </Fluent:Button>
-                    <Fluent:Button Header="Phiếu xuất">
+                    <Fluent:Button Header="Phiếu xuất" >
 
                     </Fluent:Button>
                 </Fluent:RibbonGroupBox>
@@ -65,7 +65,7 @@
 
             <Fluent:RibbonTabItem Header="Order">
                 <Fluent:RibbonGroupBox Header="Hóa đơn">
-                    <Fluent:Button Header="Hóa đơn bán hàng">
+                    <Fluent:Button Header="Hóa đơn bán hàng" Click="sellScreen">
                         
                     </Fluent:Button>
                     <Fluent:Button Header="Chỉnh sửa hóa đơn">

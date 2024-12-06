@@ -10,7 +10,13 @@
     <Compile Update="AddProduct.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AddCategoryScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ConfigScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditCategoryScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="EditWindow.xaml.cs">
@@ -19,13 +25,19 @@
     <Compile Update="LoginWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MainPage.xaml.cs">
+    <Compile Update="CategoryScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="ProductCodeWindow.xaml.cs">
+    <Compile Update="PurchaseListScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="test.xaml.cs">
+    <Compile Update="PurchaseScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SellScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TestQuery.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Tonghop.xaml.cs">
@@ -36,7 +48,13 @@
     <Page Update="AddProduct.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="AddCategoryScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ConfigScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditCategoryScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EditWindow.xaml">
@@ -45,16 +63,22 @@
     <Page Update="LoginWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="ProductCodeWindow.xaml">
+    <Page Update="CategoryScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="test.xaml">
+    <Page Update="PurchaseListScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PurchaseScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SellScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TestQuery.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Tonghop.xaml">
