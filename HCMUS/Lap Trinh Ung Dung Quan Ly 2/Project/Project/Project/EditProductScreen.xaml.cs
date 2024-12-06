@@ -34,7 +34,8 @@ namespace Project
             editCategoryTextBox.Text = selectedProduct.CategoryProductId.ToString();
             editDescriptionTextBox.Text = selectedProduct.ProductDescription;
             editImageTextBox.Text = selectedProduct.ProductImage;
-            productYearTextBox.Text = selectedProduct.ProductYear;
+
+            unitTextBox.Text = selectedProduct.ProductUnit;
 
 
         }
@@ -49,8 +50,9 @@ namespace Project
                 selectedProduct.CategoryProductId = int.Parse(editCategoryTextBox.Text);
                 selectedProduct.ProductDescription = editDescriptionTextBox.Text;
                 selectedProduct.ProductImage = editImageTextBox.Text;
-                selectedProduct.ProductYear = productYearTextBox.Text;
+             
                 selectedProduct.ProductCode = int.Parse(editIdTextbox.Text);
+                selectedProduct.ProductUnit = unitTextBox.Text;
                 MS updateProduct = new MS();
                 updateProduct.UpdateProductInDatabase(selectedProduct, oldProductCode);
 

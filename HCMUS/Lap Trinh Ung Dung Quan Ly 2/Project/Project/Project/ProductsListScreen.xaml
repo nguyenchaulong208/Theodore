@@ -15,9 +15,10 @@
                         <!--<GridViewColumn Header="STT" Width="50"/>-->
                     <GridViewColumn Header="Mã hàng hóa" Width="200" DisplayMemberBinding="{Binding ProductCode}"/>
                     <GridViewColumn Header="Tên hàng hóa" Width="350" DisplayMemberBinding="{Binding ProductName}"/>
+                    <GridViewColumn Header="Đơn vị tính" Width="50" DisplayMemberBinding="{Binding ProductUnit}"/>
                     <GridViewColumn Header="Loại hàng" Width="50" DisplayMemberBinding="{Binding CategoryProductId}"/>
                     <GridViewColumn Header="Mô tả" Width="auto" DisplayMemberBinding="{Binding CategoryDescription}"/>
-                    <GridViewColumn Header="Năm sản xuất" Width="50" DisplayMemberBinding="{Binding ProductYear}"/>
+                  
                     <GridViewColumn Header="Hình ảnh" Width="auto" DisplayMemberBinding="{Binding ProductImage}"/>
 
 

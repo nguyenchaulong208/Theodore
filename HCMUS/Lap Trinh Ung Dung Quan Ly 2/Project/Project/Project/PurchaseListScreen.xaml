@@ -14,13 +14,16 @@
         <ListView Height="329" x:Name="purchaseList" Canvas.Left="10" Canvas.Top="95" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Center" VerticalAlignment="Top">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="STT"/>
-                    <GridViewColumn Header="Mã Hàng"/>
-                    <GridViewColumn Header="Tên Hàng" Width="auto"/>
-                    <GridViewColumn Header="Đơn vị tính"/>
-                    <GridViewColumn Header="Số lượng"/>
-                    <GridViewColumn Header="Đơn giá"/>
-                    <GridViewColumn Header="Thành tiền"/>
+                    <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT_view}"/>
+                    <GridViewColumn Header="Mã Hàng" DisplayMemberBinding="{Binding ProductId_view}"/>
+                    <GridViewColumn Header="Tên Hàng" Width="auto" DisplayMemberBinding="{Binding ProductName_view}" />
+                    <GridViewColumn Header="Đơn vị tính" DisplayMemberBinding="{Binding Unit_view}"/>
+                    <GridViewColumn Header="Số lượng" DisplayMemberBinding="{Binding Quantity_view}"/>
+                    <GridViewColumn Header="Đơn giá" DisplayMemberBinding="{Binding Price_view}"/>
+                    <GridViewColumn Header="Thành tiền" DisplayMemberBinding="{Binding Total_view}"/>
+                    <GridViewColumn Header="Số hóa đơn" DisplayMemberBinding="{Binding PurchaseId_view}"/>
+                    <GridViewColumn Header="Ngày hóa đơn" DisplayMemberBinding="{Binding InvoiceDate_view}"/>
+                    <GridViewColumn Header="Thương hiệu" DisplayMemberBinding="{Binding BrandName_view}"/>
                 </GridView>
             </ListView.View>
         </ListView>

@@ -5,30 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
         Title="MUA HÀNG" Height="450" Width="800">
     <Canvas>
-        <TextBlock Text="Mã hàng hóa" Canvas.Left="64" Canvas.Top="29"/>
-        <TextBox x:Name="idTextboxPur" HorizontalAlignment="Left" VerticalAlignment="Top" Width="154" Canvas.Left="144" Canvas.Top="29" Height="26"/>
-        <TextBlock Text="Tên hàng hóa" Canvas.Left="65" Canvas.Top="75" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox x:Name="productTextboxPur" Width="156" Canvas.Left="145" Canvas.Top="75" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBlock Text="Số lượng" Canvas.Left="66" Canvas.Top="121" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="quantityTextboxPur" Width="156" Canvas.Left="146" Canvas.Top="116" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Đơn giá" Canvas.Left="65" Canvas.Top="163" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox x:Name="unitPriceTextboxPur" Width="156" Canvas.Left="146" Canvas.Top="163" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Thành tiền" Canvas.Left="66" Canvas.Top="209" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="totalAmountTextboxPur" Width="156" Canvas.Left="146" Canvas.Top="209" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBlock Text="Số hóa đơn" Canvas.Left="400" Canvas.Top="42" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="invNumTexboxPur" Width="156" Canvas.Left="507" Canvas.Top="34" Height="26" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <TextBlock Text="Ngày hóa đơn" Canvas.Left="400" Canvas.Top="78" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="invDateTextboxPur" Width="156" Canvas.Left="507" Canvas.Top="75" Height="26" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <Button x:Name="Save" Content="Lưu" BorderBrush="Black" BorderThickness="1" Height="49" Canvas.Left="253" Canvas.Top="304" Width="131" Click="savePurcBtn_Click"/>
-        <Button x:Name="Cancle" Content="Hủy" BorderBrush="Black" BorderThickness="1" Height="49" Canvas.Left="389" Canvas.Top="304" Width="131" HorizontalAlignment="Left" VerticalAlignment="Top" Click="canclePurBtn"/>
-        <TextBlock Text="Mô tả sản phẩm" Canvas.Left="400" Canvas.Top="176"/>
-        <TextBox x:Name="descriptionTextboxPur" Width="156" Canvas.Left="507" Canvas.Top="176" Height="49" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBlock Text="Năm sản xuất" Canvas.Left="400" Canvas.Top="129"/>
-        <DatePicker x:Name="productYearPur" HorizontalAlignment="Left" VerticalAlignment="Center" Width="156" Canvas.Left="507" Canvas.Top="129" />
-        <TextBlock Text="Thương hiệu" Canvas.Left="400" Canvas.Top="245" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox x:Name="categoryProductPur" HorizontalAlignment="Center" VerticalAlignment="Top" Width="74" Canvas.Left="507" Canvas.Top="238" Height="30"/>
-        <TextBox x:Name="brandProduct" IsReadOnly="True" HorizontalAlignment="Center" VerticalAlignment="Top" Width="74" Canvas.Left="589" Canvas.Top="238" Height="30"/>
+        <TextBlock Text="Phiếu mua hàng" FontWeight="Bold" FontSize="24" Canvas.Left="321" Canvas.Top="23"/>
+        <TextBlock Text="Mã hàng hóa" Canvas.Left="101" Canvas.Top="76"/>
+        <TextBox x:Name="idTextboxPur" TextChanged="nameChanged" HorizontalAlignment="Left" VerticalAlignment="Center" Width="158" Canvas.Left="181" Canvas.Top="76" Height="26"/>
+        <TextBlock Text="Tên hàng hóa" Canvas.Left="102" Canvas.Top="122" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="productTextboxPur" IsReadOnly="True" Width="156" Canvas.Left="182" Canvas.Top="122" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Số lượng" Canvas.Left="103" Canvas.Top="168" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="quantityTextboxPur" Width="156" Canvas.Left="183" Canvas.Top="163" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Đơn giá" Canvas.Left="102" Canvas.Top="210" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="unitPriceTextboxPur" Width="156" Canvas.Left="183" Canvas.Top="210" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Thành tiền" Canvas.Left="103" Canvas.Top="256" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="totalAmountTextboxPur" Width="156" Canvas.Left="183" Canvas.Top="256" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Số hóa đơn" Canvas.Left="435" Canvas.Top="84" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="invNumTexboxPur" Width="156" Canvas.Left="542" Canvas.Top="76" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Ngày hóa đơn" Canvas.Left="435" Canvas.Top="120" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="invDateTextboxPur" Width="156" Canvas.Left="542" Canvas.Top="117" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+       
+        <TextBlock Text="Mô tả sản phẩm" Canvas.Left="435" Canvas.Top="205"/>
+        <TextBox x:Name="descriptionTextboxPur" Width="156" Canvas.Left="542" Canvas.Top="205" Height="49" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Năm sản xuất" Canvas.Left="435" Canvas.Top="171"/>
+        <TextBox x:Name="productYearPur" HorizontalAlignment="Left" VerticalAlignment="Top" Width="156" Canvas.Left="542" Canvas.Top="164" Height="29" />
+        <TextBlock Text="Thương hiệu" Canvas.Left="431" Canvas.Top="271" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="categoryProductPur" TextChanged="brandValue" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Canvas.Left="542" Canvas.Top="264" Height="30"/>
+        <TextBox x:Name="brandProduct"  IsReadOnly="True" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Canvas.Left="624" Canvas.Top="264" Height="30"/>
+        <Button x:Name="Save" Content="Lưu" BorderBrush="Black" BorderThickness="1" Height="35" Canvas.Left="260" Canvas.Top="359" Width="131" Click="savePurcBtn_Click" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="Cancle" Content="Hủy" BorderBrush="Black" BorderThickness="1" Height="35" Canvas.Left="400" Canvas.Top="359" Width="131" HorizontalAlignment="Left" VerticalAlignment="Top" Click="canclePurBtn"/>
+
     </Canvas>
 </Window>

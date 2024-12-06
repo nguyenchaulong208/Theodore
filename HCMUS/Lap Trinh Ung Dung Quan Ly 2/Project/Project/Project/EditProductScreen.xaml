@@ -13,18 +13,17 @@
         <TextBox x:Name="editIdTextbox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="154" Canvas.Left="374" Canvas.Top="90" Height="26"/>
         <TextBlock Text="Tên hàng hóa" Canvas.Left="283" Canvas.Top="133" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <TextBox x:Name="editProductTextbox" Width="156" Canvas.Left="374" Canvas.Top="128" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Danh mục" Canvas.Left="280" Canvas.Top="254" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="editCategoryTextBox" Width="156" Canvas.Left="374" Canvas.Top="249" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Mô tả" Canvas.Left="283" Canvas.Top="171" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="editDescriptionTextBox" Width="156" Canvas.Left="374" Canvas.Top="166" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Hình ảnh" Canvas.Left="283" Canvas.Top="209" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="editImageTextBox" Width="156" Canvas.Left="374" Canvas.Top="204" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button x:Name="saveEditProduct" Content="Lưu" BorderBrush="Black" BorderThickness="1" Height="49" Canvas.Left="305" Canvas.Top="325" Width="91" Click="saveEditProductBtn_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Button x:Name="cancleEditProduct" Content="Hủy" Width="84" Height="49" Canvas.Left="410" Canvas.Top="325" Click="cancleEditProduct_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Hình ảnh" Canvas.Left="283" Canvas.Top="209" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="imageTextBox_Copy" Width="156" Canvas.Left="374" Canvas.Top="204" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Năm sản xuất" Canvas.Left="281" Canvas.Top="285"/>
-        <TextBox x:Name="productYearTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="156" Canvas.Left="374" Canvas.Top="285"/>
-
+        <TextBlock Text="Danh mục" Canvas.Left="280" Canvas.Top="292" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="editCategoryTextBox" Width="156" Canvas.Left="374" Canvas.Top="287" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Text="Mô tả" Canvas.Left="283" Canvas.Top="209" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="editDescriptionTextBox" Width="156" Canvas.Left="374" Canvas.Top="204" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Text="Hình ảnh" Canvas.Left="283" Canvas.Top="247" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="editImageTextBox" Width="156" Canvas.Left="374" Canvas.Top="242" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="saveEditProduct" Content="Lưu" BorderBrush="Black" BorderThickness="1" Height="34" Canvas.Left="347" Canvas.Top="371" Width="91" Click="saveEditProductBtn_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="cancleEditProduct" Content="Hủy" Width="84" Height="34" Canvas.Left="452" Canvas.Top="371" Click="cancleEditProduct_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBlock Text="Năm sản xuất" Canvas.Left="281" Canvas.Top="323" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="productYearTextBox" HorizontalAlignment="Center" VerticalAlignment="Top" Width="156" Canvas.Left="374" Canvas.Top="323" Height="28"/>
+        <TextBlock Text="Đơn vị tính" Canvas.Left="283" Canvas.Top="171" />
+        <TextBox x:Name="unitTextBox" Width="156" Canvas.Left="374" Canvas.Top="166" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
     </Canvas>
 </Window>

@@ -1,0 +1,37 @@
+﻿<Window x:Class="Project.EditPurchaseScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="EditPurchaseScreen" Height="450" Width="800">
+    <Canvas>
+        <TextBlock Text="Phiếu mua hàng" FontWeight="Bold" FontSize="24" Canvas.Left="321" Canvas.Top="23"/>
+        <TextBlock Text="Mã hàng hóa" Canvas.Left="101" Canvas.Top="76"/>
+        <TextBox x:Name="editIdPur" TextChanged="editNameValue" HorizontalAlignment="Left" VerticalAlignment="Center" Width="158" Canvas.Left="181" Canvas.Top="76" Height="26"/>
+        <TextBlock Text="Tên hàng hóa" Canvas.Left="102" Canvas.Top="122" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="editProductPur" IsReadOnly="True" Width="156" Canvas.Left="182" Canvas.Top="122" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Số lượng" Canvas.Left="103" Canvas.Top="168" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="editQuantityPur" Width="156" Canvas.Left="183" Canvas.Top="163" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Đơn giá" Canvas.Left="102" Canvas.Top="210" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="editPricePur" Width="156" Canvas.Left="183" Canvas.Top="210" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Thành tiền" Canvas.Left="103" Canvas.Top="256" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="editTotalPur" Width="156" Canvas.Left="183" Canvas.Top="256" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Số hóa đơn" Canvas.Left="435" Canvas.Top="84" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="editInvNumPur" Width="156" Canvas.Left="542" Canvas.Top="76" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Ngày hóa đơn" Canvas.Left="435" Canvas.Top="120" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="editInvDatePur" Width="156" Canvas.Left="542" Canvas.Top="117" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <TextBlock Text="Mô tả sản phẩm" Canvas.Left="435" Canvas.Top="205"/>
+        <TextBox x:Name="editDesPur" Width="156" Canvas.Left="542" Canvas.Top="205" Height="49" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Năm sản xuất" Canvas.Left="435" Canvas.Top="171"/>
+        <TextBox x:Name="editProductYearPur" HorizontalAlignment="Left" VerticalAlignment="Top" Width="156" Canvas.Left="542" Canvas.Top="164" Height="29" />
+        <TextBlock Text="Thương hiệu" Canvas.Left="431" Canvas.Top="271" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="editCatePur" TextChanged="editBrandValue" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Canvas.Left="542" Canvas.Top="264" Height="30"/>
+        <TextBox x:Name="editBrandPur"  IsReadOnly="True" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Canvas.Left="624" Canvas.Top="264" Height="30"/>
+        <Button x:Name="Save" Content="Lưu" BorderBrush="Black" BorderThickness="1" Height="35" Canvas.Left="260" Canvas.Top="359" Width="131" Click="editPurcBtn_Click" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="Cancle" Content="Hủy" BorderBrush="Black" BorderThickness="1" Height="35" Canvas.Left="400" Canvas.Top="359" Width="131" HorizontalAlignment="Left" VerticalAlignment="Top" Click="cancleEditPurBtn"/>
+
+    </Canvas>
+</Window>

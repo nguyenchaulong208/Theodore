@@ -40,10 +40,6 @@ namespace Project
             screen.ShowDialog();
            
 
-
-
-
-
         }
 
         private void sellScreen(object sender, RoutedEventArgs e)
@@ -69,6 +65,8 @@ namespace Project
         private void purchaseListBtn(object sender, RoutedEventArgs e)
         {
             var screen = new PurchaseListScreen();
+            MS loadPurchaseList = new MS();
+            loadPurchaseList.LoadPurchaseList(screen);
             screen.Owner = this;
             screen.ShowDialog();
         }

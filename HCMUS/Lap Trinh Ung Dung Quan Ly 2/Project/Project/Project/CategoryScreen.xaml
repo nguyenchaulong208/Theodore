@@ -6,24 +6,55 @@
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
         Title="Danh mục hàng hóa" Height="450" Width="800"
-        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+         WindowStartupLocation="CenterScreen"
         >
-    <Canvas>
-        <TextBlock Text="DANH MỤC HÀNG HÓA" Canvas.Left="298" Canvas.Top="50" TextAlignment="Center" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <ListView x:Name="categoryList" HorizontalAlignment="Center" Height="338" VerticalAlignment="Top" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Top="79">
-            <ListView.View>
-                <GridView>
-                    <!--<GridViewColumn Header="STT" Width="50"/>-->
-                    <GridViewColumn Header="MÃ DANH MỤC" Width="200" DisplayMemberBinding="{Binding CategoryId}"/>
-                    <GridViewColumn Header="TÊN DANH MỤC" Width="350" DisplayMemberBinding="{Binding CategoryName}"/>
-                    <GridViewColumn Header="MÔ TẢ" Width="auto" DisplayMemberBinding="{Binding CategoryDescription}"/>
+    <Grid>
+        <!-- Tiêu đề -->
+        <TextBlock Text="DANH MỤC HÀNG HÓA" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0"
+                   FontSize="18" FontWeight="Bold" />
 
-                </GridView>
-            </ListView.View>
-        </ListView>
-        <Button Content="Thêm" Height="22" Canvas.Left="10" Canvas.Top="22" Width="83" Click="addCategoryBtn"/>
-        <Button Content="Xóa" Height="22" Canvas.Left="98" Canvas.Top="22" Width="83" HorizontalAlignment="Left" VerticalAlignment="Center" Click="delCategoryBtn"/>
-        <Button Content="Sửa" Height="22" Canvas.Left="186" Canvas.Top="22" Width="83" HorizontalAlignment="Left" VerticalAlignment="Center" Click="editCategoryBtn"/>
-        <Button Content="Làm mới" Click="refreshBtn" Canvas.Left="274" Canvas.Top="22" HorizontalAlignment="Left" Height="22" VerticalAlignment="Center" Width="74"/>
-    </Canvas>
+        <!-- Các nút chức năng -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0">
+            <Button Content="Thêm" Width="83" Click="addCategoryBtn"/>
+            <Button Content="Xóa" Width="83" Margin="10,0,0,0" Click="delCategoryBtn"/>
+            <Button Content="Sửa" Width="83" Margin="10,0,0,0" Click="editCategoryBtn"/>
+            <Button Content="Làm mới" Width="83" Margin="10,0,0,0" Click="refreshBtn"/>
+        </StackPanel>
+
+        <!-- ListView và hàng tìm kiếm -->
+        <Grid VerticalAlignment="Top" Margin="10,100,10,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <!-- Hàng tìm kiếm -->
+                <RowDefinition Height="*" />
+                <!-- ListView -->
+            </Grid.RowDefinitions>
+
+            <!-- Hàng tìm kiếm -->
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="350" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="searchCategoryId" Width="190" Margin="5" VerticalContentAlignment="Center" 
+                         TextChanged="SearchBox_TextChanged"/>
+                <TextBox x:Name="searchCategoryName" Grid.Column="1" Width="340" Margin="5" VerticalContentAlignment="Center" 
+                      TextChanged="SearchBox_TextChanged"/>
+                <TextBox x:Name="searchCategoryDescription" Grid.Column="2" Width="Auto" Margin="5,5,-220,5" VerticalContentAlignment="Center" 
+                        TextChanged="SearchBox_TextChanged"/>
+            </Grid>
+
+            <!-- Danh sách -->
+            <ListView x:Name="categoryList" Grid.Row="1">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="MÃ DANH MỤC" Width="200" DisplayMemberBinding="{Binding CategoryId}"/>
+                        <GridViewColumn Header="TÊN DANH MỤC" Width="350" DisplayMemberBinding="{Binding CategoryName}"/>
+                        <GridViewColumn Header="MÔ TẢ" Width="Auto" DisplayMemberBinding="{Binding CategoryDescription}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </Grid>
 </Window>

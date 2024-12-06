@@ -5,23 +5,50 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Project"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="ConfigScreen">
+      Title="ConfigScreen"
+      
+      
+      >
 
-    <Canvas>
-        <TextBlock Text="Server" Canvas.Left="300" Canvas.Top="118" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <TextBox x:Name="serverPort" Text="DESKTOP-V28N1KK\SQLEXPRESS" Canvas.Left="361" Canvas.Top="111" Height="30" Width="200"/>
-        <TextBlock Text="Database"  Canvas.Left="300" Canvas.Top="153" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <TextBox x:Name="db" Text="LTUDQL2-22880089" Canvas.Left="361" Canvas.Top="146" Height="30" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBlock Text="Username" Canvas.Left="300" Canvas.Top="188" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <TextBox x:Name="userName" Canvas.Left="361" Canvas.Top="181" Height="30" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBlock Text="Password" Canvas.Left="300" Canvas.Top="223" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="passServer" Canvas.Left="361" Canvas.Top="216" Height="30" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-
-        <RadioButton Content="Windows Authentication" x:Name="windowAuth" Canvas.Left="361" Canvas.Top="250" Height="16" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <RadioButton Content="SQL Server Authentication" x:Name="sqlAuht" Canvas.Left="361" Canvas.Top="271" Height="16" Width="100" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <Button Content="Kết nối Server" x:Name="connectServer" Click="connectsvBtn" Canvas.Left="400" Canvas.Top="309" Height="36" Width="102" HorizontalAlignment="Left" VerticalAlignment="Top" />
+    <Grid Margin="20">
         
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-    </Canvas>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Server -->
+        <TextBlock Text="Server" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="serverPort" Text="DESKTOP-V28N1KK\SQLEXPRESS" Height="30" Grid.Row="0" Grid.Column="1" Margin="5"/>
+
+        <!-- Database -->
+        <TextBlock Text="Database" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="db" Text="LTUDQL2-22880089" Height="30" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+        <!-- Username -->
+        <TextBlock Text="Username" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Margin="5"/>
+        <TextBox x:Name="userName" Height="30" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+        <!-- Password -->
+        <TextBlock Text="Password" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0" Margin="5"/>
+        <PasswordBox x:Name="passServer" Height="30" Grid.Row="3" Grid.Column="1" Margin="5"/>
+
+        <!-- Authentication Options -->
+        <RadioButton Content="Windows Authentication" x:Name="windowAuth" Grid.Row="4" Grid.Column="1" Margin="5"/>
+        <RadioButton Content="SQL Server Authentication" x:Name="sqlAuht" Grid.Row="5" Grid.Column="1" Margin="5"/>
+
+        <!-- Connect Button -->
+        <Button Content="Kết nối Server" x:Name="connectServer" Click="connectsvBtn" 
+                Grid.Row="6" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Height="40" Margin="10"/>
+    </Grid>
 </Page>

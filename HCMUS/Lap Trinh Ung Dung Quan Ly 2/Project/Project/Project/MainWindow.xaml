@@ -7,13 +7,13 @@
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
         Title="T-MOTOR" Height="600" Width="850" Icon="/images/motorcycle.png"
-        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+         WindowStartupLocation="CenterScreen"
         >
     <!--Tạo backstage để chứa các setting-->
     <!--Dùng DockPanel để bao bọc các item-->
     <DockPanel>
 
-        <Fluent:Ribbon Name="settingRibbon" DockPanel.Dock="Top" IsMinimized="False">
+        <Fluent:Ribbon Name="settingRibbon" DockPanel.Dock="Top" >
             <Fluent:Ribbon.Menu >
                 <Fluent:Backstage Header="T-Motor">
                     <Fluent:BackstageTabControl>
@@ -44,15 +44,11 @@
                     <Fluent:Button Header="Bảng kê hàng xuất">
 
                     </Fluent:Button>
-                </Fluent:RibbonGroupBox>
-                <Fluent:RibbonGroupBox Header="Nhập">
                     <Fluent:Button Header="Phiếu nhập" Click="purchaseScreen" >
 
                     </Fluent:Button>
-                    <Fluent:Button Header="Phiếu xuất" >
-
-                    </Fluent:Button>
                 </Fluent:RibbonGroupBox>
+               
                 <Fluent:RibbonGroupBox Header="Dữ liệu">
                     <Fluent:Button Header="Import">
 
@@ -94,7 +90,12 @@
             </TabControl.Resources>
             <TabItem Header="Dashboard">
                 <Grid>
-                    <Frame Source="ConfigScreen.xaml" NavigationUIVisibility="Hidden"/>
+                    
+                    <Frame Source="ConfigScreen.xaml" NavigationUIVisibility="Hidden"
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Center" 
+                        BorderBrush="Transparent"
+                     />
                 </Grid>
             </TabItem>
             <TabItem Header="Products">

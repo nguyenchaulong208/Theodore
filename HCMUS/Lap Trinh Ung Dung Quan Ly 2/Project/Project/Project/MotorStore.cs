@@ -13,7 +13,7 @@ namespace Project
         private string _product_name { get; set; }
         private string _product_description { get; set; }
         private string _product_image { get; set; }
-        private string _product_year { get; set; }
+        private string _product_unit { get; set; }
 
         public int ProductCode
         {
@@ -70,15 +70,16 @@ namespace Project
                 _product_image = value;
             }
         }
-        public string ProductYear
+       
+        public string ProductUnit
         {
             get
             {
-                return _product_year;
+                return _product_unit;
             }
             set
             {
-                _product_year = value;
+                _product_unit = value;
             }
         }
 
@@ -138,16 +139,134 @@ namespace Project
             }
         }
 
+    }
 
-        //public Category(int category_id, string category_name, string category_description)
-        //{
-        //    _category_id = category_id;
-        //    this._category_name = category_name;
-        //    this._category_description = category_description;
-        //}
-        //public int CategoryId => _category_id;
-        //public string CategoryName => _category_name;
-        //public string CategoryDescription => _category_description;
+    public class PurchaseItem
+    {
+        private int _purchase_id { get; set; }
+        private int _product_id { get; set; }
+        private int _quantity { get; set; }
+        private int _price { get; set; }
+        private int _total { get; set; }
+        private string _invoiceDate { get; set; }
+        private string _productDate { get; set; }
+        private int _brand { get; set; }
+        private string _description { get; set; }
+
+        public int PurchaseId
+        {
+            get
+            {
+                return _purchase_id;
+            }
+            set
+            {
+                _purchase_id = value;
+            }
+        }
+        public int ProductId
+        {
+            get
+            {
+                return _product_id;
+            }
+            set
+            {
+                _product_id = value;
+            }
+        }
+        public int Quantity
+        {
+            get
+            {
+                return _quantity;
+            }
+            set
+            {
+                _quantity = value;
+            }
+        }
+        public int Price
+        {
+            get
+            {
+                return _price;
+            }
+            set
+            {
+                _price = value;
+            }
+        }
+        public int Total
+        {
+            get
+            {
+                return _total;
+            }
+            set
+            {
+                _total = value;
+            }
+        }
+
+        public string InvoiceDate
+        {
+            get
+            {
+                return _invoiceDate;
+            }
+            set
+            {
+                _invoiceDate = value;
+            }
+        }
+        public string ProductDate
+        {
+            get
+            {
+                return _productDate;
+            }
+            set
+            {
+                _productDate = value;
+            }
+        }
+        public int Brand
+        {
+            get
+            {
+                return _brand;
+            }
+            set
+            {
+                _brand = value;
+            }
+        }
+        public string Description
+        {
+            get
+            {
+                return _description;
+            }
+            set
+            {
+                _description = value;
+            }
+        }
+    }
+
+    public class PurchaseItemView
+    {
+        public int STT_view { get; set; }
+        public int ProductId_view { get; set; }
+        public string ProductName_view { get; set; }
+        public string Unit_view { get; set; }
+        public int Quantity_view { get; set; }
+        public int Price_view { get; set; }
+        public int Total_view { get; set; }
+        public int PurchaseId_view { get; set; }
+        public string InvoiceDate_view { get; set; }
+        public string BrandName_view { get; set; }
     }
 
 

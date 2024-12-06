@@ -40,16 +40,16 @@ namespace Project
             {
                 int productCode = int.Parse(idTextbox.Text);
                 string productName = productTextbox.Text;
-
                 string productDescription = descriptionTextBox.Text;
                 string productImage = imageTextBox.Text;
                 int categoryProduct = int.Parse(categoryTextBox.Text);
-                string productYear = productYearTextBox.Text;
+
+                string productUnit = unitTextBox.Text;
 
                 MS ms = new MS();
                 ms.DuplicateProduct(productCode);
                 ms.CheckCategory(categoryProduct);
-                ms.AddProduct(productCode, categoryProduct, productName, productDescription, productImage, productYear);
+                ms.AddProduct(productCode, categoryProduct, productName, productDescription, productImage, productUnit);
             }
             this.Close();
 

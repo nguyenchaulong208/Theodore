@@ -93,6 +93,26 @@ namespace Project
 
 
         }
-        
+
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string idFilter = searchCategoryId.Text.ToLower();
+            string nameFilter = searchCategoryName.Text.ToLower();
+            string descFilter = searchCategoryDescription.Text.ToLower();
+            List<Category> filterCategories = new List<Category>();
+            //Thêm danh sách vào filterCategories
+            foreach (Category category in categoryList.Items)
+            {
+                filterCategories.Add(category);
+            }
+            // Lọc danh sách
+            var filteredCategories = filterCategories.Where(category =>
+                category.CategoryId.ToString().ToLower().Contains(idFilter) &&
+                category.CategoryName.ToLower().Contains(nameFilter) &&
+                category.CategoryDescription.ToLower().Contains(descFilter)
+            );
+            // Gán danh sách đã lọc vào ListView
+            categoryList.ItemsSource = filteredCategories;
+        }
     }
 }
