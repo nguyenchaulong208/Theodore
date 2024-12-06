@@ -35,7 +35,7 @@ namespace Project
         {
             var screen = new CategoryScreen();
             //Load data from database lên ListView của CategoryScreen khi mở CategoryScreen lên
-            LoadDatabase loadDatabase = new LoadDatabase();
+            MS loadDatabase = new MS();
             loadDatabase.LoadCategory(screen);
             screen.ShowDialog();
            

@@ -90,7 +90,7 @@ namespace Project
         public void refreshBtn(object sender, RoutedEventArgs e)
         {
             //Load database từ hàm LoadCategory trong LoadDatabase.cs
-            LoadDatabase loadDatabase = new LoadDatabase();
+            MS loadDatabase = new MS();
             loadDatabase.LoadCategory(this);
 
 

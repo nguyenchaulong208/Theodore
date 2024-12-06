@@ -28,5 +28,28 @@ namespace Project
         {
             this.Close();
         }
+
+        private void savePurcBtn_Click(object sender, RoutedEventArgs e)
+        {
+            if(idTextboxPur.Text == "" || productTextboxPur.Text == "" || unitPriceTextboxPur.Text == "" || quantityTextboxPur.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+            else
+            {
+                int productCode = int.Parse(idTextboxPur.Text);
+                string productName = productTextboxPur.Text;
+                int productPrice = int.Parse(unitPriceTextboxPur.Text);
+                int productQuantity = int.Parse(unitPriceTextboxPur.Text);
+                string productDescription = descriptionTextboxPur.Text;
+                string productImage = "Test";
+                DatePicker productYear = productYearPur;
+                int categoryProduct = int.Parse(categoryProductPur.Text);
+
+                MS ms = new MS();
+                ms.DuplicateProduct(productCode);
+                ms.AddProduct(productCode, categoryProduct, productName, productDescription, productImage, productYear, productPrice, productQuantity);
+            }
+        }
     }
 }
