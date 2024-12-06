@@ -72,5 +72,14 @@ namespace Project
             screen.Owner = this;
             screen.ShowDialog();
         }
+
+        private void productsListtBtn(object sender, RoutedEventArgs e)
+        {
+            var screen = new ProductsListScreen();
+            MS _loadProducts = new MS();
+            _loadProducts.LoadProducts(screen);
+            screen.Owner = this;
+            screen.ShowDialog();
+        }
     }
 }

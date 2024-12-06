@@ -34,7 +34,7 @@
                     <Fluent:Button Header="Danh mục hàng hóa" Click="danhmucBtn">
 
                     </Fluent:Button>
-                    <Fluent:Button Header="Tồng hợp" Click="TonghopBtn">
+                    <Fluent:Button Header="Danh mục sản phẩm" Click="productsListtBtn">
 
                     </Fluent:Button>
 

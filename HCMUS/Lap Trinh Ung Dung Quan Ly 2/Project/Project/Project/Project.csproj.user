@@ -7,9 +7,6 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="AddProduct.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="AddCategoryScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +19,9 @@
     <Compile Update="EditCategoryScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="EditProductScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="EditWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -29,6 +29,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="CategoryScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProductsListScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="PurchaseListScreen.xaml.cs">
@@ -48,9 +51,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="AddProduct.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="AddCategoryScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -63,6 +63,9 @@
     <Page Update="EditCategoryScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="EditProductScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="EditWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -73,6 +76,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="CategoryScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProductsListScreen.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PurchaseListScreen.xaml">

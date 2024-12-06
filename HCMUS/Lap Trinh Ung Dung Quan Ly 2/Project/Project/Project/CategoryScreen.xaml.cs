@@ -53,9 +53,7 @@ namespace Project
                             cmd.Parameters.AddWithValue("@category_id", selectedCategory.CategoryId);
 
                             cmd.ExecuteNonQuery();
-                            //remove data from listview
-                            //categoryList.Items.Remove(selectedCategory);
-                            //categoryList.Items.Refresh();
+
                             refreshBtn(sender, e);
                         }
                         catch (Exception ex)

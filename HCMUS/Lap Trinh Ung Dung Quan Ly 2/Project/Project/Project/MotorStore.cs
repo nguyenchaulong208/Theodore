@@ -15,6 +15,74 @@ namespace Project
         private string _product_image { get; set; }
         private string _product_year { get; set; }
 
+        public int ProductCode
+        {
+            get
+            {
+                return _product_code;
+            }
+            set
+            {
+                _product_code = value;
+            }
+        }
+        public int CategoryProductId
+        {
+            get
+            {
+                return _categoryProduct_id;
+            }
+            set
+            {
+                _categoryProduct_id = value;
+            }
+        }
+        public string ProductName
+        {
+            get
+            {
+                return _product_name;
+            }
+            set
+            {
+                _product_name = value;
+            }
+        }
+        public string ProductDescription
+        {
+            get
+            {
+                return _product_description;
+            }
+            set
+            {
+                _product_description = value;
+            }
+        }
+        public string ProductImage
+        {
+            get
+            {
+                return _product_image;
+            }
+            set
+            {
+                _product_image = value;
+            }
+        }
+        public string ProductYear
+        {
+            get
+            {
+                return _product_year;
+            }
+            set
+            {
+                _product_year = value;
+            }
+        }
+
+
     }
 
    

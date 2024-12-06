@@ -37,7 +37,7 @@ namespace Project
 
             try
             {
-                // Lấy thông tin danh mục đã chọn từ giao diện.
+               
                 
                
                 // Gán thông tin đã chỉnh sửa vào object selectedCategory.
