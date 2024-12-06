@@ -51,9 +51,9 @@ namespace Project
                 try
                 {
                     connect.Open();
-                    string query = "SELECT * FROM product WHERE product_code = @product_code";
+                    string query = "SELECT * FROM products WHERE products_code = @product_code";
                     SqlCommand cmd = new SqlCommand(query, connect);
-                    cmd.Parameters.AddWithValue("@product_code", productCode);
+                    cmd.Parameters.AddWithValue("@products_code", productCode);
                     SqlDataReader reader = cmd.ExecuteReader();
                     if (reader.Read())
                     {
@@ -73,7 +73,7 @@ namespace Project
                 try
                 {
                     connect.Open();
-                    string query = "INSERT INTO product(products_code, category_id, products_name, products_des, products_image, products_year, product_price, products_quantity) VALUES(@product_code, @category_id, @product_name, @product_description, @product_image, @product_year, @product_price, @product_quantity)";
+                    string query = "INSERT INTO products(products_code, category_id, products_name, products_des, products_image, products_year, product_price, products_quantity) VALUES(@products_code, @category_id, @products_name, @products_description, @products_image, @products_year, @products_price, @products_quantity)";
                     SqlCommand cmd = new SqlCommand(query, connect);
                     cmd.Parameters.AddWithValue("@products_code", productCode);
                     cmd.Parameters.AddWithValue("@category_id", int.Parse(categoryProduct.ToString()));

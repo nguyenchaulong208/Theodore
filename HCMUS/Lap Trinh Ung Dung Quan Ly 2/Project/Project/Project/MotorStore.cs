@@ -14,6 +14,7 @@ namespace Project
         private string _product_description { get; set; }
         private string _product_image { get; set; }
         private string _product_year { get; set; }
+
     }
 
    

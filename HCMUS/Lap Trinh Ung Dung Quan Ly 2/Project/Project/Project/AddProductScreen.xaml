@@ -1,0 +1,22 @@
+﻿<Window x:Class="Project.AddProductScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="AddProductScreen" Height="450" Width="800">
+    <Canvas>
+        <TextBlock Text="Mã hàng hóa" Canvas.Left="231" Canvas.Top="128"/>
+        <TextBox x:Name="idTextbox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="154" Canvas.Left="322" Canvas.Top="123" Height="26"/>
+        <TextBlock Text="Tên hàng hóa" Canvas.Left="231" Canvas.Top="166" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="productTextbox" Width="156" Canvas.Left="322" Canvas.Top="161" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Mô tả" Canvas.Left="231" Canvas.Top="204" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="descriptionTextBox" Width="156" Canvas.Left="322" Canvas.Top="199" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Hình ảnh" Canvas.Left="231" Canvas.Top="242" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="imageTextBox" Width="156" Canvas.Left="322" Canvas.Top="237" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="Save" Content="Lưu" BorderBrush="Black" BorderThickness="1" Height="49" Canvas.Left="322" Canvas.Top="304" Width="131" Click="saveBtn_Click"/>
+
+
+    </Canvas>
+</Window>

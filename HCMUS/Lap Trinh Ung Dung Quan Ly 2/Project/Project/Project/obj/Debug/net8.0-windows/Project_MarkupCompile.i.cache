@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Github Code\Theodore\HCMUS\Lap Trinh Ung Dung Quan Ly 2\Project\Project\Project\App.xaml
-13-948499749
+141216110168
 
-212088038182
+22279027285
 226-345723795
-AddCategoryScreen.xaml;AddProduct.xaml;CategoryScreen.xaml;ConfigScreen.xaml;EditCategoryScreen.xaml;EditWindow.xaml;LoginWindow.xaml;MainWindow.xaml;PurchaseListScreen.xaml;PurchaseScreen.xaml;SellScreen.xaml;TestQuery.xaml;Tonghop.xaml;
+AddCategoryScreen.xaml;AddProduct.xaml;AddProductScreen.xaml;CategoryScreen.xaml;ConfigScreen.xaml;EditCategoryScreen.xaml;EditWindow.xaml;LoginWindow.xaml;MainWindow.xaml;PurchaseListScreen.xaml;PurchaseScreen.xaml;SellScreen.xaml;TestQuery.xaml;Tonghop.xaml;
 
-False
+True
 
