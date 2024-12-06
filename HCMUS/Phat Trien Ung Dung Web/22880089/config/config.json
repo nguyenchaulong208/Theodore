@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "simple_threads",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "simple_threads",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "port": 5433
+  },
+  "production": {
+    "username": "cuoiky",
+    "password": "Ptudw@b",
+    "database": "simple_threads",
+    "host": "dpg-ct59ik3qf0us7385p0f0-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
