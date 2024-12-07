@@ -84,8 +84,7 @@
               "ViewState": "AgIAAJkAAAAAAAAAAAAgwAQBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T07:18:51.804Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -95,59 +94,10 @@
               "RelativeDocumentMoniker": "Project\\MS.cs",
               "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\MS.cs",
               "RelativeToolTip": "Project\\MS.cs",
-              "ViewState": "AgIAAHQBAAAAAAAAAAAQwI8BAABoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEBAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T09:50:20.3Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditPurchaseScreen.xaml",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\EditPurchaseScreen.xaml",
-              "RelativeDocumentMoniker": "Project\\EditPurchaseScreen.xaml",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\EditPurchaseScreen.xaml",
-              "RelativeToolTip": "Project\\EditPurchaseScreen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T23:41:36.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PurchaseListScreen.xaml",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\PurchaseListScreen.xaml",
-              "RelativeDocumentMoniker": "Project\\PurchaseListScreen.xaml",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\PurchaseListScreen.xaml",
-              "RelativeToolTip": "Project\\PurchaseListScreen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T23:41:16.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PurchaseListScreen.xaml.cs",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\PurchaseListScreen.xaml.cs",
-              "RelativeDocumentMoniker": "Project\\PurchaseListScreen.xaml.cs",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\PurchaseListScreen.xaml.cs",
-              "RelativeToolTip": "Project\\PurchaseListScreen.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T23:27:00.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tonghop.xaml",
-              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Tonghop.xaml",
-              "RelativeDocumentMoniker": "Project\\Tonghop.xaml",
-              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Tonghop.xaml",
-              "RelativeToolTip": "Project\\Tonghop.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-06T22:15:16.066Z",
               "EditorCaption": ""
             },
             {
@@ -168,6 +118,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditPurchaseScreen.xaml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\EditPurchaseScreen.xaml",
+              "RelativeDocumentMoniker": "Project\\EditPurchaseScreen.xaml",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\EditPurchaseScreen.xaml",
+              "RelativeToolTip": "Project\\EditPurchaseScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T23:41:36.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PurchaseListScreen.xaml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\PurchaseListScreen.xaml",
+              "RelativeDocumentMoniker": "Project\\PurchaseListScreen.xaml",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\PurchaseListScreen.xaml",
+              "RelativeToolTip": "Project\\PurchaseListScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T23:41:16.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PurchaseListScreen.xaml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\PurchaseListScreen.xaml.cs",
+              "RelativeDocumentMoniker": "Project\\PurchaseListScreen.xaml.cs",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\PurchaseListScreen.xaml.cs",
+              "RelativeToolTip": "Project\\PurchaseListScreen.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwC4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T23:27:00.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tonghop.xaml",
+              "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Tonghop.xaml",
+              "RelativeDocumentMoniker": "Project\\Tonghop.xaml",
+              "ToolTip": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Tonghop.xaml",
+              "RelativeToolTip": "Project\\Tonghop.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-06T22:15:16.066Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "EditPurchaseScreen.xaml.cs",
               "DocumentMoniker": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\EditPurchaseScreen.xaml.cs",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "Project\\EditPurchaseScreen.xaml.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAUwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T20:28:35.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T20:28:35.413Z"
             }
           ]
         }
