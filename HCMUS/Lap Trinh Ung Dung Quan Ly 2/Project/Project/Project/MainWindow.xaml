@@ -41,9 +41,7 @@
                     <Fluent:Button Header="Bảng kê hàng nhập" Click="purchaseListBtn">
 
                     </Fluent:Button>
-                    <Fluent:Button Header="Bảng kê hàng xuất">
-
-                    </Fluent:Button>
+                    
                     <Fluent:Button Header="Phiếu nhập" Click="purchaseScreen" >
 
                     </Fluent:Button>
@@ -61,13 +59,12 @@
 
             <Fluent:RibbonTabItem Header="Order">
                 <Fluent:RibbonGroupBox Header="Hóa đơn">
-                    <Fluent:Button Header="Hóa đơn bán hàng" Click="sellScreen">
+                    <Fluent:Button Header="Phiếu xuất hàng" Click="sellScreen">
                         
                     </Fluent:Button>
-                    <Fluent:Button Header="Chỉnh sửa hóa đơn">
-
-                    </Fluent:Button>
-                    <Fluent:Button Header="Xóa hóa đơn">
+                   
+                   
+                    <Fluent:Button Header="Bảng kê hàng xuất" Click="sellListProduct_click">
 
                     </Fluent:Button>
                 </Fluent:RibbonGroupBox>
@@ -103,10 +100,7 @@
             </TabItem>
             <TabItem Header="Order">
                 <Grid>
-                    
-                        <Frame Source="EditWindow.xaml" NavigationUIVisibility="Hidden"/>
-                    
-                    
+  
                 </Grid>
             </TabItem>
             <TabItem Header="Report">

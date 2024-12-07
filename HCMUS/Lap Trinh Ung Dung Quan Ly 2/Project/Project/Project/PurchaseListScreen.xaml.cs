@@ -53,11 +53,6 @@ namespace Project
                 //Gán thông tin đã truy vấn vào EditPurchaseScreen
                 EditPurchaseScreen editPurchaseScreen = new EditPurchaseScreen(_purchaseId, _productId, _quantity, _price, _total, _invoiceDate, _productDate, _brand, _description);
                 editPurchaseScreen.ShowDialog();
-
-
-               
-
-
             }
             else
             {

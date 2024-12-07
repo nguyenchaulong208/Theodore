@@ -7,28 +7,51 @@
         mc:Ignorable="d"
         Title="ProductsListScreen" Height="450" Width="800">
 
-        <Canvas>
-            <TextBlock Text="DANH MỤC HÀNG HÓA" Canvas.Left="298" Canvas.Top="50" TextAlignment="Center" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <ListView x:Name="productsList" HorizontalAlignment="Center" Height="338" VerticalAlignment="Top" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Top="79">
-                <ListView.View>
-                    <GridView>
-                        <!--<GridViewColumn Header="STT" Width="50"/>-->
-                    <GridViewColumn Header="Mã hàng hóa" Width="200" DisplayMemberBinding="{Binding ProductCode}"/>
-                    <GridViewColumn Header="Tên hàng hóa" Width="350" DisplayMemberBinding="{Binding ProductName}"/>
-                    <GridViewColumn Header="Đơn vị tính" Width="50" DisplayMemberBinding="{Binding ProductUnit}"/>
-                    <GridViewColumn Header="Loại hàng" Width="50" DisplayMemberBinding="{Binding CategoryProductId}"/>
-                    <GridViewColumn Header="Mô tả" Width="auto" DisplayMemberBinding="{Binding CategoryDescription}"/>
-                  
-                    <GridViewColumn Header="Hình ảnh" Width="auto" DisplayMemberBinding="{Binding ProductImage}"/>
+    <Grid>
+        <!-- Định nghĩa các hàng và cột -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!-- Hàng chứa tiêu đề -->
+            <RowDefinition Height="Auto" />
+            <!-- Hàng chứa nút chức năng -->
+            <RowDefinition Height="*" />
+            <!-- Hàng chứa danh sách -->
+        </Grid.RowDefinitions>
 
+        <!-- Tiêu đề -->
+        <TextBlock Text="DANH MỤC HÀNG HÓA" 
+                   FontSize="18" FontWeight="Bold" 
+                   HorizontalAlignment="Center" VerticalAlignment="Top"
+                   Grid.Row="0" Margin="0,10,0,10" />
 
-                </GridView>
-                </ListView.View>
-            </ListView>
-            <Button Content="Thêm" Height="22" Canvas.Left="10" Canvas.Top="22" Width="83" Click="addProductBtn"/>
-            <Button Content="Xóa" Height="22" Canvas.Left="98" Canvas.Top="22" Width="83" HorizontalAlignment="Left" VerticalAlignment="Center" Click="delProductBtn"/>
-            <Button Content="Sửa" Height="22" Canvas.Left="186" Canvas.Top="22" Width="83" HorizontalAlignment="Left" VerticalAlignment="Center" Click="editProductBtn"/>
-            <Button Content="Làm mới" Click="refreshProductBtn" Canvas.Left="274" Canvas.Top="22" HorizontalAlignment="Left" Height="22" VerticalAlignment="Center" Width="74"/>
-        </Canvas>
+        <!-- Các nút chức năng -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,0,0,10" Grid.Row="1">
+            <Button Content="Thêm" Width="83" Margin="0,0,10,0" Click="addProductBtn"/>
+            <Button Content="Xóa" Width="83" Margin="0,0,10,0" Click="delProductBtn"/>
+            <Button Content="Sửa" Width="83" Margin="0,0,10,0" Click="editProductBtn"/>
+            <Button Content="Làm mới" Width="83" Click="refreshProductBtn"/>
+        </StackPanel>
 
+        <!-- Danh sách hàng hóa -->
+        <DataGrid x:Name="productsList" 
+          HorizontalAlignment="Stretch"
+          VerticalAlignment="Stretch"
+          Grid.Row="2" Margin="10"
+          AutoGenerateColumns="False" 
+          CanUserAddRows="False"
+          CanUserDeleteRows="False"
+         IsReadOnly="True"
+          >
+            <DataGrid.Columns>
+                <!--<DataGridTextColumn Header="STT" Binding="{Binding STT}" Width="50"/>-->
+                <DataGridTextColumn Header="Mã hàng hóa" Binding="{Binding ProductCode}" Width="200" />
+                <DataGridTextColumn Header="Tên hàng hóa" Binding="{Binding ProductName}" Width="350" />
+                <DataGridTextColumn Header="Đơn vị tính" Binding="{Binding ProductUnit}" Width="100" />
+                <DataGridTextColumn Header="Loại hàng" Binding="{Binding CategoryProductId}" Width="100" />
+                <DataGridTextColumn Header="Mô tả" Binding="{Binding CategoryDescription}" Width="*" />
+                <DataGridTextColumn Header="Hình ảnh" Binding="{Binding ProductImage}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
 </Window>

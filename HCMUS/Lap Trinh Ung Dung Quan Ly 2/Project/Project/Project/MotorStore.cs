@@ -254,6 +254,126 @@ namespace Project
             }
         }
     }
+    public class SellItem
+    {
+        private int _sell_transaction_id { get; set; }
+        private int _sell_id { get; set; }
+        private int _sell_product_id { get; set; }
+        private string _sell_product_name { get; set; }
+        private int _sell_quantity { get; set; }
+        private int _sell_price { get; set; }
+        private int _sell_total { get; set; }
+        private string _sell_invoiceDate { get; set; }
+        private string _sell_productDate { get; set; }
+        private int _sell_brand { get; set; }
+
+        public int SellTransactionId
+        {
+            get
+            {
+                return _sell_transaction_id;
+            }
+            set
+            {
+                _sell_transaction_id = value;
+            }
+        }
+        public int SellId
+        {
+            get
+            {
+                return _sell_id;
+            }
+            set
+            {
+                _sell_id = value;
+            }
+        }
+        public int SellProductId
+        {
+            get
+            {
+                return _sell_product_id;
+            }
+            set
+            {
+                _sell_product_id = value;
+            }
+        }
+        public int SellQuantity
+        {
+            get
+            {
+                return _sell_quantity;
+            }
+            set
+            {
+                _sell_quantity = value;
+            }
+        }
+        public int SellPrice
+        {
+            get
+            {
+                return _sell_price;
+            }
+            set
+            {
+                _sell_price = value;
+            }
+        }
+        public int SellTotal
+        {
+            get
+            {
+                return _sell_total;
+            }
+            set
+            {
+                _sell_total = value;
+            }
+        }
+        public string SellInvoiceDate
+        {
+            get
+            {
+                return _sell_invoiceDate;
+            }
+            set
+            {
+                _sell_invoiceDate = value;
+            }
+        }
+        public string SellProductDate
+        {
+            get
+            {
+                return _sell_productDate;
+            }
+            set
+            {
+                _sell_productDate = value;
+            }
+        }
+        public int SellBrand
+        {
+            get
+            {
+                return _sell_brand;
+            }
+            set
+            {
+                _sell_brand = value;
+            }
+        }
+        public string SellProductName {
+            get { return _sell_product_name; }
+            set { _sell_product_name = value; }
+        }
+
+       
+    }
+
 
     public class PurchaseItemView
     {
@@ -267,6 +387,17 @@ namespace Project
         public int PurchaseId_view { get; set; }
         public string InvoiceDate_view { get; set; }
         public string BrandName_view { get; set; }
+    }
+    public class SellItemView
+    {
+        public int STT_view { get; set; }
+        
+        public int Quantity_view { get; set; }
+       
+        public int Total_view { get; set; }
+        public int SellId_view { get; set; }
+        public string InvoiceDate_view { get; set; }
+       
     }
 
 

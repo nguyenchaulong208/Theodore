@@ -3,30 +3,47 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
         Title="PurchaseListScreen" Height="450" Width="800">
-    <Canvas>
-        <Button Content="Thêm" Canvas.Left="10" Canvas.Top="10" Height="30" Width="75" Click="addPurchaseBtn"/>
-        <Button Content="Sửa" Canvas.Left="95" Canvas.Top="10" Height="30" Width="75" Click="editPurchaseBtn"/>
-        <Button Content="Xóa" Canvas.Left="180" Canvas.Top="10" Height="30" Width="75" Click="delPurchaseBtn"/>
-        <Label Content="Danh sách mua hàng" Canvas.Left="265" Canvas.Top="48" FontSize="20" FontWeight="Bold" Height="42" Width="226" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-        <ListView Height="329" x:Name="purchaseList" Canvas.Left="10" Canvas.Top="95" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Center" VerticalAlignment="Top">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT_view}"/>
-                    <GridViewColumn Header="Mã Hàng" DisplayMemberBinding="{Binding ProductId_view}"/>
-                    <GridViewColumn Header="Tên Hàng" Width="auto" DisplayMemberBinding="{Binding ProductName_view}" />
-                    <GridViewColumn Header="Đơn vị tính" DisplayMemberBinding="{Binding Unit_view}"/>
-                    <GridViewColumn Header="Số lượng" DisplayMemberBinding="{Binding Quantity_view}"/>
-                    <GridViewColumn Header="Đơn giá" DisplayMemberBinding="{Binding Price_view}"/>
-                    <GridViewColumn Header="Thành tiền" DisplayMemberBinding="{Binding Total_view}"/>
-                    <GridViewColumn Header="Số hóa đơn" DisplayMemberBinding="{Binding PurchaseId_view}"/>
-                    <GridViewColumn Header="Ngày hóa đơn" DisplayMemberBinding="{Binding InvoiceDate_view}"/>
-                    <GridViewColumn Header="Thương hiệu" DisplayMemberBinding="{Binding BrandName_view}"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
+    <Grid>
+        <!-- Bố cục -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Hàng chứa các nút chức năng -->
+            <RowDefinition Height="*"/>
+            <!-- Hàng chứa DataGrid -->
+        </Grid.RowDefinitions>
 
-    </Canvas>
+        <!-- Các nút chức năng -->
+        <StackPanel Orientation="Horizontal" Margin="10" Grid.Row="0">
+            <Button Content="Thêm" Width="75" Margin="0,0,10,0" Click="addPurchaseBtn"/>
+            <Button Content="Sửa" Width="75" Margin="0,0,10,0" Click="editPurchaseBtn"/>
+            <Button Content="Xóa" Width="75" Click="delPurchaseBtn"/>
+            <Label Content="Danh sách mua hàng" FontSize="20" FontWeight="Bold" VerticalAlignment="Center" Margin="20,0,0,0"/>
+        </StackPanel>
+
+        <!-- DataGrid -->
+        <DataGrid x:Name="purchaseList" 
+                  AutoGenerateColumns="False" 
+                  CanUserAddRows="False" 
+                  Grid.Row="1" 
+                  Margin="10"
+                  HorizontalAlignment="Stretch"
+                  IsReadOnly="True"
+                  VerticalAlignment="Stretch">
+                   
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Binding="{Binding STT_view}" Width="50"/>
+                <DataGridTextColumn Header="Mã Hàng" Binding="{Binding ProductId_view}" Width="100"/>
+                <DataGridTextColumn Header="Tên Hàng" Binding="{Binding ProductName_view}" Width="*"/>
+                <DataGridTextColumn Header="Đơn vị tính" Binding="{Binding Unit_view}" Width="100"/>
+                <DataGridTextColumn Header="Số lượng" Binding="{Binding Quantity_view}" Width="100" />
+                <DataGridTextColumn Header="Đơn giá" Binding="{Binding Price_view}" Width="100"/>
+                <DataGridTextColumn Header="Thành tiền" Binding="{Binding Total_view}" Width="100"/>
+                <DataGridTextColumn Header="Số hóa đơn" Binding="{Binding PurchaseId_view}" Width="150"/>
+                <DataGridTextColumn Header="Ngày hóa đơn" Binding="{Binding InvoiceDate_view}" Width="150"/>
+                <DataGridTextColumn Header="Thương hiệu" Binding="{Binding BrandName_view}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
 </Window>

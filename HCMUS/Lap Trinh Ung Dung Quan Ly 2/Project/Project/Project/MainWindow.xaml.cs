@@ -44,7 +44,8 @@ namespace Project
 
         private void sellScreen(object sender, RoutedEventArgs e)
         {
-            var sellScreen = new SellScreen();
+
+            var sellScreen = new SellProductSceen();
             sellScreen.ShowDialog();
         }
 
@@ -76,6 +77,15 @@ namespace Project
             var screen = new ProductsListScreen();
             MS _loadProducts = new MS();
             _loadProducts.LoadProducts(screen);
+            screen.Owner = this;
+            screen.ShowDialog();
+        }
+
+        private void sellListProduct_click(object sender, RoutedEventArgs e)
+        {
+            var screen = new SellProductListScreen();
+            MS _loadSellProducts = new MS();
+            _loadSellProducts.LoadSellList(screen);
             screen.Owner = this;
             screen.ShowDialog();
         }
