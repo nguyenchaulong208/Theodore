@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
-        Title="ĐĂNG NHẬP" Height="266" Width="421"
+        Title="ĐĂNG NHẬP" Height="266" Width="527"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         Icon="/images/password.png"
@@ -14,14 +14,15 @@
         >
     <Canvas>
 
-        <TextBlock Text="Tài khoản" Canvas.Left="110" Canvas.Top="41" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBlock Text="Mật khẩu" Canvas.Left="110" Canvas.Top="92" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <TextBox x:Name="usernameTxt" Width="134" Canvas.Left="168" Canvas.Top="41" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="passwordTxt"  Width="134" Canvas.Left="168" Canvas.Top="89" Height="26" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-        <Button x:Name="loginButton" Content="Đăng nhập" Height="27" IsDefault="True" Canvas.Left="190" Canvas.Top="146" Width="85" HorizontalAlignment="Center" VerticalAlignment="Top" Click="loginBtn"/>
-        <TextBlock x:Name="forgotPassword" Text="Bạn gặp sự cố về đăng nhập?" Canvas.Left="150" Canvas.Top="192" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Text="Ghi nhớ đăng nhập" Canvas.Left="200" Canvas.Top="125" FontStyle="Italic"/>
-        <CheckBox x:Name="rememberChecked" Height="16" Canvas.Left="179" Canvas.Top="125" Width="14" />
-        <TextBlock x:Name="forgotPassword_Copy" Text="Version: 1.24" Canvas.Left="344" Canvas.Top="224" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBlock Text="Tài khoản" Canvas.Left="203" Canvas.Top="31" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Mật khẩu" Canvas.Left="203" Canvas.Top="82" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="usernameTxt" Width="134" Canvas.Left="261" Canvas.Top="31" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordTxt"  Width="134" Canvas.Left="261" Canvas.Top="79" Height="26" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button x:Name="loginButton" Content="Đăng nhập" Height="27" IsDefault="True" Canvas.Left="283" Canvas.Top="136" Width="85" HorizontalAlignment="Left" VerticalAlignment="Top" Click="loginBtn"/>
+        <TextBlock x:Name="forgotPassword" Text="Bạn gặp sự cố về đăng nhập?" Canvas.Left="243" Canvas.Top="182" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Text="Ghi nhớ đăng nhập" Canvas.Left="293" Canvas.Top="115" FontStyle="Italic"/>
+        <CheckBox x:Name="rememberChecked" Height="16" Canvas.Left="272" Canvas.Top="115" Width="14" />
+        <TextBlock x:Name="forgotPassword_Copy" Text="Version: 1.24" Canvas.Left="437" Canvas.Top="214" FontSize="12" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Image Source="/images/motorcycle.png" Height="220" Canvas.Left="10" Canvas.Top="10" Width="181"/>
     </Canvas>
 </Window>

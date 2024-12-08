@@ -85,7 +85,7 @@
                     </Setter>
                 </Style>
             </TabControl.Resources>
-            <TabItem Header="Dashboard">
+            <TabItem Header="Config">
                 <Grid>
                     
                     <Frame Source="ConfigScreen.xaml" NavigationUIVisibility="Hidden"

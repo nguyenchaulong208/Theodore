@@ -742,6 +742,49 @@ namespace Project
             MessageBox.Show($"Xuất file Excel thành công: {filePath}", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
+    //    private void LoadData()
+    //    {
+    //        using (SqlConnection connection = DatabaseConnection.GetConnection())
+    //        {
+    //            string query = @"
+    //    SELECT 
+    //        ROW_NUMBER() OVER (ORDER BY p.products_code) AS STT,
+    //        p.products_code AS MaHang,
+    //        p.products_name AS TenHang,
+    //        p.products_unit AS DonViTinh,
+    //        COALESCE(SUM(pi.purchase_quantity), 0) AS SoLuongNhap,
+    //        COALESCE(SUM(pi.purchase_total_price), 0) AS GiaTriNhap,
+    //        COALESCE(SUM(oi.order_item_quantity), 0) AS SoLuongXuat,
+    //        COALESCE(SUM(oi.order_item_total_price), 0) AS GiaTriXuat,
+    //        (COALESCE(SUM(pi.purchase_quantity), 0) - COALESCE(SUM(oi.order_item_quantity), 0)) AS SoLuongTonKho,
+    //        (COALESCE(SUM(pi.purchase_total_price), 0) - COALESCE(SUM(oi.order_item_total_price), 0)) AS GiaTriTonKho
+    //    FROM 
+    //        PRODUCTS p
+    //    LEFT JOIN 
+    //        PURCHASE_ITEM pi ON p.products_code = pi.purchase_product_id
+    //    LEFT JOIN 
+    //        ORDER_ITEM oi ON p.products_code = oi.order_product_id
+    //    GROUP BY 
+    //        p.products_code, p.products_name, p.products_unit;
+    //";
+
+    //            try
+    //            {
+    //                SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
+    //                DataTable dataTable = new DataTable();
+    //                adapter.Fill(dataTable);
+
+    //                // Sửa lại để gán ItemsSource cho DataGrid có tên tongHop
+    //                tongHop.ItemsSource = dataTable.DefaultView;
+    //            }
+    //            catch (Exception ex)
+    //            {
+    //                MessageBox.Show($"Error loading data: {ex.Message}");
+    //            }
+    //        }
+    //    }
+
+
 
     }
 }

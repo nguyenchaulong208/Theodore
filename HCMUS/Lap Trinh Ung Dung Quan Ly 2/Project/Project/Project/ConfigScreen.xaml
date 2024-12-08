@@ -29,11 +29,11 @@
 
         <!-- Server -->
         <TextBlock Text="Server" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="serverPort" Text="DESKTOP-V28N1KK\SQLEXPRESS" Height="30" Grid.Row="0" Grid.Column="1" Margin="5"/>
+        <TextBox x:Name="serverPort"  Height="30" Grid.Row="0" Grid.Column="1" Margin="5"/>
 
         <!-- Database -->
         <TextBlock Text="Database" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Margin="5"/>
-        <TextBox x:Name="db" Text="LTUDQL2-22880089" Height="30" Grid.Row="1" Grid.Column="1" Margin="5"/>
+        <TextBox x:Name="db"  Height="30" Grid.Row="1" Grid.Column="1" Margin="5"/>
 
         <!-- Username -->
         <TextBlock Text="Username" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Margin="5"/>

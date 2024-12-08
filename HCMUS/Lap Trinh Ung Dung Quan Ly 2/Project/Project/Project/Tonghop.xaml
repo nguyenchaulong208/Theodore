@@ -9,23 +9,21 @@
       Title="Tonghop">
 
     <Grid>
-        <TextBlock/>
-        <ListView HorizontalAlignment="Stretch" Height="430" VerticalAlignment="Center" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Width="50" Header="STT"/>
-                    <GridViewColumn Width="auto" Header="Mã hàng"/>
-                    <GridViewColumn Width="auto" Header="Tên hàng"/>
-                    <GridViewColumn Width="50" Header="Đơn vị tính"/>
-                    <GridViewColumn Width="50" Header="Số lượng nhập"/>
-                    <GridViewColumn Width="100" Header="Giá trị nhập"/>
-                    <GridViewColumn Width="50" Header="Số lượng xuất"/>
-                    <GridViewColumn Width="100" Header="Giá trị xuất"/>
-                    <GridViewColumn Width="50" Header="Số lượng tồn kho"/>
-                    <GridViewColumn Width="auto" Header="Giá trị tồn kho"/>
-                    
-                </GridView>
-            </ListView.View>
-        </ListView>
+        
+        <DataGrid Name="tongHop" Height="430" VerticalAlignment="Center" Width="780" AutoGenerateColumns="False" IsReadOnly="True" Margin="10,0,10,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Binding="{Binding STT}" Width="50"/>
+                <DataGridTextColumn Header="Mã hàng" Binding="{Binding MaHang}" Width="auto"/>
+                <DataGridTextColumn Header="Tên hàng" Binding="{Binding TenHang}" Width="auto"/>
+                <DataGridTextColumn Header="Đơn vị tính" Binding="{Binding DonViTinh}" Width="50"/>
+                <DataGridTextColumn Header="Số lượng nhập" Binding="{Binding SoLuongNhap}" Width="50"/>
+                <DataGridTextColumn Header="Giá trị nhập" Binding="{Binding GiaTriNhap}" Width="100"/>
+                <DataGridTextColumn Header="Số lượng xuất" Binding="{Binding SoLuongXuat}" Width="50"/>
+                <DataGridTextColumn Header="Giá trị xuất" Binding="{Binding GiaTriXuat}" Width="100"/>
+                <DataGridTextColumn Header="Số lượng tồn kho" Binding="{Binding SoLuongTonKho}" Width="50"/>
+                <DataGridTextColumn Header="Giá trị tồn kho" Binding="{Binding GiaTriTonKho}" Width="auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
     </Grid>
 </Page>
