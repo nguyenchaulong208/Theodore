@@ -1,0 +1,31 @@
+D:\Test\ProjectOOP\Repo\bin\Debug\net7.0\Repo.deps.json
+D:\Test\ProjectOOP\Repo\bin\Debug\net7.0\Repo.dll
+D:\Test\ProjectOOP\Repo\bin\Debug\net7.0\Repo.pdb
+D:\Test\ProjectOOP\Repo\bin\Debug\net7.0\Entities.dll
+D:\Test\ProjectOOP\Repo\bin\Debug\net7.0\Entities.pdb
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\Repo.csproj.AssemblyReference.cache
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\Repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\Repo.AssemblyInfoInputs.cache
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\Repo.AssemblyInfo.cs
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\Repo.csproj.CoreCompileInputs.cache
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\Repo.csproj.Up2Date
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\Repo.dll
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\refint\Repo.dll
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\Repo.pdb
+D:\Test\ProjectOOP\Repo\obj\Debug\net7.0\ref\Repo.dll
+D:\Github Code\Project-OOP\ProjectOOP\Repo\bin\Debug\net7.0\Repo.deps.json
+D:\Github Code\Project-OOP\ProjectOOP\Repo\bin\Debug\net7.0\Repo.dll
+D:\Github Code\Project-OOP\ProjectOOP\Repo\bin\Debug\net7.0\Repo.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Repo\bin\Debug\net7.0\Entities.dll
+D:\Github Code\Project-OOP\ProjectOOP\Repo\bin\Debug\net7.0\Entities.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.csproj.AssemblyReference.cache
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.AssemblyInfoInputs.cache
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.AssemblyInfo.cs
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.csproj.CoreCompileInputs.cache
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.sourcelink.json
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.csproj.Up2Date
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.dll
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\refint\Repo.dll
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\Repo.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Repo\obj\Debug\net7.0\ref\Repo.dll

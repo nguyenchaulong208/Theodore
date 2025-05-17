@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mVtioqR0pLxMjlZamadMyGE88ydZsfLptbdDkjEqTzIYUwdytZEUC8/x9QlhycKSgqTqtQS1CTTFmkPwYUg0wA==",
+  "success": true,
+  "projectFilePath": "D:\\Github Code\\Project-OOP\\ProjectOOP\\Services\\Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\LONG\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

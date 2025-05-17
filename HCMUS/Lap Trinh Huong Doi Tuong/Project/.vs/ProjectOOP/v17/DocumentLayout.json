@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github Code\\Project-OOP\\ProjectOOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF2DAE0-182A-439E-8E3C-D257B34538B4}|Services\\Services.csproj|d:\\github code\\project-oop\\projectoop\\services\\xulysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF2DAE0-182A-439E-8E3C-D257B34538B4}|Services\\Services.csproj|solutionrelative:services\\xulysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_tonghop.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_tonghop.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_tonghop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_tonghop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02B2622B-7E45-4CE2-B38A-F708C98A34DE}|Entities\\Entities.csproj|d:\\github code\\project-oop\\projectoop\\entities\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02B2622B-7E45-4CE2-B38A-F708C98A34DE}|Entities\\Entities.csproj|solutionrelative:entities\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_xoasanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_xoasanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_xoasanpham.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_xoasanpham.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_suasanphammua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_suasanphammua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_suasanphammua.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_suasanphammua.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_themsanphammua.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_themsanphammua.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF2DAE0-182A-439E-8E3C-D257B34538B4}|Services\\Services.csproj|d:\\github code\\project-oop\\projectoop\\services\\ixulysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF2DAE0-182A-439E-8E3C-D257B34538B4}|Services\\Services.csproj|solutionrelative:services\\ixulysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_suasanphamban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_suasanphamban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_hansudung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_hansudung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|d:\\github code\\project-oop\\projectoop\\projectoop\\pages\\mh_danhsachban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61982919-4A1E-4E6A-B72E-1FEE8073AED7}|ProjectOOP\\ProjectOOP.csproj|solutionrelative:projectoop\\pages\\mh_danhsachban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 143,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MH_TongHop.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_TongHop.cshtml.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_TongHop.cshtml.cs",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_TongHop.cshtml.cs",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_TongHop.cshtml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:05:05.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MH_ThemSanPhamMua.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_ThemSanPhamMua.cshtml.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_ThemSanPhamMua.cshtml.cs",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_ThemSanPhamMua.cshtml.cs",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_ThemSanPhamMua.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:39:32.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MH_SuaSanPhamMua.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_SuaSanPhamMua.cshtml.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_SuaSanPhamMua.cshtml.cs",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_SuaSanPhamMua.cshtml.cs",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_SuaSanPhamMua.cshtml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAmwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:55:58.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MH_XoaSanPham.cshtml.cs",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_XoaSanPham.cshtml.cs",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_XoaSanPham.cshtml.cs",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_XoaSanPham.cshtml.cs",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_XoaSanPham.cshtml.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAwD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T18:54:12.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MH_XoaSanPham.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_XoaSanPham.cshtml",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_XoaSanPham.cshtml",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_XoaSanPham.cshtml",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_XoaSanPham.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:54:02.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MH_SuaSanPhamMua.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_SuaSanPhamMua.cshtml",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_SuaSanPhamMua.cshtml",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_SuaSanPhamMua.cshtml",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_SuaSanPhamMua.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:50:31.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IXuLySanPham.cs",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\Services\\IXuLySanPham.cs",
+              "RelativeDocumentMoniker": "Services\\IXuLySanPham.cs",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\Services\\IXuLySanPham.cs",
+              "RelativeToolTip": "Services\\IXuLySanPham.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowBEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T15:32:41.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "XuLySanPham.cs",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\Services\\XuLySanPham.cs",
+              "RelativeDocumentMoniker": "Services\\XuLySanPham.cs",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\Services\\XuLySanPham.cs",
+              "RelativeToolTip": "Services\\XuLySanPham.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAcwIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T08:21:12.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\Entities\\SanPham.cs",
+              "RelativeDocumentMoniker": "Entities\\SanPham.cs",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\Entities\\SanPham.cs",
+              "RelativeToolTip": "Entities\\SanPham.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwCgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:25:02.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MH_TongHop.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_TongHop.cshtml",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_TongHop.cshtml",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_TongHop.cshtml",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_TongHop.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:50:46.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MH_SuaSanPhamBan.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_SuaSanPhamBan.cshtml",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_SuaSanPhamBan.cshtml",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_SuaSanPhamBan.cshtml",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_SuaSanPhamBan.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:50:10.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MH_HanSuDung.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_HanSuDung.cshtml",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_HanSuDung.cshtml",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_HanSuDung.cshtml",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_HanSuDung.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:40:33.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\Index.cshtml",
+              "RelativeToolTip": "ProjectOOP\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-11T19:23:31.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MH_DanhSachBan.cshtml",
+              "DocumentMoniker": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_DanhSachBan.cshtml",
+              "RelativeDocumentMoniker": "ProjectOOP\\Pages\\MH_DanhSachBan.cshtml",
+              "ToolTip": "D:\\Github Code\\Project-OOP\\ProjectOOP\\ProjectOOP\\Pages\\MH_DanhSachBan.cshtml",
+              "RelativeToolTip": "ProjectOOP\\Pages\\MH_DanhSachBan.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:49:36.386Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+D:\Test\ProjectOOP\Entities\bin\Debug\net7.0\Entities.deps.json
+D:\Test\ProjectOOP\Entities\bin\Debug\net7.0\Entities.dll
+D:\Test\ProjectOOP\Entities\bin\Debug\net7.0\Entities.pdb
+D:\Test\ProjectOOP\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test\ProjectOOP\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+D:\Test\ProjectOOP\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+D:\Test\ProjectOOP\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+D:\Test\ProjectOOP\Entities\obj\Debug\net7.0\Entities.dll
+D:\Test\ProjectOOP\Entities\obj\Debug\net7.0\refint\Entities.dll
+D:\Test\ProjectOOP\Entities\obj\Debug\net7.0\Entities.pdb
+D:\Test\ProjectOOP\Entities\obj\Debug\net7.0\ref\Entities.dll
+D:\Github Code\Project-OOP\ProjectOOP\Entities\bin\Debug\net7.0\Entities.deps.json
+D:\Github Code\Project-OOP\ProjectOOP\Entities\bin\Debug\net7.0\Entities.dll
+D:\Github Code\Project-OOP\ProjectOOP\Entities\bin\Debug\net7.0\Entities.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\Entities.sourcelink.json
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\Entities.dll
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\refint\Entities.dll
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\Entities.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Entities\obj\Debug\net7.0\ref\Entities.dll

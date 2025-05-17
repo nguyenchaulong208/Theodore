@@ -1,0 +1,35 @@
+D:\Test\ProjectOOP\Services\bin\Debug\net7.0\Services.deps.json
+D:\Test\ProjectOOP\Services\bin\Debug\net7.0\Services.dll
+D:\Test\ProjectOOP\Services\bin\Debug\net7.0\Services.pdb
+D:\Test\ProjectOOP\Services\bin\Debug\net7.0\Entities.dll
+D:\Test\ProjectOOP\Services\bin\Debug\net7.0\Repo.dll
+D:\Test\ProjectOOP\Services\bin\Debug\net7.0\Entities.pdb
+D:\Test\ProjectOOP\Services\bin\Debug\net7.0\Repo.pdb
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\Services.csproj.AssemblyReference.cache
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\Services.AssemblyInfoInputs.cache
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\Services.AssemblyInfo.cs
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\Services.csproj.CoreCompileInputs.cache
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\Services.csproj.Up2Date
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\Services.dll
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\refint\Services.dll
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\Services.pdb
+D:\Test\ProjectOOP\Services\obj\Debug\net7.0\ref\Services.dll
+D:\Github Code\Project-OOP\ProjectOOP\Services\bin\Debug\net7.0\Services.deps.json
+D:\Github Code\Project-OOP\ProjectOOP\Services\bin\Debug\net7.0\Services.dll
+D:\Github Code\Project-OOP\ProjectOOP\Services\bin\Debug\net7.0\Services.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Services\bin\Debug\net7.0\Entities.dll
+D:\Github Code\Project-OOP\ProjectOOP\Services\bin\Debug\net7.0\Repo.dll
+D:\Github Code\Project-OOP\ProjectOOP\Services\bin\Debug\net7.0\Entities.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Services\bin\Debug\net7.0\Repo.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.csproj.AssemblyReference.cache
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.AssemblyInfoInputs.cache
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.AssemblyInfo.cs
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.csproj.CoreCompileInputs.cache
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.sourcelink.json
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.csproj.Up2Date
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.dll
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\refint\Services.dll
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\Services.pdb
+D:\Github Code\Project-OOP\ProjectOOP\Services\obj\Debug\net7.0\ref\Services.dll
